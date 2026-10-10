@@ -1,0 +1,26 @@
+# 参考仓库(他人项目,本地研究用,不入库)
+/ming/
+/MingGraph/
+/MingDynasty/
+
+# 调研工作区(含 CHGIS 等学术许可数据的本地样本,禁止再分发)
+.research_tmp/
+
+# 依赖与构建产物
+node_modules/
+.next/
+dist/
+build/
+
+# 学术许可数据一律不入库(CHGIS/谭图等)
+*.sqlite3
+*.sqlite3.zip
+*.shp
+*.shx
+*.dbf
+*.prj
+*.gpkg
+
+# 系统文件
+.DS_Store
+Thumbs.db
