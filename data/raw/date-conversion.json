@@ -1,0 +1,968 @@
+{
+ "55": {
+  "old": "1645-05-25",
+  "new": "1645-05-25",
+  "prec": "month",
+  "basis": "manual-原文仅五月初(无日),取五月初一降月精度",
+  "title": "李自成九宫山遇难,大顺政权终结"
+ },
+ "82": {
+  "old": "1645-03-01",
+  "new": "1645-03-28",
+  "prec": "month",
+  "basis": "window-direct-month(3月)",
+  "title": "李自成屠邓州"
+ },
+ "94": {
+  "old": "1645-02-01",
+  "new": "1645-02-26",
+  "prec": "month",
+  "basis": "window-direct-month(2月)",
+  "title": "史可法弃徐州退保扬州"
+ },
+ "128": {
+  "old": "1645-09-01",
+  "new": "1645-10-19",
+  "prec": "month",
+  "basis": "window-direct-month(9月)",
+  "title": "太湖义军三攻吴江,水战屡挫清军"
+ },
+ "132": {
+  "old": "1645-07-01",
+  "new": "1645-08-21",
+  "prec": "month",
+  "basis": "window-direct-month(7月)",
+  "title": "皖南起义:金声、江天一举徽州,吴应箕等响应"
+ },
+ "138": {
+  "old": "1647-04-01",
+  "new": "1647-05-05",
+  "prec": "month",
+  "basis": "lunar-direct-month(4月)",
+  "title": "孙守法殉节五郎山"
+ },
+ "141": {
+  "old": "1645-07-23",
+  "new": "1645-07-23",
+  "prec": "month",
+  "basis": "manual-闰六月初一(江阴倡义)",
+  "title": "江阴起义:'头可断,发决不可剃'"
+ },
+ "142": {
+  "old": "1645-08-01",
+  "new": "1645-09-20",
+  "prec": "month",
+  "basis": "lunar-direct-month(8月)",
+  "title": "江阴保卫战:阎应元守城八十一日"
+ },
+ "145": {
+  "old": "1645-08-01",
+  "new": "1645-09-20",
+  "prec": "month",
+  "basis": "window-direct-month(8月)",
+  "title": "昆山起义与屠城"
+ },
+ "146": {
+  "old": "1645-09-01",
+  "new": "1645-10-19",
+  "prec": "month",
+  "basis": "lunar-direct-month(9月)",
+  "title": "泖湖之败:黄蜚、吴志葵被俘"
+ },
+ "147": {
+  "old": "1645-09-01",
+  "new": "1645-10-19",
+  "prec": "month",
+  "basis": "lunar-direct-month(9月)",
+  "title": "夏允彝投水殉节"
+ },
+ "150": {
+  "old": "1645-07-01",
+  "new": "1645-08-21",
+  "prec": "month",
+  "basis": "window-direct-month(7月)",
+  "title": "皖南金声、江天一举义"
+ },
+ "151": {
+  "old": "1645-10-01",
+  "new": "1645-11-18",
+  "prec": "month",
+  "basis": "lunar-direct-month(10月)",
+  "title": "皖南抗清失败,金声殉节"
+ },
+ "153": {
+  "old": "1646-01-01",
+  "new": "1646-02-16",
+  "prec": "month",
+  "basis": "lunar-direct-month(1月)",
+  "title": "贺珍、孙守法合攻西安失败"
+ },
+ "155": {
+  "old": "1645-07-29",
+  "new": "1645-07-29",
+  "prec": "month",
+  "basis": "manual-闰六月初七就任监国",
+  "title": "朱聿键就任监国,赴福州"
+ },
+ "156": {
+  "old": "1645-08-18",
+  "new": "1645-08-18",
+  "prec": "month",
+  "basis": "manual-闰六月廿七即位",
+  "title": "隆武政权建立,改元隆武"
+ },
+ "161": {
+  "old": "1646-01-01",
+  "new": "1646-02-16",
+  "prec": "month",
+  "basis": "window-direct-month(1月)",
+  "title": "何腾蛟章旷岳州之溃"
+ },
+ "164": {
+  "old": "1647-08-01",
+  "new": "1647-08-30",
+  "prec": "month",
+  "basis": "lunar-direct-month(8月)",
+  "title": "湖南全境陷落,章旷病卒"
+ },
+ "169": {
+  "old": "1645-07-01",
+  "new": "1645-08-21",
+  "prec": "month",
+  "basis": "lunar-direct-month(7月)",
+  "title": "黄道周督师北征"
+ },
+ "170": {
+  "old": "1646-03-01",
+  "new": "1646-04-16",
+  "prec": "month",
+  "basis": "lunar-direct-month(3月)",
+  "title": "黄道周婺源被俘,南京殉国"
+ },
+ "172": {
+  "old": "1646-06-01",
+  "new": "1646-07-13",
+  "prec": "month",
+  "basis": "window-direct-month(6月)",
+  "title": "鲁监国航海出走"
+ },
+ "174": {
+  "old": "1646-07-01",
+  "new": "1646-08-11",
+  "prec": "month",
+  "basis": "window-direct-month(7月)",
+  "title": "金华之役:朱大典自焚殉国"
+ },
+ "176": {
+  "old": "1646-03-01",
+  "new": "1646-04-16",
+  "prec": "month",
+  "basis": "window-direct-month(3月)",
+  "title": "赣州保卫战"
+ },
+ "177": {
+  "old": "1646-10-01",
+  "new": "1646-11-07",
+  "prec": "month",
+  "basis": "window-direct-month(10月)",
+  "title": "赣州失守,杨廷麟万元吉殉节"
+ },
+ "178": {
+  "old": "1646-05-01",
+  "new": "1646-06-13",
+  "prec": "month",
+  "basis": "lunar-direct-month(5月)",
+  "title": "何腾蛟'迎驾'迁延不进"
+ },
+ "180": {
+  "old": "1646-08-01",
+  "new": "1646-09-09",
+  "prec": "month",
+  "basis": "window-direct-month(8月)",
+  "title": "阮大铖病死仙霞岭"
+ },
+ "181": {
+  "old": "1646-09-09",
+  "new": "1646-10-06",
+  "prec": "day",
+  "basis": "web-check-八月廿八汀州被俘(维基10-06一致)",
+  "title": "隆武帝汀州遇难"
+ },
+ "182": {
+  "old": "1646-09-01",
+  "new": "1646-10-09",
+  "prec": "month",
+  "basis": "window-direct-month(9月)",
+  "title": "福州陷落,曹学佺自缢"
+ },
+ "195": {
+  "old": "1647-04-01",
+  "new": "1647-05-05",
+  "prec": "month",
+  "basis": "window-direct-month(4月)",
+  "title": "大西军入滇,占曲靖昆明"
+ },
+ "199": {
+  "old": "1647-08-01",
+  "new": "1647-08-30",
+  "prec": "month",
+  "basis": "window-direct-month(8月)",
+  "title": "郑成功郑鸿逵攻泉州之役"
+ },
+ "201": {
+  "old": "1647-07-01",
+  "new": "1647-08-01",
+  "prec": "month",
+  "basis": "lunar-direct-month(7月)",
+  "title": "鲁监国长垣誓师,福建大反攻"
+ },
+ "204": {
+  "old": "1646-10-01",
+  "new": "1646-11-07",
+  "prec": "month",
+  "basis": "lunar-direct-month(10月)",
+  "title": "朱由榔肇庆监国"
+ },
+ "209": {
+  "old": "1647-02-01",
+  "new": "1647-03-06",
+  "prec": "month",
+  "basis": "window-direct-month(2月)",
+  "title": "永历西狩,瞿式耜留守桂林"
+ },
+ "210": {
+  "old": "1647-02-01",
+  "new": "1647-03-06",
+  "prec": "month",
+  "basis": "window-direct-month(2月)",
+  "title": "广东三忠举义"
+ },
+ "212": {
+  "old": "1651-03-01",
+  "new": "1651-04-20",
+  "prec": "month",
+  "basis": "window-direct-month(3月)",
+  "title": "清军袭陷厦门"
+ },
+ "213": {
+  "old": "1647-04-01",
+  "new": "1647-05-05",
+  "prec": "month",
+  "basis": "lunar-direct-month(4月)",
+  "title": "刘承胤挟永历迁武冈"
+ },
+ "214": {
+  "old": "1647-08-01",
+  "new": "1647-08-30",
+  "prec": "month",
+  "basis": "window-direct-month(8月)",
+  "title": "刘承胤降清,永历间道走广西"
+ },
+ "215": {
+  "old": "1647-09-01",
+  "new": "1647-09-28",
+  "prec": "month",
+  "basis": "window-direct-month(9月)",
+  "title": "郝永忠由湘入桂,桂林却敌"
+ },
+ "217": {
+  "old": "1648-02-01",
+  "new": "1648-02-23",
+  "prec": "month",
+  "basis": "window-direct-month(2月)",
+  "title": "永历逃离桂林"
+ },
+ "218": {
+  "old": "1648-04-01",
+  "new": "1648-04-23",
+  "prec": "month",
+  "basis": "window-direct-month(4月)",
+  "title": "郑成功克同安,遥奉永历正朔"
+ },
+ "219": {
+  "old": "1648-08-01",
+  "new": "1648-09-17",
+  "prec": "month",
+  "basis": "lunar-direct-month(8月)",
+  "title": "同安失守屠城"
+ },
+ "222": {
+  "old": "1650-08-01",
+  "new": "1650-08-27",
+  "prec": "month",
+  "basis": "lunar-direct-month(8月)",
+  "title": "郑成功袭取厦门"
+ },
+ "223": {
+  "old": "1651-04-01",
+  "new": "1651-05-19",
+  "prec": "month",
+  "basis": "window-direct-month(4月)",
+  "title": "郑芝莞伏诛,郑鸿逵交兵权"
+ },
+ "224": {
+  "old": "1651-05-01",
+  "new": "1651-06-18",
+  "prec": "month",
+  "basis": "window-direct-month(5月)",
+  "title": "郑施交恶,施琅降清"
+ },
+ "225": {
+  "old": "1648-04-01",
+  "new": "1648-04-23",
+  "prec": "month",
+  "basis": "lunar-direct-month(4月)",
+  "title": "李成栋广州反正"
+ },
+ "227": {
+  "old": "1648-10-01",
+  "new": "1648-11-15",
+  "prec": "month",
+  "basis": "window-direct-month(10月)",
+  "title": "李成栋一攻赣州失利"
+ },
+ "228": {
+  "old": "1649-03-01",
+  "new": "1649-04-12",
+  "prec": "month",
+  "basis": "window-direct-month(3月)",
+  "title": "李成栋信丰败亡"
+ },
+ "229": {
+  "old": "1647-04-01",
+  "new": "1647-05-05",
+  "prec": "month",
+  "basis": "lunar-direct-month(4月)",
+  "title": "吴胜兆松江反正之败"
+ },
+ "230": {
+  "old": "1647-09-01",
+  "new": "1647-09-28",
+  "prec": "month",
+  "basis": "lunar-direct-month(9月)",
+  "title": "陈子龙殉节与江南大搜捕"
+ },
+ "233": {
+  "old": "1648-01-01",
+  "new": "1648-01-25",
+  "prec": "month",
+  "basis": "lunar-direct-month(1月)",
+  "title": "金声桓、王得仁南昌反正"
+ },
+ "236": {
+  "old": "1648-07-01",
+  "new": "1648-08-19",
+  "prec": "month",
+  "basis": "window-direct-month(7月)",
+  "title": "谭泰围南昌,掘壕屠掠"
+ },
+ "237": {
+  "old": "1649-01-01",
+  "new": "1649-02-11",
+  "prec": "month",
+  "basis": "window-direct-month(1月)",
+  "title": "南昌失守,金声桓王得仁姜曰广殉国"
+ },
+ "238": {
+  "old": "1646-06-01",
+  "new": "1646-07-13",
+  "prec": "month",
+  "basis": "window-direct-month(6月)",
+  "title": "谢迁起义,淄川擒孙之獬"
+ },
+ "240": {
+  "old": "1648-05-01",
+  "new": "1648-06-21",
+  "prec": "month",
+  "basis": "lunar-direct-month(5月)",
+  "title": "京师王道士案"
+ },
+ "243": {
+  "old": "1649-08-01",
+  "new": "1649-09-07",
+  "prec": "month",
+  "basis": "window-direct-month(8月)",
+  "title": "大同屠城,姜瓖遇害"
+ },
+ "245": {
+  "old": "1648-03-01",
+  "new": "1648-03-24",
+  "prec": "month",
+  "basis": "window-direct-month(3月)",
+  "title": "甘肃米喇印、丁国栋反清"
+ },
+ "250": {
+  "old": "1649-01-01",
+  "new": "1649-02-11",
+  "prec": "month",
+  "basis": "lunar-direct-month(1月)",
+  "title": "济尔哈朗征湖南,湘潭屠城,何腾蛟殉职"
+ },
+ "252": {
+  "old": "1649-05-01",
+  "new": "1649-06-10",
+  "prec": "month",
+  "basis": "window-direct-month(5月)",
+  "title": "忠贞营撤入广西,梧州受阻"
+ },
+ "256": {
+  "old": "1649-01-01",
+  "new": "1649-02-11",
+  "prec": "month",
+  "basis": "lunar-direct-month(1月)",
+  "title": "五虎当权与朝堂之闹"
+ },
+ "258": {
+  "old": "1649-05-01",
+  "new": "1649-06-10",
+  "prec": "month",
+  "basis": "lunar-direct-month(5月)",
+  "title": "清三王改封南下"
+ },
+ "266": {
+  "old": "1653-03-01",
+  "new": "1653-03-29",
+  "prec": "month",
+  "basis": "window-direct-month(3月)",
+  "title": "周家铺之败"
+ },
+ "268": {
+  "old": "1651-05-01",
+  "new": "1651-06-18",
+  "prec": "month",
+  "basis": "window-direct-month(5月)",
+  "title": "江西义师覆灭,揭重熙殉国"
+ },
+ "270": {
+  "old": "1652-07-01",
+  "new": "1652-08-04",
+  "prec": "month",
+  "basis": "window-direct-month(7月)",
+  "title": "桂林大捷,孔有德自焚"
+ },
+ "272": {
+  "old": "1652-08-01",
+  "new": "1652-09-03",
+  "prec": "month",
+  "basis": "window-direct-month(8月)",
+  "title": "刘文秀反攻四川"
+ },
+ "273": {
+  "old": "1652-10-01",
+  "new": "1652-11-01",
+  "prec": "month",
+  "basis": "window-direct-month(10月)",
+  "title": "保宁之败"
+ },
+ "280": {
+  "old": "1652-02-01",
+  "new": "1652-03-10",
+  "prec": "month",
+  "basis": "window-direct-month(2月)",
+  "title": "永历帝迁入安龙"
+ },
+ "283": {
+  "old": "1653-05-01",
+  "new": "1653-05-27",
+  "prec": "month",
+  "basis": "window-direct-month(5月)",
+  "title": "清廷命洪承畴经略五省"
+ },
+ "286": {
+  "old": "1655-10-01",
+  "new": "1655-10-29",
+  "prec": "month",
+  "basis": "window-direct-month(10月)",
+  "title": "郑军复舟山"
+ },
+ "287": {
+  "old": "1656-02-01",
+  "new": "1656-02-25",
+  "prec": "month",
+  "basis": "window-direct-month(2月)",
+  "title": "揭阳之败,苏茂被斩"
+ },
+ "288": {
+  "old": "1656-06-01",
+  "new": "1656-07-22",
+  "prec": "month",
+  "basis": "window-direct-month(6月)",
+  "title": "黄梧叛降,海澄失陷"
+ },
+ "289": {
+  "old": "1656-08-01",
+  "new": "1656-09-18",
+  "prec": "month",
+  "basis": "window-direct-month(8月)",
+  "title": "舟山再失,清廷弃岛迁民"
+ },
+ "295": {
+  "old": "1654-01-01",
+  "new": "1654-02-17",
+  "prec": "month",
+  "basis": "window-direct-month(1月)",
+  "title": "张名振张煌言三入长江"
+ },
+ "298": {
+  "old": "1655-05-01",
+  "new": "1655-06-04",
+  "prec": "month",
+  "basis": "lunar-direct-month(5月)",
+  "title": "刘文秀常德失利"
+ },
+ "299": {
+  "old": "1659-09-25",
+  "new": "1659-09-25",
+  "prec": "day",
+  "basis": "manual-八月初十崇明登陆攻城",
+  "title": "郑军退出长江攻崇明不克"
+ },
+ "304": {
+  "old": "1654-03-20",
+  "new": "1654-05-06",
+  "prec": "day",
+  "basis": "lunar-direct(3月20日)",
+  "title": "十八先生案"
+ },
+ "306": {
+  "old": "1656-03-26",
+  "new": "1656-04-20",
+  "prec": "day",
+  "basis": "lunar-direct(3月26日)",
+  "title": "李定国迎永历帝入昆明"
+ },
+ "308": {
+  "old": "1656-02-01",
+  "new": "1656-02-25",
+  "prec": "month",
+  "basis": "lunar-direct-month(2月)",
+  "title": "清军乘虚陷广西"
+ },
+ "312": {
+  "old": "1657-09-19",
+  "new": "1657-10-25",
+  "prec": "day",
+  "basis": "lunar-direct(9月19日)",
+  "title": "交水之战,孙可望兵败"
+ },
+ "313": {
+  "old": "1657-12-19",
+  "new": "1657-12-19",
+  "prec": "day",
+  "basis": "manual-十一月十五抵宝庆降清",
+  "title": "孙可望兵败降清,封义王"
+ },
+ "315": {
+  "old": "1658-04-25",
+  "new": "1658-05-26",
+  "prec": "day",
+  "basis": "window-direct(4月25日)",
+  "title": "刘文秀病卒"
+ },
+ "316": {
+  "old": "1660-12-21",
+  "new": "1660-12-21",
+  "prec": "day",
+  "basis": "manual-十一月二十孙可望死于北京",
+  "title": "孙可望死于北京"
+ },
+ "317": {
+  "old": "1658-01-18",
+  "new": "1658-01-18",
+  "prec": "day",
+  "basis": "manual-十二月十五诏三路进军西南",
+  "title": "清廷诏三路进军西南"
+ },
+ "318": {
+  "old": "1658-03-01",
+  "new": "1658-04-03",
+  "prec": "month",
+  "basis": "window-direct-month(3月)",
+  "title": "罗托洪承畴连陷沅州靖州"
+ },
+ "319": {
+  "old": "1658-04-03",
+  "new": "1658-05-04",
+  "prec": "day",
+  "basis": "lunar-direct(4月3日)",
+  "title": "吴三桂部陷重庆"
+ },
+ "320": {
+  "old": "1658-04-30",
+  "new": "1658-05-31",
+  "prec": "day",
+  "basis": "lunar-direct(4月30日)",
+  "title": "吴三桂军破三坡虹关陷遵义"
+ },
+ "321": {
+  "old": "1658-05-01",
+  "new": "1658-06-01",
+  "prec": "month",
+  "basis": "window-direct-month(5月)",
+  "title": "清三路会师贵州"
+ },
+ "322": {
+  "old": "1658-10-05",
+  "new": "1658-10-30",
+  "prec": "day",
+  "basis": "lunar-direct(10月5日)",
+  "title": "杨老堡会议定分三路攻滇"
+ },
+ "324": {
+  "old": "1658-12-25",
+  "new": "1658-12-25",
+  "prec": "day",
+  "basis": "manual-十二月初二绕天生桥弃七星关",
+  "title": "吴三桂绕天生桥,白文选弃七星关"
+ },
+ "327": {
+  "old": "1659-01-07",
+  "new": "1659-01-07",
+  "prec": "day",
+  "basis": "manual-十二月十五弃昆明西狩",
+  "title": "永历朝廷弃昆明西狩"
+ },
+ "328": {
+  "old": "1659-01-03",
+  "new": "1659-01-25",
+  "prec": "day",
+  "basis": "lunar-direct(1月3日)",
+  "title": "清军入据昆明"
+ },
+ "330": {
+  "old": "1658-07-01",
+  "new": "1658-07-30",
+  "prec": "month",
+  "basis": "window-direct-month(7月)",
+  "title": "夔东十三家首攻重庆"
+ },
+ "331": {
+  "old": "1659-01-07",
+  "new": "1659-01-07",
+  "prec": "day",
+  "basis": "manual-十二月十五谭诣刺谭文叛变",
+  "title": "夔东明军再攻重庆,谭诣刺谭文叛变"
+ },
+ "332": {
+  "old": "1659-03-13",
+  "new": "1659-03-13",
+  "prec": "day",
+  "basis": "manual-明历闰正月廿一=清历二月廿一渡怒江(磨盘山)",
+  "title": "磨盘山之战"
+ },
+ "333": {
+  "old": "1659-04-27",
+  "new": "1659-06-16",
+  "prec": "day",
+  "basis": "lunar-direct(4月27日)",
+  "title": "冯双礼建昌被执降清"
+ },
+ "334": {
+  "old": "1658-06-01",
+  "new": "1658-07-01",
+  "prec": "month",
+  "basis": "window-direct-month(6月)",
+  "title": "郑军温州进兵征粮"
+ },
+ "335": {
+  "old": "1658-09-07",
+  "new": "1658-09-07",
+  "prec": "day",
+  "basis": "manual-八月初十羊山飓风",
+  "title": "羊山飓风,首次北征受挫"
+ },
+ "337": {
+  "old": "1659-02-20",
+  "new": "1659-03-12",
+  "prec": "day",
+  "basis": "window-direct(2月20日)",
+  "title": "郑成功部署长江战役,携眷随征"
+ },
+ "338": {
+  "old": "1659-06-17",
+  "new": "1659-06-17",
+  "prec": "day",
+  "basis": "manual-四月廿八抵定海(明历四月=清历四月已重排)",
+  "title": "郑军全歼定海清军"
+ },
+ "339": {
+  "old": "1659-08-03",
+  "new": "1659-08-03",
+  "prec": "day",
+  "basis": "manual-六月十六克瓜洲",
+  "title": "郑军克瓜洲破滚江龙"
+ },
+ "340": {
+  "old": "1659-08-09",
+  "new": "1659-08-09",
+  "prec": "day",
+  "basis": "manual-六月廿二镇江之捷",
+  "title": "镇江之捷"
+ },
+ "341": {
+  "old": "1659-07-12",
+  "new": "1659-08-29",
+  "prec": "day",
+  "basis": "lunar-direct(7月12日)",
+  "title": "郑军围南京顿兵不攻"
+ },
+ "342": {
+  "old": "1659-09-10",
+  "new": "1659-09-10",
+  "prec": "day",
+  "basis": "manual-七月廿四南京之战",
+  "title": "南京之战,郑军大败"
+ },
+ "343": {
+  "old": "1659-08-24",
+  "new": "1659-08-24",
+  "prec": "day",
+  "basis": "manual-七月初七抵芜湖檄定上游",
+  "title": "张煌言檄定上流四府三州二十四县"
+ },
+ "344": {
+  "old": "1659-08-07",
+  "new": "1659-09-22",
+  "prec": "day",
+  "basis": "window-direct(8月7日)",
+  "title": "张煌言军溃于荻港"
+ },
+ "345": {
+  "old": "1659-08-17",
+  "new": "1659-10-02",
+  "prec": "day",
+  "basis": "window-direct(8月17日)",
+  "title": "张煌言间道二千里归海上"
+ },
+ "346": {
+  "old": "1659-07-08",
+  "new": "1659-08-25",
+  "prec": "day",
+  "basis": "window-direct(7月8日)",
+  "title": "清廷命达素征剿郑成功"
+ },
+ "348": {
+  "old": "1660-04-27",
+  "new": "1660-06-04",
+  "prec": "day",
+  "basis": "lunar-direct(4月27日)",
+  "title": "龙门之败,邓耀走死"
+ },
+ "349": {
+  "old": "1659-03-18",
+  "new": "1659-03-18",
+  "prec": "day",
+  "basis": "manual-明历闰正月廿六=清历二月廿六入缅",
+  "title": "永历帝流亡缅甸"
+ },
+ "350": {
+  "old": "1659-05-07",
+  "new": "1659-06-26",
+  "prec": "day",
+  "basis": "lunar-direct(5月7日)",
+  "title": "永历君臣移居阿瓦城外"
+ },
+ "351": {
+  "old": "1659-07-26",
+  "new": "1659-09-12",
+  "prec": "day",
+  "basis": "lunar-direct(7月26日)",
+  "title": "清军收复成都,川南底定"
+ },
+ "352": {
+  "old": "1660-01-12",
+  "new": "1660-01-12",
+  "prec": "day",
+  "basis": "manual-十二月初一吴子圣永昌降清",
+  "title": "边境明军将领大批降清"
+ },
+ "355": {
+  "old": "1659-11-22",
+  "new": "1659-11-22",
+  "prec": "day",
+  "basis": "manual-十月初九清军抵元江围城(城破继后)",
+  "title": "清军攻陷元江,那嵩父子自焚"
+ },
+ "358": {
+  "old": "1659-08-17",
+  "new": "1659-10-02",
+  "prec": "day",
+  "basis": "window-direct(8月17日)",
+  "title": "文村之役,王兴自焚殉国"
+ },
+ "361": {
+  "old": "1661-09-18",
+  "new": "1661-11-09",
+  "prec": "day",
+  "basis": "window-direct(9月18日)",
+  "title": "黎维祚密使联络迎驾"
+ },
+ "363": {
+  "old": "1660-02-20",
+  "new": "1660-03-30",
+  "prec": "day",
+  "basis": "window-direct(2月20日)",
+  "title": "吴三桂三患二难疏,清廷决计进缅"
+ },
+ "365": {
+  "old": "1661-05-23",
+  "new": "1661-06-19",
+  "prec": "day",
+  "basis": "window-direct(5月23日)",
+  "title": "缅甸政变,莽白自立"
+ },
+ "366": {
+  "old": "1661-08-13",
+  "new": "1661-08-13",
+  "prec": "day",
+  "basis": "manual-七月十九赴咒水之盟被围杀",
+  "title": "咒水之难"
+ },
+ "368": {
+  "old": "1662-01-21",
+  "new": "1662-01-21",
+  "prec": "day",
+  "basis": "manual-十二月初二旧晚坡受降永历被执",
+  "title": "旧晚坡受降,永历被执"
+ },
+ "369": {
+  "old": "1662-04-25",
+  "new": "1662-06-11",
+  "prec": "day",
+  "basis": "lunar-direct(4月25日)",
+  "title": "永历帝被缢杀于昆明"
+ },
+ "370": {
+  "old": "1662-02-06",
+  "new": "1662-02-06",
+  "prec": "day",
+  "basis": "manual-十二月十八白文选抵昆明降清",
+  "title": "白文选降清"
+ },
+ "372": {
+  "old": "1662-06-27",
+  "new": "1662-08-10",
+  "prec": "day",
+  "basis": "window-direct(6月27日)",
+  "title": "李定国病卒景线"
+ },
+ "381": {
+  "old": "1661-05-04",
+  "new": "1661-05-31",
+  "prec": "day",
+  "basis": "window-direct(5月4日)",
+  "title": "普罗文查堡(赤嵌城)投降"
+ },
+ "383": {
+  "old": "1661-06-09",
+  "new": "1661-07-04",
+  "prec": "day",
+  "basis": "manual-六月初九张进自焚(铜山)",
+  "title": "铜山叛乱,张进自焚"
+ },
+ "385": {
+  "old": "1661-08-12",
+  "new": "1661-10-04",
+  "prec": "day",
+  "basis": "window-direct(8月12日)",
+  "title": "荷兰援军溜走"
+ },
+ "387": {
+  "old": "1661-10-03",
+  "new": "1661-11-24",
+  "prec": "day",
+  "basis": "lunar-direct(10月3日)",
+  "title": "郑芝龙满门被诛"
+ },
+ "389": {
+  "old": "1662-06-23",
+  "new": "1662-06-23",
+  "prec": "day",
+  "basis": "manual-五月初八郑成功病逝",
+  "title": "郑成功病逝台湾"
+ },
+ "390": {
+  "old": "1662-12-23",
+  "new": "1662-12-23",
+  "prec": "day",
+  "basis": "manual-十一月十三鲁监国病逝",
+  "title": "鲁监国朱以海病逝金门"
+ },
+ "394": {
+  "old": "1664-09-07",
+  "new": "1664-10-25",
+  "prec": "day",
+  "basis": "lunar-direct(9月7日)",
+  "title": "张煌言被俘就义"
+ },
+ "396": {
+  "old": "1664-08-04",
+  "new": "1664-09-23",
+  "prec": "day",
+  "basis": "window-direct(8月4日)",
+  "title": "茅麓山战役"
+ },
+ "397": {
+  "old": "1662-09-04",
+  "new": "1662-10-15",
+  "prec": "day",
+  "basis": "window-direct(9月4日)",
+  "title": "清廷决策三省会剿夔东"
+ },
+ "398": {
+  "old": "1661-08-09",
+  "new": "1661-10-01",
+  "prec": "day",
+  "basis": "window-direct(8月9日)",
+  "title": "清廷招抚夔东义军首领"
+ },
+ "399": {
+  "old": "1663-02-10",
+  "new": "1663-02-10",
+  "prec": "day",
+  "basis": "manual-康熙二年正月初三陷大昌",
+  "title": "清军陷大昌,袁宗第败退"
+ },
+ "400": {
+  "old": "1663-01-01",
+  "new": "1663-02-08",
+  "prec": "month",
+  "basis": "window-direct-month(1月)",
+  "title": "湖广陕西清军多路推进"
+ },
+ "401": {
+  "old": "1663-07-23",
+  "new": "1663-08-25",
+  "prec": "day",
+  "basis": "window-direct(7月23日)",
+  "title": "李刘郝反击湖广清军"
+ },
+ "402": {
+  "old": "1663-08-24",
+  "new": "1663-09-25",
+  "prec": "day",
+  "basis": "lunar-direct(8月24日)",
+  "title": "七部明军西上攻巫山不克"
+ },
+ "403": {
+  "old": "1663-12-28",
+  "new": "1663-12-28",
+  "prec": "day",
+  "basis": "manual-十一月廿九西安满兵抵巫山(增派节点)",
+  "title": "清廷增派八旗,穆里玛图海出师"
+ },
+ "404": {
+  "old": "1664-01-20",
+  "new": "1664-01-20",
+  "prec": "day",
+  "basis": "manual-十二月廿三陈家坡之败",
+  "title": "陈家坡之败,刘体纯自缢"
+ },
+ "206": {
+  "old": "1646-11-01",
+  "new": "1646-12-11",
+  "prec": "day",
+  "basis": "web-check-十一月初五称帝(维基12-11一致)",
+  "title": "朱聿𨮁广州称帝"
+ }
+}

@@ -50,7 +50,7 @@ PAUSED_FILE="$LT_DIR/PAUSED"
 BREAKER_FILE="$LT_DIR/BREAKER"
 ONESHOT_FILE="$LT_DIR/oneshot-nudge.txt"
 WAITING_FILE="$LT_DIR/WAITING"
-CTL_FILE="$HOME/.zcode/longtask-dashboard/controls/$(printf '%s' "$WORKSPACE" | md5 -q).json"
+CTL_QUEUE="$HOME/.zcode/longtask-dashboard/controls-queue.jsonl"
 NUDGE_FILE="$LT_DIR/nudge.txt"
 TASK_NAME="$(basename "$WORKSPACE")"
 RUNS_BASE="$HOME/.zcode/longtask-dashboard/runs"
@@ -493,36 +493,52 @@ while true; do
   # 刷新状态页 status.html（浏览器打开即看，30 秒自动刷新；后台执行不阻塞）
   "$LT_TOOLS/status.sh" >/dev/null 2>&1 &
 
-  # 处理总看板发来的控制指令（暂停/继续/一次性指令），通过 ~/.zcode 中转，无需 TCC
-  if [ -f "$CTL_FILE" ]; then
-    ctl_action="$(python3 -c 'import json,sys;print(json.load(open(sys.argv[1])).get("action",""))' "$CTL_FILE" 2>/dev/null)"
-    ctl_text="$(python3 -c 'import json,sys;print(json.load(open(sys.argv[1])).get("text","") or "")' "$CTL_FILE" 2>/dev/null)"
-    case "$ctl_action" in
-      pause)
-        printf '%s\n' "$(date '+%F %T')" > "$PAUSED_FILE"
-        touch "$STOP_FILE"
-        append_event "paused" "看板请求暂停（当前轮完成后停止）"
-        log "看板请求：暂停（当前轮跑完后停止；PAUSED 标记防止看门狗重启）"
-        notify_quiet "长任务已暂停" "当前轮完成后不再开启新轮。可在总看板点「继续」恢复。"
-        ;;
-      resume)
-        rm -f "$STOP_FILE" "$PAUSED_FILE" "$LT_DIR/HALT"
-        append_event "resumed" "看板请求继续（清除 PAUSED/STOP/HALT）"
-        log "看板请求：继续（清除 PAUSED/STOP）"
-        ;;
-      halt)
-        touch "$LT_DIR/HALT"
-        append_event "halt" "看板请求急停（立即终止当前轮）"
-        log "看板请求：急停（将立即终止当前轮）"
-        ;;
-      nudge)
-        if [ -n "$ctl_text" ]; then
-          printf '%s\n' "$ctl_text" > "$ONESHOT_FILE"
-          log "看板请求：下一轮使用用户指令作为提示词"
-        fi
-        ;;
-    esac
-    rm -f "$CTL_FILE"
+  # 消费控制队列：只处理发给自己工作区的条目（原子：整读→过滤→重写）
+  if [ -f "$CTL_QUEUE" ]; then
+    LT_WS="$WORKSPACE" LT_DIR="$LT_DIR" python3 - <<'PYCTL' 2>>"$LOG_FILE"
+import json, os
+q = os.environ["HOME"] + "/.zcode/longtask-dashboard/controls-queue.jsonl"
+ws, ltd = os.environ["LT_WS"], os.environ["LT_DIR"]
+mine, keep = [], []
+for line in open(q, encoding="utf-8"):
+    line = line.strip()
+    if not line: continue
+    try: e = json.loads(line)
+    except Exception: continue
+    (mine if e.get("ws") == ws else keep).append(e)
+def w(name, content):
+    with open(os.path.join(ltd, name), "w", encoding="utf-8") as f:
+        f.write(content)
+applied = []
+for e in mine:
+    a, text = e.get("action"), (e.get("text") or "")
+    if a == "pause":
+        w("PAUSED", e.get("ts", "")); w("STOP", e.get("ts", ""))
+        applied.append("pause")
+    elif a == "resume":
+        for f2 in ("STOP", "PAUSED", "HALT"):
+            p2 = os.path.join(ltd, f2)
+            if os.path.exists(p2): os.remove(p2)
+        applied.append("resume")
+    elif a == "halt":
+        w("HALT", e.get("ts", ""))
+        applied.append("halt")
+    elif a == "nudge":
+        w("oneshot-nudge.txt", text)
+        applied.append("nudge")
+with open(q, "w", encoding="utf-8") as f:
+    for e in keep:
+        f.write(json.dumps(e, ensure_ascii=False) + "\n")
+if applied:
+    with open(os.path.join(ltd, ".ctl-applied"), "w", encoding="utf-8") as f:
+        f.write(",".join(applied))
+PYCTL
+  if [ -f "$LT_DIR/.ctl-applied" ]; then
+    applied_list="$(cat "$LT_DIR/.ctl-applied")"
+    append_event "control" "看板控制已执行：${applied_list}"
+    log "看板控制已执行：${applied_list}"
+    rm -f "$LT_DIR/.ctl-applied"
+  fi
   fi
 
   # 让渡保险丝：检测 ZCode 侧外来用户消息（人已在前台接管）→ 让位
@@ -670,6 +686,7 @@ while true; do
     chain_still_done=0
     append_event "round_ok" "第 ${round} 轮完成（${dur}s）" "$(extract_round_files "$((start_ts * 1000))")"
     log "第 $round 轮成功（会话 ${SID}，耗时 ${dur}s）"
+    ROUND_FILES="$(extract_round_files "$((start_ts * 1000))")"
     WAIT_TEXT="$(check_waiting)"
     if [ -n "$WAIT_TEXT" ]; then
       waiting=1

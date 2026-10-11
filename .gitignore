@@ -60,3 +60,6 @@ Thumbs.db
 /longtask/.lock/
 /longtask/.provider_config.filtered.json
 /.mimosa/
+
+# 备用会话接力信箱(运行态,只留本机)
+/longtask/relay.txt

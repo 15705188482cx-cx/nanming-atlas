@@ -1,1875 +1,2953 @@
 [
-  {
-    "id": "ev-1581-yitiaobian",
-    "title": "一条鞭法推行全国",
-    "date": "1581",
-    "datePrecision": "year",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京",
-    "modernLocation": "北京市",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "economy",
-    "type": "policy",
-    "importance": 2,
-    "summary": "张居正将赋役合并、计亩征银的一条鞭法推行于全国,赋役货币化,晚明财政与社会由此定型。",
-    "result": "白银财政确立,亦埋下明末加派与银贵谷贱的祸根",
-    "people": ["张居正"],
-    "sources": ["《明史·食货志》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1582-zhangjuzheng-death",
-    "title": "张居正去世",
-    "date": "1582-07-09",
-    "datePrecision": "day",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京",
-    "modernLocation": "北京市",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "political",
-    "type": "death",
-    "importance": 2,
-    "summary": "万历首辅张居正病逝,万历帝亲政后清算其党,考成、清丈等人亡政息,明廷从此失去强有力的中枢。",
-    "people": ["张居正", "万历帝"],
-    "sources": ["《明史·张居正传》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1592-korean-campaign",
-    "title": "万历朝鲜之役(抗倭援朝)",
-    "date": "1592-04",
-    "datePrecision": "month",
-    "endDate": "1598-11",
-    "lon": 125.75,
-    "lat": 39.03,
-    "location": "平壤",
-    "modernLocation": "朝鲜平壤",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "foreign",
-    "type": "campaign",
-    "importance": 3,
-    "summary": "丰臣秀吉侵朝,明军两度大举入援,与朝鲜联军力战七年,终于露梁海战逐敌,朝鲜得以保全。",
-    "result": "明耗巨饷,辽东兵力空虚,为努尔哈赤坐大之机",
-    "people": ["李如松", "万历帝"],
-    "sources": ["《明史·李如松传》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1592-ningxia",
-    "title": "宁夏之役(哱拜之乱)",
-    "date": "1592-03",
-    "datePrecision": "month",
-    "endDate": "1592-10",
-    "lon": 106.27,
-    "lat": 38.47,
-    "location": "宁夏镇",
-    "modernLocation": "宁夏银川市",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "military",
-    "type": "rebellion",
-    "importance": 2,
-    "summary": "致仕副总兵哱拜勾结河套部据宁夏镇叛,明军决黄河水灌城,历时半年平定,万历三大征之首。",
-    "people": ["李如松"],
-    "sources": ["《明史》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1599-bozhou",
-    "title": "播州之役",
-    "date": "1599-05",
-    "datePrecision": "month",
-    "endDate": "1600-06",
-    "lon": 106.93,
-    "lat": 27.73,
-    "location": "播州",
-    "modernLocation": "贵州遵义市",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "military",
-    "type": "campaign",
-    "importance": 2,
-    "summary": "播州宣慰使杨应龙叛,明发八路大军二十余万会剿,破海龙屯,杨氏七百年世袭之地改土归流。",
-    "people": [],
-    "sources": ["《明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1602-kunyu-world-map",
-    "title": "《坤舆万国全图》刊行",
-    "date": "1602",
-    "datePrecision": "year",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京",
-    "modernLocation": "北京市",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "culture",
-    "type": "publication",
-    "importance": 1,
-    "summary": "利玛窦与李之藻在北京刊刻中文世界地图,五大洲之说始入中土,西学东渐之标志。",
-    "people": ["利玛窦"],
-    "sources": ["利玛窦《中国札记》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1604-donglin-academy",
-    "title": "东林书院重建",
-    "date": "1604",
-    "datePrecision": "year",
-    "lon": 120.31,
-    "lat": 31.57,
-    "location": "无锡东林书院",
-    "modernLocation": "江苏无锡市",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "political",
-    "type": "policy",
-    "importance": 2,
-    "summary": "革职后的顾宪成与高攀龙等重修东林书院讲学议政,士议聚而成党,晚明党争之源。",
-    "people": ["顾宪成"],
-    "sources": ["《明史·顾宪成传》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1615-staff-case",
-    "title": "梃击案",
-    "date": "1615-05-30",
-    "datePrecision": "day",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京",
-    "modernLocation": "北京市",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "political",
-    "type": "court-case",
-    "importance": 1,
-    "summary": "男子张差持梃闯入太子朱常洛居所,朝臣各以党见曲为之说,晚明三大案之始。",
-    "people": [],
-    "sources": ["《明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1616-later-jin-founded",
-    "title": "后金建国",
-    "date": "1616",
-    "datePrecision": "year",
-    "lon": 125.0,
-    "lat": 41.72,
-    "location": "赫图阿拉",
-    "modernLocation": "辽宁抚顺新宾满族自治县",
-    "regime": "qing",
-    "sides": ["qing"],
-    "category": "political",
-    "type": "regime-founded",
-    "importance": 3,
-    "summary": "努尔哈赤统一女真诸部后称汗,建元天命,国号大金(史称后金),与明分庭抗礼。",
-    "people": ["努尔哈赤"],
-    "sources": ["《清太祖实录》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1618-fushun",
-    "title": "七大恨誓师,袭破抚顺",
-    "date": "1618-04",
-    "datePrecision": "month",
-    "lon": 123.96,
-    "lat": 41.88,
-    "location": "抚顺城",
-    "modernLocation": "辽宁抚顺市",
-    "regime": "qing",
-    "sides": ["qing", "ming"],
-    "category": "military",
-    "type": "battle",
-    "importance": 3,
-    "summary": "努尔哈赤以“七大恨”告天誓师,轻袭抚顺,明辽东首次丧失城堡,明清(后金)战争自此启端。",
-    "people": ["努尔哈赤"],
-    "sources": ["《满文老档》", "《清太祖实录》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1619-sarhu",
-    "title": "萨尔浒之战",
-    "date": "1619-04-14",
-    "datePrecision": "day",
-    "endDate": "1619-04-17",
-    "lon": 124.1,
-    "lat": 41.8,
-    "location": "萨尔浒",
-    "modernLocation": "辽宁抚顺大伙房水库一带",
-    "regime": "qing",
-    "sides": ["qing", "ming"],
-    "category": "military",
-    "type": "battle",
-    "importance": 3,
-    "summary": "明四路大军十余万分进合击赫图阿拉,后金“凭尔几路来,我只一路去”,五日之内连破三路,杜松、刘綎战殁。",
-    "result": "辽东攻守易势,明由攻转守",
-    "people": ["努尔哈赤"],
-    "sources": ["《满文老档》", "《明史》"],
-    "confidence": "medium",
-    "coordNote": "战场约位于今大伙房水库淹没区,坐标为约位"
-  },
-  {
-    "id": "ev-1621-shenyang-liangyang",
-    "title": "沈阳、辽阳失陷",
-    "date": "1621-05",
-    "datePrecision": "month",
-    "endDate": "1621-07",
-    "lon": 123.43,
-    "lat": 41.8,
-    "location": "沈阳、辽阳",
-    "modernLocation": "辽宁沈阳市、辽阳市",
-    "regime": "qing",
-    "sides": ["qing", "ming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 3,
-    "summary": "后金连克沈阳、辽阳两大重镇,辽东经略袁应泰自焚死,辽东腹心尽失,明军退保辽西走廊。",
-    "people": ["努尔哈赤"],
-    "sources": ["《清太祖实录》", "《明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1622-guangning",
-    "title": "广宁之败",
-    "date": "1622-02",
-    "datePrecision": "month",
-    "lon": 121.79,
-    "lat": 41.59,
-    "location": "广宁",
-    "modernLocation": "辽宁锦州北镇市",
-    "regime": "qing",
-    "sides": ["qing", "ming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 2,
-    "summary": "经抚不和、战守不定,西平堡败后巡抚王化贞弃广宁西奔,河西四十余城尽失,熊廷弼、王化贞并论死。",
-    "people": ["熊廷弼"],
-    "sources": ["《明史·熊廷弼传》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1624-wei-zhongxian",
-    "title": "魏忠贤专权",
-    "date": "1624",
-    "datePrecision": "year",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京",
-    "modernLocation": "北京市",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "political",
-    "type": "court",
-    "importance": 2,
-    "summary": "魏忠贤提督东厂,与客氏表里为奸,阉党炽盛,东林君子株连殆尽,天下争建生祠,号称九千岁。",
-    "people": ["魏忠贤", "天启帝"],
-    "sources": ["《明史·宦官传》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1626-ningyuan",
-    "title": "宁远之战",
-    "date": "1626-01",
-    "datePrecision": "month",
-    "lon": 120.69,
-    "lat": 40.62,
-    "location": "宁远城",
-    "modernLocation": "辽宁葫芦岛兴城市",
-    "regime": "qing",
-    "sides": ["qing", "ming"],
-    "category": "military",
-    "type": "battle",
-    "importance": 3,
-    "summary": "努尔哈赤亲率大军西渡辽河攻宁远,袁崇焕偕满桂凭坚城大炮死守,后金攻城受挫而退,明对金首次大捷。",
-    "people": ["袁崇焕", "努尔哈赤"],
-    "sources": ["《明史·袁崇焕传》", "《清太祖实录》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1626-nurhaci-death",
-    "title": "努尔哈赤病逝",
-    "date": "1626-09-30",
-    "datePrecision": "day",
-    "lon": 123.43,
-    "lat": 41.8,
-    "location": "叆鸡堡",
-    "modernLocation": "辽宁沈阳近郊",
-    "regime": "qing",
-    "sides": ["qing"],
-    "category": "political",
-    "type": "death",
-    "importance": 2,
-    "summary": "宁远败后八月,努尔哈赤疽发身死于叆鸡堡,四子皇太极继立,改元天聪。",
-    "people": ["努尔哈赤", "皇太极"],
-    "sources": ["《清太宗实录》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1627-ningjin",
-    "title": "宁锦之战",
-    "date": "1627-05",
-    "datePrecision": "month",
-    "endDate": "1627-06",
-    "lon": 121.14,
-    "lat": 41.1,
-    "location": "锦州、宁远",
-    "modernLocation": "辽宁锦州市、兴城市",
-    "regime": "qing",
-    "sides": ["qing", "ming"],
-    "category": "military",
-    "type": "battle",
-    "importance": 2,
-    "summary": "皇太极围锦州、攻宁远,赵率教、满桂力战,后金两月不下而退,史称“宁锦大捷”。",
-    "people": ["皇太极"],
-    "sources": ["《明史》", "《清太宗实录》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1627-chongzhen-accession",
-    "title": "崇祯帝即位",
-    "date": "1627-09-30",
-    "datePrecision": "day",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京",
-    "modernLocation": "北京市",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "political",
-    "type": "accession",
-    "importance": 2,
-    "summary": "天启帝崩,信王朱由检入继大统,旋定阉党逆案、魏忠贤自缢,朝政一新而积弊难返。",
-    "people": ["崇祯帝"],
-    "sources": ["《明史·庄烈帝本纪》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1627-wang-er-uprising",
-    "title": "澄城民变,农民战争发端",
-    "date": "1627-11",
-    "datePrecision": "month",
-    "lon": 109.93,
-    "lat": 35.19,
-    "location": "澄城",
-    "modernLocation": "陕西渭南澄城县",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "military",
-    "type": "rebellion",
-    "importance": 2,
-    "summary": "陕西大饥,澄城人王二聚数百饥民杀知县起事,白水、宜川继之,明末农民战争由此发端,蔓延三十余年。",
-    "people": [],
-    "sources": ["顾诚《明末农民战争史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1629-jisi-crisis",
-    "title": "己巳之变",
-    "date": "1629-10",
-    "datePrecision": "month",
-    "endDate": "1630-04",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京及畿辅",
-    "modernLocation": "北京市",
-    "regime": "qing",
-    "sides": ["qing", "ming"],
-    "category": "military",
-    "type": "invasion",
-    "importance": 3,
-    "summary": "皇太极亲率大军绕道蒙古破喜峰口入塞,连陷遵化、永平,兵临北京城下;袁崇焕千里入援反被逮,畿辅残破。",
-    "result": "袁崇焕下狱,关宁军狙击后金于广渠门外",
-    "people": ["皇太极", "袁崇焕", "崇祯帝"],
-    "sources": ["《清太宗实录》", "《明史·袁崇焕传》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1630-yuanchonghuan-death",
-    "title": "袁崇焕被杀",
-    "date": "1630-09-22",
-    "datePrecision": "day",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京西市",
-    "modernLocation": "北京市",
-    "regime": "ming",
-    "sides": ["ming"],
-    "category": "political",
-    "type": "death",
-    "importance": 2,
-    "summary": "崇祯以通敌之罪磔袁崇焕于市,“自崇焕死,边事益无人,明亡征决矣”。",
-    "people": ["袁崇焕", "崇祯帝"],
-    "sources": ["《明史·袁崇焕传》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1631-wuqiao-mutiny",
-    "title": "吴桥兵变,登州失陷",
-    "date": "1631-08",
-    "datePrecision": "month",
-    "endDate": "1633-05",
-    "lon": 120.76,
-    "lat": 37.81,
-    "location": "吴桥—登州",
-    "modernLocation": "河北吴桥县至山东蓬莱区",
-    "regime": "qing",
-    "sides": ["ming", "qing"],
-    "category": "military",
-    "type": "mutiny",
-    "importance": 2,
-    "summary": "孔有德在吴桥举兵,翌年陷登州,据城岁余,终挟红夷大炮、战船与工匠渡海降金,后金自此有攻城重炮之资。",
-    "people": ["孔有德"],
-    "sources": ["《清太宗实录》", "《明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1635-manchu-name",
-    "title": "定族名“满洲”",
-    "date": "1635",
-    "datePrecision": "year",
-    "lon": 123.43,
-    "lat": 41.8,
-    "location": "沈阳",
-    "modernLocation": "辽宁沈阳市",
-    "regime": "qing",
-    "sides": ["qing"],
-    "category": "political",
-    "type": "policy",
-    "importance": 1,
-    "summary": "皇太极申禁“珠申”旧称,正式定族名为满洲,并获元朝“传国玉玺”,称帝舆论渐成。",
-    "people": ["皇太极"],
-    "sources": ["《清太宗实录》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1636-qing-founded",
-    "title": "皇太极称帝,改国号大清",
-    "date": "1636-05-15",
-    "datePrecision": "day",
-    "lon": 123.43,
-    "lat": 41.8,
-    "location": "沈阳",
-    "modernLocation": "辽宁沈阳市",
-    "regime": "qing",
-    "sides": ["qing"],
-    "category": "political",
-    "type": "regime-founded",
-    "importance": 3,
-    "summary": "皇太极受“宽温仁圣皇帝”尊号,改元崇德,国号大清,旋封孔有德、耿仲明、尚可喜三顺王。",
-    "people": ["皇太极"],
-    "sources": ["《清太宗实录》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1636-bingzi-korea",
-    "title": "丙子之役,朝鲜降清",
-    "date": "1636-12",
-    "datePrecision": "month",
-    "endDate": "1637-01",
-    "lon": 127.17,
-    "lat": 37.37,
-    "location": "南汉山城",
-    "modernLocation": "韩国京畿道广州市",
-    "regime": "qing",
-    "sides": ["qing"],
-    "category": "foreign",
-    "type": "campaign",
-    "importance": 2,
-    "summary": "皇太极亲征朝鲜,围国王于南汉山城,破江华岛,朝鲜断绝与明宗藩关系,改行永历、崇德并纪年。",
-    "people": ["皇太极"],
-    "sources": ["《清太宗实录》", "朝鲜《仁祖实录》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1638-wuyin-invasion",
-    "title": "戊寅入塞,卢象升殉国",
-    "date": "1638-09",
-    "datePrecision": "month",
-    "endDate": "1639-01-12",
-    "lon": 115.04,
-    "lat": 37.22,
-    "location": "巨鹿贾庄",
-    "modernLocation": "河北邢台巨鹿县",
-    "regime": "qing",
-    "sides": ["qing", "ming"],
-    "category": "military",
-    "type": "invasion",
-    "importance": 2,
-    "summary": "清军两翼入塞,蹂躏畿辅、山东七十余城;总督卢象升名为督师而兵不及万,孤军血战殁于巨鹿贾庄。",
-    "people": ["卢象升"],
-    "sources": ["《明史·卢象升传》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1639-gucheng-revolt",
-    "title": "张献忠谷城复叛",
-    "date": "1639-05",
-    "datePrecision": "month",
-    "lon": 111.65,
-    "lat": 32.26,
-    "location": "谷城",
-    "modernLocation": "湖北襄阳谷城县",
-    "regime": "daxi",
-    "sides": ["ming"],
-    "category": "military",
-    "type": "rebellion",
-    "importance": 2,
-    "summary": "受抚一年余的张献忠在谷城再举反旗,焚官舍、毁印信,罗汝才等十三家闻风继起,中原烽火复燃。",
-    "people": ["张献忠"],
-    "sources": ["顾诚《明末农民战争史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1640-1642-songjin",
-    "title": "松锦之战",
-    "date": "1641-08",
-    "datePrecision": "month",
-    "endDate": "1642-04",
-    "lon": 121.14,
-    "lat": 41.1,
-    "location": "锦州、松山",
-    "modernLocation": "辽宁锦州市",
-    "regime": "qing",
-    "sides": ["qing", "ming"],
-    "category": "military",
-    "type": "battle",
-    "importance": 3,
-    "summary": "明清战略决战:洪承畴率十三万大军援锦,粮道被断,松山城破被俘,锦州祖大寿出降,洪承畴降清,关外仅余宁远孤城。",
-    "result": "明九边精锐尽丧,入关门户洞开",
-    "people": ["洪承畴", "皇太极"],
-    "sources": ["《清太宗实录》", "《明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1641-luoyang",
-    "title": "洛阳之陷,福王被杀",
-    "date": "1641-01",
-    "datePrecision": "month",
-    "lon": 112.45,
-    "lat": 34.62,
-    "location": "洛阳",
-    "modernLocation": "河南洛阳市",
-    "regime": "dashun",
-    "sides": ["ming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 3,
-    "summary": "李自成轻兵袭破洛阳,杀福王朱常洵,发王府金银赈饥,“迎闯王,不纳粮”之谣自此大盛。",
-    "people": ["李自成"],
-    "sources": ["顾诚《明末农民战争史》", "《明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1641-xiangyang",
-    "title": "襄阳之陷",
-    "date": "1641-02",
-    "datePrecision": "month",
-    "lon": 112.12,
-    "lat": 32.01,
-    "location": "襄阳",
-    "modernLocation": "湖北襄阳市",
-    "regime": "daxi",
-    "sides": ["ming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 2,
-    "summary": "张献忠以声东击西奇袭襄阳,杀襄王;督师杨嗣昌忧惧而死,明剿抚之局尽坏。",
-    "people": ["张献忠", "杨嗣昌"],
-    "sources": ["顾诚《明末农民战争史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1642-kaifeng",
-    "title": "开封之陷",
-    "date": "1642-09",
-    "datePrecision": "month",
-    "lon": 114.3,
-    "lat": 34.8,
-    "location": "开封",
-    "modernLocation": "河南开封市",
-    "regime": "dashun",
-    "sides": ["ming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 2,
-    "summary": "李自成三攻开封,围城半载,双方决黄河堤互灌,全城尽没于水,数十万生灵涂炭,中原腹心残破。",
-    "people": ["李自成"],
-    "sources": ["顾诚《明末农民战争史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1643-ruzhou-tongguan",
-    "title": "汝州之败,潼关失陷",
-    "date": "1643-09",
-    "datePrecision": "month",
-    "endDate": "1643-10",
-    "lon": 110.25,
-    "lat": 34.55,
-    "location": "潼关",
-    "modernLocation": "陕西渭南潼关县",
-    "regime": "dashun",
-    "sides": ["dashun", "ming"],
-    "category": "military",
-    "type": "battle",
-    "importance": 3,
-    "summary": "孙传庭出关中伏,汝州大溃,退保潼关复破,传庭战殁,“传庭死而明亡矣”,关中门户洞开。",
-    "people": ["孙传庭", "李自成"],
-    "sources": ["《明史·孙传庭传》", "顾诚《明末农民战争史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1643-xian-fall",
-    "title": "西安失陷",
-    "date": "1643-11",
-    "datePrecision": "month",
-    "lon": 108.94,
-    "lat": 34.34,
-    "location": "西安",
-    "modernLocation": "陕西西安市",
-    "regime": "dashun",
-    "sides": ["dashun", "ming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 2,
-    "summary": "大顺军不战而下西安,据关中形胜,设官立制,东征北京只待一纸檄文。",
-    "people": ["李自成"],
-    "sources": ["顾诚《明末农民战争史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1643-wuchang-fall",
-    "title": "张献忠破武昌",
-    "date": "1643-06",
-    "datePrecision": "month",
-    "lon": 114.31,
-    "lat": 30.55,
-    "location": "武昌",
-    "modernLocation": "湖北武汉市武昌区",
-    "regime": "daxi",
-    "sides": ["ming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 2,
-    "summary": "张献忠陷武昌,沉楚王于江,自称“大西王”,建号天授,旋弃武昌下湖湘。",
-    "people": ["张献忠"],
-    "sources": ["顾诚《明末农民战争史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1644-dashun-founded",
-    "title": "大顺建国西安",
-    "date": "1644-02-08",
-    "datePrecision": "day",
-    "lon": 108.94,
-    "lat": 34.34,
-    "location": "西安",
-    "modernLocation": "陕西西安市",
-    "regime": "dashun",
-    "sides": ["dashun", "ming"],
-    "category": "political",
-    "type": "regime-founded",
-    "importance": 3,
-    "summary": "李自成以西安为西京,建国大顺,改元永昌,旋誓师东征,“嗟尔明朝,气数已尽”。",
-    "people": ["李自成"],
-    "sources": ["顾诚《明末农民战争史》", "《明季北略》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1644-beijing-fall",
-    "title": "北京陷落,崇祯殉国",
-    "date": "1644-04-25",
-    "datePrecision": "day",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京",
-    "modernLocation": "北京市",
-    "regime": "dashun",
-    "sides": ["dashun", "ming"],
-    "category": "political",
-    "type": "city-fall",
-    "importance": 3,
-    "summary": "三月十九日凌晨内城破,崇祯帝自缢于煤山寿皇亭,明亡;大顺军入城,京师易主。",
-    "people": ["崇祯帝", "李自成"],
-    "sources": ["《明季北略》", "顾诚《明末农民战争史》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1644-shanhai-pass",
-    "title": "山海关之战",
-    "date": "1644-05-27",
-    "datePrecision": "day",
-    "lon": 119.75,
-    "lat": 40.0,
-    "location": "山海关、一片石",
-    "modernLocation": "河北秦皇岛山海关区",
-    "regime": "qing",
-    "sides": ["qing", "dashun", "ming"],
-    "category": "military",
-    "type": "battle",
-    "importance": 3,
-    "summary": "吴三桂降清开关,多尔衮率八旗猝发参战,李自成大败西还,清军自此入关,天下大势逆转。",
-    "result": "大顺军退出北京,清廷定鼎中原之路打开",
-    "people": ["吴三桂", "多尔衮", "李自成"],
-    "sources": ["《清史稿·世祖本纪》", "顾诚《南明史》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1644-dashun-withdraw",
-    "title": "大顺军弃守北京",
-    "date": "1644-06-04",
-    "datePrecision": "day",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京",
-    "modernLocation": "北京市",
-    "regime": "dashun",
-    "sides": ["dashun"],
-    "category": "military",
-    "type": "retreat",
-    "importance": 2,
-    "summary": "山海关败后,大顺军在北京仅驻四十一日,焚宫殿辎重西撤,清军随后入据。",
-    "people": ["李自成"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1644-qing-enters-beijing",
-    "title": "清军入据北京",
-    "date": "1644-06-06",
-    "datePrecision": "day",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京",
-    "modernLocation": "北京市",
-    "regime": "qing",
-    "sides": ["qing"],
-    "category": "political",
-    "type": "occupation",
-    "importance": 3,
-    "summary": "多尔衮率军入朝阳门,居武英殿理政,为顺治帝定鼎燕京,发丧崇祯、免三饷以收拾人心。",
-    "people": ["多尔衮"],
-    "sources": ["《清史稿·多尔衮传》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1644-hongguang-founded",
-    "title": "弘光政权立于南京",
-    "date": "1644-06-19",
-    "datePrecision": "day",
-    "lon": 118.8,
-    "lat": 32.06,
-    "location": "南京",
-    "modernLocation": "江苏南京市",
-    "regime": "nanming",
-    "sides": ["nanming"],
-    "category": "political",
-    "type": "regime-founded",
-    "importance": 3,
-    "summary": "五月初三福王朱由崧监国,十五日即皇帝位,改明年为弘光元年;以淮扬江北四镇设防,朝政旋为马士英、四镇所持。",
-    "people": ["朱由崧", "史可法", "马士英"],
-    "sources": ["顾诚《南明史》", "《明季南略》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1644-daxi-founded",
-    "title": "大西建国成都",
-    "date": "1644",
-    "datePrecision": "year",
-    "lon": 104.07,
-    "lat": 30.67,
-    "location": "成都",
-    "modernLocation": "四川成都市",
-    "regime": "daxi",
-    "sides": ["daxi", "ming"],
-    "category": "political",
-    "type": "regime-founded",
-    "importance": 3,
-    "summary": "张献忠秋克成都,岁末称帝,建国大西,改元大顺,据全蜀与清、大顺、南明四方并立。",
-    "people": ["张献忠"],
-    "sources": ["顾诚《南明史》", "《明季南略》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1645-suizhou-plot",
-    "title": "睢州之变,高杰遇害",
-    "date": "1645-01-07",
-    "datePrecision": "day",
-    "lon": 114.91,
-    "lat": 34.45,
-    "location": "睢州",
-    "modernLocation": "河南商丘睢县",
-    "regime": "nanming",
-    "sides": ["nanming"],
-    "category": "military",
-    "type": "mutiny",
-    "importance": 2,
-    "summary": "兴平伯高杰北进河南,为睢州总兵许定国设宴诱杀,江北防线失去柱石,史可法河防之图自坏。",
-    "people": ["高杰", "史可法"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1645-zuo-campaign",
-    "title": "左良玉称兵东下",
-    "date": "1645-04",
-    "datePrecision": "month",
-    "lon": 114.31,
-    "lat": 30.55,
-    "location": "武昌",
-    "modernLocation": "湖北武汉市",
-    "regime": "nanming",
-    "sides": ["nanming"],
-    "category": "military",
-    "type": "mutiny",
-    "importance": 2,
-    "summary": "左良玉假“太子密诏”举兵“清君侧”,顺江东下,弘光朝尽撤江北兵御之,江防空虚,清军乘之而南;良玉旋病死九江。",
-    "people": ["左良玉"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1645-yangzhou-massacre",
-    "title": "扬州失陷,屠城十日",
-    "date": "1645-05-20",
-    "datePrecision": "day",
-    "lon": 119.42,
-    "lat": 32.39,
-    "location": "扬州",
-    "modernLocation": "江苏扬州市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 3,
-    "summary": "多铎部围扬州,史可法拒降血战,城破巷战被俘,不屈而死;清军屠城十日,是为“扬州十日”。",
-    "result": "江北门户洞开,弘光朝旬月而亡",
-    "people": ["史可法", "多铎"],
-    "sources": ["顾诚《南明史》", "王秀楚《扬州十日记》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1645-nanjing-fall",
-    "title": "南京陷落,弘光被俘",
-    "date": "1645-06-08",
-    "datePrecision": "day",
-    "lon": 118.8,
-    "lat": 32.06,
-    "location": "南京",
-    "modernLocation": "江苏南京市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "political",
-    "type": "city-fall",
-    "importance": 3,
-    "summary": "马士英奉太后出奔浙江,忻城伯开城纳降,多铎兵不血刃入南京;弘光帝出逃芜湖途中被俘,翌年遇害。",
-    "people": ["朱由崧", "马士英"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1645-hangzhou-fall",
-    "title": "杭州失守,潞王出降",
-    "date": "1645-07-06",
-    "datePrecision": "day",
-    "lon": 120.16,
-    "lat": 30.29,
-    "location": "杭州",
-    "modernLocation": "浙江杭州市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 1,
-    "summary": "监国七日的潞王朱常淓举城降清,浙西门户洞开,钱塘江以南遂为抗清前线。",
-    "people": [],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1645-queue-order",
-    "title": "重颁剃发令",
-    "date": "1645-07-08",
-    "datePrecision": "day",
-    "lon": 116.4,
-    "lat": 39.9,
-    "location": "北京(颁行天下)",
-    "modernLocation": "北京市",
-    "regime": "qing",
-    "sides": ["qing"],
-    "category": "political",
-    "type": "policy",
-    "importance": 3,
-    "summary": "多尔衮重颁剃发令,“留头不留发,留发不留头”,衣冠之变激起江南乃至天下反抗,南明抗清由君国之争转为文明的抵抗。",
-    "people": ["多尔衮"],
-    "sources": ["顾诚《南明史》", "《清史稿·世祖本纪》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1645-jiangyin-uprising",
-    "title": "江阴起义",
-    "date": "1645-07-23",
-    "datePrecision": "day",
-    "lon": 120.28,
-    "lat": 31.91,
-    "location": "江阴",
-    "modernLocation": "江苏无锡江阴市",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "uprising",
-    "importance": 3,
-    "summary": "清委知县方亨严令剃发,江阴父老杀之聚众起事,迎典史阎应元、陈明遇主守,婴城抗清。",
-    "people": ["阎应元"],
-    "sources": ["顾诚《南明史》", "韩菼《江阴城守纪》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1645-jiading-massacre",
-    "title": "嘉定三屠",
-    "date": "1645-08",
-    "datePrecision": "month",
-    "lon": 121.26,
-    "lat": 31.38,
-    "location": "嘉定",
-    "modernLocation": "上海市嘉定区",
-    "regime": "qing",
-    "sides": ["qing"],
-    "category": "military",
-    "type": "massacre",
-    "importance": 3,
-    "summary": "侯峒曾、黄淳耀率嘉定父老拒剃发守城,城破后李成栋部月内三度屠城,闾里为墟。",
-    "people": ["李成栋"],
-    "sources": ["顾诚《南明史》", "《嘉定屠城纪略》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1645-jiangyin-fall",
-    "title": "江阴城破",
-    "date": "1645-10",
-    "datePrecision": "month",
-    "lon": 120.28,
-    "lat": 31.91,
-    "location": "江阴",
-    "modernLocation": "江苏无锡江阴市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 3,
-    "summary": "孤城独守八十一日,杀伤清军甚众;八月二十一日城破,巷战竟日,阎应元殉国,阖城死伤无算。",
-    "people": ["阎应元"],
-    "sources": ["顾诚《南明史》", "韩菼《江阴城守纪》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1645-longwu-founded",
-    "title": "隆武政权立于福州",
-    "date": "1645-08-18",
-    "datePrecision": "day",
-    "lon": 119.3,
-    "lat": 26.08,
-    "location": "福州",
-    "modernLocation": "福建福州市",
-    "regime": "nanming",
-    "sides": ["nanming"],
-    "category": "political",
-    "type": "regime-founded",
-    "importance": 3,
-    "summary": "郑芝龙、黄道周拥唐王朱聿键即位,改元隆武;帝锐意恢复,而兵饷尽制于郑氏,事终不举。",
-    "people": ["朱聿键", "郑芝龙", "黄道周"],
-    "sources": ["顾诚《南明史》", "《思文大纪》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1645-lu-regency",
-    "title": "鲁监国立于绍兴",
-    "date": "1645-08",
-    "datePrecision": "month",
-    "lon": 120.58,
-    "lat": 30.03,
-    "location": "绍兴",
-    "modernLocation": "浙江绍兴市",
-    "regime": "nanming",
-    "sides": ["nanming"],
-    "category": "political",
-    "type": "regime-founded",
-    "importance": 2,
-    "summary": "张国维等拥鲁王朱以海监国,与隆武朝称兵抗清而又互争正统,浙东义师划江而守。",
-    "people": ["朱以海"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1645-hetengjiao-alliance",
-    "title": "何腾蛟抚湘,联“忠贞营”",
-    "date": "1645-11",
-    "datePrecision": "month",
-    "lon": 112.94,
-    "lat": 28.23,
-    "location": "长沙",
-    "modernLocation": "湖南长沙市",
-    "regime": "nanming",
-    "sides": ["nanming", "dashun"],
-    "category": "political",
-    "type": "alliance",
-    "importance": 2,
-    "summary": "湖广总督何腾蛟收纳李过、高一功、郝摇旗等大顺余部,号忠贞营,“联寇抗清”格局初成。",
-    "people": ["何腾蛟", "李过", "郝摇旗"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "approx"
-  },
-  {
-    "id": "ev-1645-li-zicheng-death",
-    "title": "李自成遇害九宫山",
-    "date": "1645-05",
-    "datePrecision": "month",
-    "lon": 114.62,
-    "lat": 29.36,
-    "location": "九宫山",
-    "modernLocation": "湖北咸宁通山县",
-    "regime": "dashun",
-    "sides": ["dashun"],
-    "category": "military",
-    "type": "death",
-    "importance": 3,
-    "summary": "大顺军自武昌东撤转南,李自成率轻骑探路,在通山九宫山下为乡勇所袭杀(死地死期旧说纷纭,此从顾诚考订);余部转入联明抗清。",
-    "people": ["李自成", "李过", "郝摇旗"],
-    "sources": ["顾诚《南明史》", "《明末农民战争史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1645-huang-daozhou-campaign",
-    "title": "黄道周北伐兵败被俘",
-    "date": "1645-12",
-    "datePrecision": "month",
-    "endDate": "1646-03",
-    "lon": 117.86,
-    "lat": 29.25,
-    "location": "婺源",
-    "modernLocation": "江西上饶婺源县",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "campaign",
-    "importance": 2,
-    "summary": "黄道周以书生督师出广信,寡援兵败婺源被俘,械送南京,翌年三月就义,绝命语“蹈仁不死,履险若夷”。",
-    "people": ["黄道周"],
-    "sources": ["顾诚《南明史》", "《明史·黄道周传》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1646-qiantang-collapse",
-    "title": "钱塘江防线崩溃,鲁监国浮海",
-    "date": "1646-07",
-    "datePrecision": "month",
-    "lon": 120.58,
-    "lat": 30.03,
-    "location": "钱塘江—绍兴",
-    "modernLocation": "浙江杭州市—绍兴市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "collapse",
-    "importance": 2,
-    "summary": "博洛部乘旱涉江而南,方国安部倒戈,浙东诸营瓦解,鲁王浮海走舟山,张名振、张煌言扈从出海。",
-    "people": ["朱以海", "张名振", "张煌言"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1646-ganzhou-fall",
-    "title": "赣州失陷",
-    "date": "1646-10",
-    "datePrecision": "month",
-    "lon": 114.94,
-    "lat": 25.85,
-    "location": "赣州",
-    "modernLocation": "江西赣州市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 2,
-    "summary": "万元吉督师失援,杨廷麟、万元吉死之,赣州陷落,闽赣楚援绝,福建门户洞开。",
-    "people": [],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1646-longwu-fall",
-    "title": "隆武帝殉国汀州",
-    "date": "1646-10-06",
-    "datePrecision": "day",
-    "lon": 116.36,
-    "lat": 25.83,
-    "location": "汀州",
-    "modernLocation": "福建龙岩长汀县",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "political",
-    "type": "death",
-    "importance": 3,
-    "summary": "清军疾趋仙霞岭,郑芝龙撤防不战;隆武帝奔汀州被执,旋遇害,锐意中兴之君赍志以殁。",
-    "people": ["朱聿键"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1646-zheng-zhilong-defects",
-    "title": "郑芝龙降清",
-    "date": "1646-11",
-    "datePrecision": "month",
-    "lon": 118.46,
-    "lat": 24.71,
-    "location": "安平",
-    "modernLocation": "福建泉州晋江市安海镇",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "political",
-    "type": "defection",
-    "importance": 2,
-    "summary": "郑芝龙不听郑成功苦谏,尽撤闽中防御,挟部曲降清,旋被挟持北去,郑氏海上势力为其子继承重整。",
-    "people": ["郑芝龙", "郑成功"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1646-zheng-uprising",
-    "title": "郑成功焚服起兵",
-    "date": "1646-12",
-    "datePrecision": "month",
-    "lon": 118.24,
-    "lat": 24.42,
-    "location": "烈屿",
-    "modernLocation": "福建金门县烈屿乡",
-    "regime": "zheng",
-    "sides": ["zheng", "qing"],
-    "category": "military",
-    "type": "uprising",
-    "importance": 2,
-    "summary": "闻隆武凶问,郑成功率所部九十人于烈屿誓师,焚儒服以示必死,“背父救国”,此后以金厦为抗清根本。",
-    "people": ["郑成功"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "approx"
-  },
-  {
-    "id": "ev-1646-yongli-founded",
-    "title": "永历政权立于肇庆",
-    "date": "1646-11-18",
-    "datePrecision": "day",
-    "lon": 112.47,
-    "lat": 23.05,
-    "location": "肇庆",
-    "modernLocation": "广东肇庆市",
-    "regime": "nanming",
-    "sides": ["nanming"],
-    "category": "political",
-    "type": "regime-founded",
-    "importance": 3,
-    "summary": "桂王朱由榔监国旋即皇帝位,以明年为永历元年,依托两广、云贵、大西军与海上郑氏,为南明诸政权中历时最久者。",
-    "people": ["朱由榔"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1646-shaowu-founded",
-    "title": "绍武政权立于广州",
-    "date": "1646-12-11",
-    "datePrecision": "day",
-    "lon": 113.26,
-    "lat": 23.13,
-    "location": "广州",
-    "modernLocation": "广东广州市",
-    "regime": "nanming",
-    "sides": ["nanming"],
-    "category": "political",
-    "type": "regime-founded",
-    "importance": 2,
-    "summary": "苏观生拥隆武帝之弟朱聿𨮁即位,与永历朝同室操戈,兵火相攻于三水,立朝仅四十日。",
-    "people": [],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1647-zhang-xianzhong-death",
-    "title": "西充凤凰山之战,张献忠战死",
-    "date": "1647-01-02",
-    "datePrecision": "day",
-    "lon": 105.9,
-    "lat": 30.99,
-    "location": "西充凤凰山",
-    "modernLocation": "四川南充西充县",
-    "regime": "qing",
-    "sides": ["qing", "daxi"],
-    "category": "military",
-    "type": "battle",
-    "importance": 3,
-    "summary": "清肃亲王豪格部疾进西充,张献忠中矢殁于凤凰山;孙可望、李定国等整余部南走滇黔,大西转出新生。",
-    "people": ["张献忠", "孙可望", "李定国", "刘文秀"],
-    "sources": ["顾诚《南明史》", "《清史稿·豪格传》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1647-guangzhou-fall",
-    "title": "广州陷落,绍武自缢",
-    "date": "1647-01-20",
-    "datePrecision": "day",
-    "lon": 113.26,
-    "lat": 23.13,
-    "location": "广州",
-    "modernLocation": "广东广州市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 3,
-    "summary": "李成栋以轻骑远袭,虚张旗帜破广州,绍武帝自缢;南明两帝并立之争旬月而终。",
-    "people": ["李成栋"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1647-daxi-into-yunnan",
-    "title": "大西军入滇",
-    "date": "1647-04",
-    "datePrecision": "month",
-    "lon": 102.83,
-    "lat": 24.88,
-    "location": "昆明",
-    "modernLocation": "云南昆明市",
-    "regime": "daxi",
-    "sides": ["daxi"],
-    "category": "political",
-    "type": "occupation",
-    "importance": 2,
-    "summary": "孙可望、李定国率残部入云南,联土司、营田铸币、整军经武,滇黔自此经营为抗清根本之地。",
-    "people": ["孙可望", "李定国"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "approx"
-  },
-  {
-    "id": "ev-1647-guilin-defense",
-    "title": "桂林保卫战",
-    "date": "1647-03",
-    "datePrecision": "month",
-    "lon": 110.29,
-    "lat": 25.27,
-    "location": "桂林",
-    "modernLocation": "广西桂林市",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "battle",
-    "importance": 2,
-    "summary": "瞿式耜与焦琏部内外夹击,力战却敌,桂林首度解围,全州、桂林一线成为湘桂屏障。",
-    "people": ["瞿式耜"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "approx"
-  },
-  {
-    "id": "ev-1647-quanzhou-victory",
-    "title": "全州大捷",
-    "date": "1647-11",
-    "datePrecision": "month",
-    "lon": 111.07,
-    "lat": 25.93,
-    "location": "全州",
-    "modernLocation": "广西桂林全州县",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "battle",
-    "importance": 1,
-    "summary": "郝摇旗部在全州大败清军,湘桂战场稍振,忠贞营声威复起。",
-    "people": ["郝摇旗"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "approx"
-  },
-  {
-    "id": "ev-1648-jin-shenghuan-defects",
-    "title": "金声桓、王得仁南昌反正",
-    "date": "1648-01-27",
-    "datePrecision": "day",
-    "lon": 115.89,
-    "lat": 28.68,
-    "location": "南昌",
-    "modernLocation": "江西南昌市",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "defection",
-    "importance": 3,
-    "summary": "清江西提督金声桓、副将王得仁举兵归明,全赣响应,天下震动,降将反正自此接踵。",
-    "people": ["金声桓"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1648-li-chengdong-defects",
-    "title": "李成栋以广东全省反正",
-    "date": "1648-04",
-    "datePrecision": "month",
-    "lon": 113.26,
-    "lat": 23.13,
-    "location": "广州",
-    "modernLocation": "广东广州市",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "defection",
-    "importance": 3,
-    "summary": "曾屠嘉定、灭绍武的李成栋奉永历正朔,以粤省归明,南明失地旬月复半,永历朝廷回驻肇庆。",
-    "people": ["李成栋"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1649-jiangxiang-revolt",
-    "title": "大同姜瓖反正",
-    "date": "1649-01",
-    "datePrecision": "month",
-    "lon": 113.3,
-    "lat": 40.08,
-    "location": "大同",
-    "modernLocation": "山西大同市",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "defection",
-    "importance": 2,
-    "summary": "清大同总兵姜瓖据城反正,山西州县纷起响应,多尔衮亲征方得压服,北方最后一波大规模反清运动。",
-    "people": [],
-    "sources": ["顾诚《南明史》", "《清史稿·世祖本纪》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1649-nanchang-fall",
-    "title": "南昌陷落,金声桓败亡",
-    "date": "1649-01",
-    "datePrecision": "month",
-    "lon": 115.89,
-    "lat": 28.68,
-    "location": "南昌",
-    "modernLocation": "江西南昌市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 3,
-    "summary": "谭泰部久围南昌,城中粮尽,城破,金声桓投水死,王得仁巷战被杀,江西反正失败。",
-    "people": ["金声桓"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1649-xiangtan-fall",
-    "title": "湘潭失陷,何腾蛟殉国",
-    "date": "1649-02",
-    "datePrecision": "month",
-    "lon": 112.95,
-    "lat": 27.83,
-    "location": "湘潭",
-    "modernLocation": "湖南湘潭市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 2,
-    "summary": "清军乘虚袭破湘潭,督师何腾蛟被执,不屈死之;湖广经营五年之局一朝倾覆。",
-    "people": ["何腾蛟"],
-    "sources": ["顾诚《南明史》", "《明史·何腾蛟传》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1649-xinfeng",
-    "title": "信丰之败,李成栋战死",
-    "date": "1649-03",
-    "datePrecision": "month",
-    "lon": 114.93,
-    "lat": 25.39,
-    "location": "信丰",
-    "modernLocation": "江西赣州信丰县",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "battle",
-    "importance": 2,
-    "summary": "李成栋提粤军千里援江西,兵溃信丰,坠马溺水死之,广东门户旋失,反正诸局次第瓦解。",
-    "people": ["李成栋"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1650-zheng-takes-xiamen",
-    "title": "郑成功袭取厦门",
-    "date": "1650-09",
-    "datePrecision": "month",
-    "lon": 118.07,
-    "lat": 24.45,
-    "location": "厦门",
-    "modernLocation": "福建厦门市",
-    "regime": "zheng",
-    "sides": ["zheng"],
-    "category": "military",
-    "type": "occupation",
-    "importance": 2,
-    "summary": "郑成功计杀郑联并其军,兼并厦门,金厦自此成为郑氏抗清基地与东西洋贸易中枢。",
-    "people": ["郑成功"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "approx"
-  },
-  {
-    "id": "ev-1650-guangzhou-massacre",
-    "title": "广州庚寅之劫",
-    "date": "1650-11-24",
-    "datePrecision": "day",
-    "lon": 113.26,
-    "lat": 23.13,
-    "location": "广州",
-    "modernLocation": "广东广州市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 3,
-    "summary": "尚可喜、耿继茂围城十月而破之,纵兵屠戮,是为庚寅之劫;永历朝廷已西奔南宁。",
-    "people": ["尚可喜"],
-    "sources": ["顾诚《南明史》", "《广州城坊志》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1650-guilin-fall",
-    "title": "桂林陷落,瞿式耜殉国",
-    "date": "1650-11-28",
-    "datePrecision": "day",
-    "lon": 110.29,
-    "lat": 25.27,
-    "location": "桂林",
-    "modernLocation": "广西桂林市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 3,
-    "summary": "孔有德部破桂林,留守瞿式耜、张同敞端坐府中被执,翌年正月从容就义;永历朝廷再西迁。",
-    "people": ["瞿式耜", "孔有德"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1651-zhoushan-fall",
-    "title": "舟山失陷",
-    "date": "1651-10",
-    "datePrecision": "month",
-    "lon": 122.11,
-    "lat": 30.03,
-    "location": "舟山",
-    "modernLocation": "浙江舟山市定海区",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "city-fall",
-    "importance": 2,
-    "summary": "清军三路攻舟山,鲁监国行在失守,张名振扈鲁王南航依郑成功,张煌言同行,海上抗清重心移于金厦。",
-    "people": ["张名振", "张煌言", "朱以海"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1652-yongli-anlong",
-    "title": "永历移跸安龙",
-    "date": "1652-02",
-    "datePrecision": "month",
-    "lon": 105.47,
-    "lat": 25.09,
-    "location": "安龙",
-    "modernLocation": "贵州黔西南安龙县",
-    "regime": "nanming",
-    "sides": ["nanming"],
-    "category": "political",
-    "type": "court",
-    "importance": 2,
-    "summary": "孙可望遣兵迎驾自广西移跸安龙所,改安龙府;天子寄于藩臣篱下,可望专擅日甚,明廷名存实悬。",
-    "people": ["朱由榔", "孙可望"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1652-guilin-kongyoude",
-    "title": "桂林之战,孔有德自焚",
-    "date": "1652-08-07",
-    "datePrecision": "day",
-    "lon": 110.29,
-    "lat": 25.27,
-    "location": "桂林",
-    "modernLocation": "广西桂林市",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "battle",
-    "importance": 3,
-    "summary": "李定国出师八桂,连复宝庆、全州,攻破桂林,清定南王孔有德举室自焚——出滇以来第一声惊雷。",
-    "people": ["李定国", "孔有德"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1652-hengyang-nikan",
-    "title": "衡阳之战,阵斩尼堪",
-    "date": "1652-11-23",
-    "datePrecision": "day",
-    "lon": 112.57,
-    "lat": 26.89,
-    "location": "衡阳",
-    "modernLocation": "湖南衡阳市",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "battle",
-    "importance": 3,
-    "summary": "李定国设伏诱敌,清敬谨亲王尼堪轻进战殁于阵,七旬之内“两蹶名王,天下震动”,抗清声势臻于极盛。",
-    "people": ["李定国", "尼堪"],
-    "sources": ["顾诚《南明史》", "《清史稿·尼堪传》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1652-baoning",
-    "title": "保宁之败",
-    "date": "1652",
-    "datePrecision": "year",
-    "lon": 105.97,
-    "lat": 31.56,
-    "location": "保宁",
-    "modernLocation": "四川南充阆中市",
-    "regime": "qing",
-    "sides": ["qing", "daxi"],
-    "category": "military",
-    "type": "battle",
-    "importance": 1,
-    "summary": "刘文秀率军大举攻川,围保宁不克,为吴三桂、李国翰所败,蜀中得而复失,大西东进之势受挫。",
-    "people": ["刘文秀"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "approx"
-  },
-  {
-    "id": "ev-1654-zhang-mingzhen-yangtze",
-    "title": "张名振三入长江",
-    "date": "1654-01",
-    "datePrecision": "month",
-    "lon": 118.85,
-    "lat": 32.16,
-    "location": "燕子矶",
-    "modernLocation": "江苏南京市栖霞区",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "raid",
-    "importance": 2,
-    "summary": "张名振、张煌言率楼船三入长江,泊金山、抵燕子矶,遥祭明孝陵,江南震动,海上之师直抵腹心。",
-    "people": ["张名振", "张煌言"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "approx"
-  },
-  {
-    "id": "ev-1654-xinhui-siege",
-    "title": "新会之战",
-    "date": "1654-06",
-    "datePrecision": "month",
-    "endDate": "1654-12",
-    "lon": 113.03,
-    "lat": 22.52,
-    "location": "新会",
-    "modernLocation": "广东江门新会区",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "siege",
-    "importance": 3,
-    "summary": "李定国自桂攻粤,围新会半年,约郑成功会师西上;郑军逗留失期,清援至而定国大溃,两广恢复之机遂失。",
-    "result": "南明最后一幕战略反攻流产,孙李嫌隙亦自此加深",
-    "people": ["李定国", "郑成功"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1657-jiaoshui",
-    "title": "交水之变,孙可望降清",
-    "date": "1657-09",
-    "datePrecision": "month",
-    "lon": 103.82,
-    "lat": 25.61,
-    "location": "交水",
-    "modernLocation": "云南曲靖市沾益区",
-    "regime": "nanming",
-    "sides": ["nanming"],
-    "category": "military",
-    "type": "mutiny",
-    "importance": 3,
-    "summary": "孙可望称兵十四万攻李定国,白文选等阵前倒戈,大败奔湖南降清,尽献西南虚实兵要,大局自此难支。",
-    "people": ["孙可望", "李定国"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1658-guiyang-converge",
-    "title": "清军三路会师贵阳",
-    "date": "1658-12",
-    "datePrecision": "month",
-    "lon": 106.63,
-    "lat": 26.65,
-    "location": "贵阳",
-    "modernLocation": "贵州贵阳市",
-    "regime": "qing",
-    "sides": ["qing"],
-    "category": "military",
-    "type": "campaign",
-    "importance": 3,
-    "summary": "吴三桂、卓布泰、洛托三路大举入黔会师,孙可望旧部望风归附,西南门户洞开,会师昆明只在旦夕。",
-    "people": ["吴三桂"],
-    "sources": ["顾诚《南明史》", "《清史稿·吴三桂传》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1659-kunming-fall",
-    "title": "昆明失守,永历西奔",
-    "date": "1659-01",
-    "datePrecision": "month",
-    "lon": 102.83,
-    "lat": 24.88,
-    "location": "昆明",
-    "modernLocation": "云南昆明市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "political",
-    "type": "city-fall",
-    "importance": 3,
-    "summary": "三路清军入滇,永历朝廷弃昆明西狩永昌,李定国断后,清军蹑踪穷追至怒江之滨。",
-    "people": ["朱由榔", "吴三桂", "李定国"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1659-mopanshan",
-    "title": "磨盘山血战",
-    "date": "1659-02",
-    "datePrecision": "month",
-    "lon": 98.69,
-    "lat": 24.59,
-    "location": "磨盘山",
-    "modernLocation": "云南保山龙陵县、腾冲市之间",
-    "regime": "nanming",
-    "sides": ["nanming", "qing"],
-    "category": "military",
-    "type": "ambush",
-    "importance": 3,
-    "summary": "李定国据险设三伏,谋歼吴三桂追军;以事泄转为血战,清固山额真以下死者甚众,而明军精锐亦尽,永历遂入缅。",
-    "coordNote": "古战场位于高黎贡山南段,坐标为约位",
-    "people": ["李定国", "吴三桂"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1659-zheng-yangtze",
-    "title": "郑成功入江,克瓜洲、镇江",
-    "date": "1659-07",
-    "datePrecision": "month",
-    "lon": 119.42,
-    "lat": 32.2,
-    "location": "瓜洲、镇江",
-    "modernLocation": "江苏扬州、镇江市",
-    "regime": "zheng",
-    "sides": ["zheng", "qing"],
-    "category": "military",
-    "type": "campaign",
-    "importance": 3,
-    "summary": "郑成功率水陆十七万大举入江,焚断滚江龙锁链,连克瓜洲、镇江,扼江南咽喉;张煌言先驱收复芜湖诸府县。",
-    "people": ["郑成功", "张煌言"],
-    "sources": ["顾诚《南明史》", "《海上见闻录》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1659-nanjing-siege-fail",
-    "title": "南京城下之败",
-    "date": "1659-09",
-    "datePrecision": "month",
-    "lon": 118.8,
-    "lat": 32.06,
-    "location": "南京",
-    "modernLocation": "江苏南京市",
-    "regime": "qing",
-    "sides": ["qing", "zheng"],
-    "category": "military",
-    "type": "battle",
-    "importance": 3,
-    "summary": "郑军顿兵坚城之下,中清军缓兵之计,梁化凤出击大破之,甘辉等死之;北伐功败垂成,退出长江,张煌言间道亡归。",
-    "result": "郑成功转向台湾,长江恢复之机遂绝",
-    "people": ["郑成功", "张煌言"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1660-xiamen-naval-victory",
-    "title": "清军攻厦门之败",
-    "date": "1660-05",
-    "datePrecision": "month",
-    "lon": 118.07,
-    "lat": 24.45,
-    "location": "厦门海面",
-    "modernLocation": "福建厦门市",
-    "regime": "zheng",
-    "sides": ["zheng", "qing"],
-    "category": "military",
-    "type": "battle",
-    "importance": 2,
-    "summary": "清将达素会闽粤水师大举攻金厦,郑成功纵兵大破之于海上,清军覆没,金厦转危为安,郑氏乃决意东取台湾。",
-    "people": ["郑成功"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "approx"
-  },
-  {
-    "id": "ev-1661-taiwan-campaign",
-    "title": "郑成功收复台湾",
-    "date": "1661-04-30",
-    "datePrecision": "day",
-    "endDate": "1662-02-01",
-    "lon": 120.16,
-    "lat": 23.0,
-    "location": "鹿耳门—热兰遮城",
-    "modernLocation": "台湾台南市",
-    "regime": "zheng",
-    "sides": ["zheng"],
-    "category": "military",
-    "type": "campaign",
-    "importance": 3,
-    "summary": "郑成功率军渡海,四月初一于鹿耳门乘潮登陆,围荷兰人热兰遮城九月,总督揆一出降;郑氏自此经营台湾,设承天府。",
-    "people": ["郑成功"],
-    "sources": ["顾诚《南明史》", "《巴达维亚城日记》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1661-zhoushui-massacre",
-    "title": "咒水之难",
-    "date": "1661-07-19",
-    "datePrecision": "day",
-    "lon": 96.08,
-    "lat": 21.98,
-    "location": "者梗",
-    "modernLocation": "缅甸曼德勒近郊",
-    "regime": "nanming",
-    "sides": ["nanming"],
-    "category": "political",
-    "type": "massacre",
-    "importance": 2,
-    "summary": "缅甸新王莽白以咒水盟誓为名,尽杀沐天波等扈从重臣四十二人,永历朝廷自是孤悬异邦。",
-    "coordNote": "永历驻跸地“者梗”约为今曼德勒近郊",
-    "people": ["朱由榔"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1662-yongli-captured",
-    "title": "吴三桂入缅,永历被执",
-    "date": "1662-01-22",
-    "datePrecision": "day",
-    "lon": 95.97,
-    "lat": 21.87,
-    "location": "旧晚坡",
-    "modernLocation": "缅甸阿瓦(Ava)附近",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "political",
-    "type": "capture",
-    "importance": 2,
-    "summary": "吴三桂提兵直入缅境,缅王莽白执永历帝献于军前,李定国出师截救不及。",
-    "coordNote": "坐标为缅甸旧都阿瓦约位",
-    "people": ["朱由榔", "吴三桂"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1662-yongli-execution",
-    "title": "永历帝殉国昆明",
+ {
+  "id": "ev-1581-yitiaobian",
+  "title": "一条鞭法推行全国",
+  "date": "1581",
+  "datePrecision": "year",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京",
+  "modernLocation": "北京市",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "economy",
+  "type": "policy",
+  "importance": 2,
+  "summary": "张居正将赋役合并、计亩征银的一条鞭法推行于全国,赋役货币化,晚明财政与社会由此定型。",
+  "result": "白银财政确立,亦埋下明末加派与银贵谷贱的祸根",
+  "people": [
+   "张居正"
+  ],
+  "sources": [
+   "《明史·食货志》"
+  ],
+  "confidence": "high",
+  "year": 1581,
+  "endYear": 1581
+ },
+ {
+  "id": "ev-1582-zhangjuzheng-death",
+  "title": "张居正去世",
+  "date": "1582-07-09",
+  "datePrecision": "day",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京",
+  "modernLocation": "北京市",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "political",
+  "type": "death",
+  "importance": 2,
+  "summary": "万历首辅张居正病逝,万历帝亲政后清算其党,考成、清丈等人亡政息,明廷从此失去强有力的中枢。",
+  "people": [
+   "张居正",
+   "万历帝"
+  ],
+  "sources": [
+   "《明史·张居正传》"
+  ],
+  "confidence": "high",
+  "year": 1582,
+  "endYear": 1582
+ },
+ {
+  "id": "ev-1592-ningxia",
+  "title": "宁夏之役(哱拜之乱)",
+  "date": "1592-03",
+  "datePrecision": "month",
+  "endDate": "1592-10",
+  "lon": 106.27,
+  "lat": 38.47,
+  "location": "宁夏镇",
+  "modernLocation": "宁夏银川市",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "military",
+  "type": "rebellion",
+  "importance": 2,
+  "summary": "致仕副总兵哱拜勾结河套部据宁夏镇叛,明军决黄河水灌城,历时半年平定,万历三大征之首。",
+  "people": [
+   "李如松"
+  ],
+  "sources": [
+   "《明史》"
+  ],
+  "confidence": "high",
+  "year": 1592,
+  "endYear": 1592
+ },
+ {
+  "id": "ev-1592-korean-campaign",
+  "title": "万历朝鲜之役(抗倭援朝)",
+  "date": "1592-04",
+  "datePrecision": "month",
+  "endDate": "1598-11",
+  "lon": 125.75,
+  "lat": 39.03,
+  "location": "平壤",
+  "modernLocation": "朝鲜平壤",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "foreign",
+  "type": "campaign",
+  "importance": 3,
+  "summary": "丰臣秀吉侵朝,明军两度大举入援,与朝鲜联军力战七年,终于露梁海战逐敌,朝鲜得以保全。",
+  "result": "明耗巨饷,辽东兵力空虚,为努尔哈赤坐大之机",
+  "people": [
+   "李如松",
+   "万历帝"
+  ],
+  "sources": [
+   "《明史·李如松传》"
+  ],
+  "confidence": "high",
+  "year": 1592,
+  "endYear": 1598
+ },
+ {
+  "id": "ev-1599-bozhou",
+  "title": "播州之役",
+  "date": "1599-05",
+  "datePrecision": "month",
+  "endDate": "1600-06",
+  "lon": 106.93,
+  "lat": 27.73,
+  "location": "播州",
+  "modernLocation": "贵州遵义市",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "military",
+  "type": "campaign",
+  "importance": 2,
+  "summary": "播州宣慰使杨应龙叛,明发八路大军二十余万会剿,破海龙屯,杨氏七百年世袭之地改土归流。",
+  "people": [],
+  "sources": [
+   "《明史》"
+  ],
+  "confidence": "medium",
+  "year": 1599,
+  "endYear": 1600
+ },
+ {
+  "id": "ev-1602-kunyu-world-map",
+  "title": "《坤舆万国全图》刊行",
+  "date": "1602",
+  "datePrecision": "year",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京",
+  "modernLocation": "北京市",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "culture",
+  "type": "publication",
+  "importance": 1,
+  "summary": "利玛窦与李之藻在北京刊刻中文世界地图,五大洲之说始入中土,西学东渐之标志。",
+  "people": [
+   "利玛窦"
+  ],
+  "sources": [
+   "利玛窦《中国札记》"
+  ],
+  "confidence": "high",
+  "year": 1602,
+  "endYear": 1602
+ },
+ {
+  "id": "ev-1604-donglin-academy",
+  "title": "东林书院重建",
+  "date": "1604",
+  "datePrecision": "year",
+  "lon": 120.31,
+  "lat": 31.57,
+  "location": "无锡东林书院",
+  "modernLocation": "江苏无锡市",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "political",
+  "type": "policy",
+  "importance": 2,
+  "summary": "革职后的顾宪成与高攀龙等重修东林书院讲学议政,士议聚而成党,晚明党争之源。",
+  "people": [
+   "顾宪成"
+  ],
+  "sources": [
+   "《明史·顾宪成传》"
+  ],
+  "confidence": "high",
+  "year": 1604,
+  "endYear": 1604
+ },
+ {
+  "id": "ev-1615-staff-case",
+  "title": "梃击案",
+  "date": "1615-05-30",
+  "datePrecision": "day",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京",
+  "modernLocation": "北京市",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "political",
+  "type": "court-case",
+  "importance": 1,
+  "summary": "男子张差持梃闯入太子朱常洛居所,朝臣各以党见曲为之说,晚明三大案之始。",
+  "people": [],
+  "sources": [
+   "《明史》"
+  ],
+  "confidence": "medium",
+  "year": 1615,
+  "endYear": 1615
+ },
+ {
+  "id": "ev-1616-later-jin-founded",
+  "title": "后金建国",
+  "date": "1616",
+  "datePrecision": "year",
+  "lon": 125,
+  "lat": 41.72,
+  "location": "赫图阿拉",
+  "modernLocation": "辽宁抚顺新宾满族自治县",
+  "regime": "qing",
+  "sides": [
+   "qing"
+  ],
+  "category": "political",
+  "type": "regime-founded",
+  "importance": 3,
+  "summary": "努尔哈赤统一女真诸部后称汗,建元天命,国号大金(史称后金),与明分庭抗礼。",
+  "people": [
+   "努尔哈赤"
+  ],
+  "sources": [
+   "《清太祖实录》",
+   "《洪业》第一章:\"于是,努尔哈赤于1616年宣布建立后金王朝,向着征服天下迈出了重要的一步\""
+  ],
+  "confidence": "high",
+  "year": 1616,
+  "endYear": 1616
+ },
+ {
+  "id": "ev-1618-fushun",
+  "title": "七大恨誓师,袭破抚顺",
+  "date": "1618-04",
+  "datePrecision": "month",
+  "lon": 123.96,
+  "lat": 41.88,
+  "location": "抚顺城",
+  "modernLocation": "辽宁抚顺市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "ming"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 3,
+  "summary": "努尔哈赤以“七大恨”告天誓师,轻袭抚顺,明辽东首次丧失城堡,明清(后金)战争自此启端。",
+  "people": [
+   "努尔哈赤"
+  ],
+  "sources": [
+   "《满文老档》",
+   "《清太祖实录》",
+   "《洪业》第一章:\"金兵只发动了一次进攻,李永芳便率所属千余户出降了,其中包括秀才范文程等一批辽东士大夫\""
+  ],
+  "confidence": "high",
+  "year": 1618,
+  "endYear": 1618
+ },
+ {
+  "id": "ev-1619-sarhu",
+  "title": "萨尔浒之战",
+  "date": "1619-04-14",
+  "datePrecision": "day",
+  "endDate": "1619-04-17",
+  "lon": 124.1,
+  "lat": 41.8,
+  "location": "萨尔浒",
+  "modernLocation": "辽宁抚顺大伙房水库一带",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "ming"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 3,
+  "summary": "明四路大军十余万分进合击赫图阿拉,后金“凭尔几路来,我只一路去”,五日之内连破三路,杜松、刘綎战殁。",
+  "result": "辽东攻守易势,明由攻转守",
+  "people": [
+   "努尔哈赤"
+  ],
+  "sources": [
+   "《满文老档》",
+   "《明史》",
+   "《洪业》第一章:\"4月14日,杜松部提前一天抵达赫图阿拉,在萨尔浒一带被金军歼灭\""
+  ],
+  "confidence": "medium",
+  "coordNote": "战场约位于今大伙房水库淹没区,坐标为约位",
+  "year": 1619,
+  "endYear": 1619
+ },
+ {
+  "id": "ev-1621-shenyang-liangyang",
+  "title": "沈阳、辽阳失陷",
+  "date": "1621-05",
+  "datePrecision": "month",
+  "endDate": "1621-07",
+  "lon": 123.43,
+  "lat": 41.8,
+  "location": "沈阳、辽阳",
+  "modernLocation": "辽宁沈阳市、辽阳市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "ming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 3,
+  "summary": "后金连克沈阳、辽阳两大重镇,辽东经略袁应泰自焚死,辽东腹心尽失,明军退保辽西走廊。",
+  "people": [
+   "努尔哈赤"
+  ],
+  "sources": [
+   "《清太祖实录》",
+   "《明史》",
+   "《洪业》第一章:\"两天后,辽阳便陷落了。袁应泰全身披挂,自杀而死\""
+  ],
+  "confidence": "medium",
+  "year": 1621,
+  "endYear": 1621
+ },
+ {
+  "id": "ev-1622-guangning",
+  "title": "广宁之败",
+  "date": "1622-02-10",
+  "datePrecision": "day",
+  "lon": 121.79,
+  "lat": 41.59,
+  "location": "广宁",
+  "modernLocation": "辽宁锦州北镇市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "ming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 2,
+  "summary": "经抚不和、战守不定,西平堡败后巡抚王化贞弃广宁西奔,河西四十余城尽失,熊廷弼、王化贞并论死。",
+  "people": [
+   "熊廷弼"
+  ],
+  "sources": [
+   "《明史·熊廷弼传》",
+   "《洪业》第一章:\"努尔哈赤兵临广宁,孙得功立即献城投降;随后,鲍承先也投降了\""
+  ],
+  "confidence": "medium",
+  "year": 1622,
+  "endYear": 1622,
+  "endDate": "1622-03-11",
+  "dateFormat": "range",
+  "notes": [
+   "日期改区间格式: 洪业原文明示窗口1622-02-10~03-11(渡辽河至孙得功献城),城破具体日不可考,不猜测"
+  ]
+ },
+ {
+  "id": "ev-1624-wei-zhongxian",
+  "title": "魏忠贤专权",
+  "date": "1624",
+  "datePrecision": "year",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京",
+  "modernLocation": "北京市",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "political",
+  "type": "court",
+  "importance": 2,
+  "summary": "魏忠贤提督东厂,与客氏表里为奸,阉党炽盛,东林君子株连殆尽,天下争建生祠,号称九千岁。",
+  "people": [
+   "魏忠贤",
+   "天启帝"
+  ],
+  "sources": [
+   "《明史·宦官传》"
+  ],
+  "confidence": "high",
+  "year": 1624,
+  "endYear": 1624
+ },
+ {
+  "id": "ev-1626-ningyuan",
+  "title": "宁远之战",
+  "date": "1626-01",
+  "datePrecision": "month",
+  "lon": 120.69,
+  "lat": 40.62,
+  "location": "宁远城",
+  "modernLocation": "辽宁葫芦岛兴城市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "ming"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 3,
+  "summary": "努尔哈赤亲率大军西渡辽河攻宁远,袁崇焕偕满桂凭坚城大炮死守,后金攻城受挫而退,明对金首次大捷。",
+  "people": [
+   "袁崇焕",
+   "努尔哈赤"
+  ],
+  "sources": [
+   "《明史·袁崇焕传》",
+   "《清太祖实录》"
+  ],
+  "confidence": "medium",
+  "year": 1626,
+  "endYear": 1626
+ },
+ {
+  "id": "ev-1626-nurhaci-death",
+  "title": "努尔哈赤病逝",
+  "date": "1626-09-30",
+  "datePrecision": "day",
+  "lon": 123.43,
+  "lat": 41.8,
+  "location": "叆鸡堡",
+  "modernLocation": "辽宁沈阳近郊",
+  "regime": "qing",
+  "sides": [
+   "qing"
+  ],
+  "category": "political",
+  "type": "death",
+  "importance": 2,
+  "summary": "宁远败后八月,努尔哈赤疽发身死于叆鸡堡,四子皇太极继立,改元天聪。",
+  "people": [
+   "努尔哈赤",
+   "皇太极"
+  ],
+  "sources": [
+   "《清太宗实录》",
+   "《洪业》第一章:\"七个月后,即1626年9月30日,这位后金大汗伤重而死\"",
+   "《洪业》第三章:\"在其儿子的帮助下,代善提议由皇太极继承汗位,比皇太极年轻的宗族成员,都要向他宣誓效忠\""
+  ],
+  "confidence": "high",
+  "year": 1626,
+  "endYear": 1626
+ },
+ {
+  "id": "ev-1627-ningjin",
+  "title": "宁锦之战",
+  "date": "1627-05",
+  "datePrecision": "month",
+  "endDate": "1627-06",
+  "lon": 121.14,
+  "lat": 41.1,
+  "location": "锦州、宁远",
+  "modernLocation": "辽宁锦州市、兴城市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "ming"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 2,
+  "summary": "皇太极围锦州、攻宁远,赵率教、满桂力战,后金两月不下而退,史称“宁锦大捷”。",
+  "people": [
+   "皇太极"
+  ],
+  "sources": [
+   "《明史》",
+   "《清太宗实录》"
+  ],
+  "confidence": "high",
+  "year": 1627,
+  "endYear": 1627
+ },
+ {
+  "id": "ev-1627-chongzhen-accession",
+  "title": "崇祯帝即位",
+  "date": "1627-09-30",
+  "datePrecision": "day",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京",
+  "modernLocation": "北京市",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "political",
+  "type": "accession",
+  "importance": 2,
+  "summary": "天启帝崩,信王朱由检入继大统,旋定阉党逆案、魏忠贤自缢,朝政一新而积弊难返。",
+  "people": [
+   "崇祯帝"
+  ],
+  "sources": [
+   "《明史·庄烈帝本纪》"
+  ],
+  "confidence": "high",
+  "year": 1627,
+  "endYear": 1627
+ },
+ {
+  "id": "ev-1627-wang-er-uprising",
+  "title": "澄城民变,农民战争发端",
+  "date": "1627-11",
+  "datePrecision": "month",
+  "lon": 109.93,
+  "lat": 35.19,
+  "location": "澄城",
+  "modernLocation": "陕西渭南澄城县",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "military",
+  "type": "rebellion",
+  "importance": 2,
+  "summary": "陕西大饥,澄城人王二聚数百饥民杀知县起事,白水、宜川继之,明末农民战争由此发端,蔓延三十余年。",
+  "people": [],
+  "sources": [
+   "顾诚《明末农民战争史》"
+  ],
+  "confidence": "medium",
+  "year": 1627,
+  "endYear": 1627
+ },
+ {
+  "id": "ev-1629-jisi-crisis",
+  "title": "己巳之变",
+  "date": "1629-10",
+  "datePrecision": "month",
+  "endDate": "1630-04",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京及畿辅",
+  "modernLocation": "北京市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "ming"
+  ],
+  "category": "military",
+  "type": "invasion",
+  "importance": 3,
+  "summary": "皇太极亲率大军绕道蒙古破喜峰口入塞,连陷遵化、永平,兵临北京城下;袁崇焕千里入援反被逮,畿辅残破。",
+  "result": "袁崇焕下狱,关宁军狙击后金于广渠门外",
+  "people": [
+   "皇太极",
+   "袁崇焕",
+   "崇祯帝"
+  ],
+  "sources": [
+   "《清太宗实录》",
+   "《明史·袁崇焕传》",
+   "《洪业》第二章:\"1629年11月,皇太极出兵围攻宁远,并借道蒙古土默特和喀喇泌部,由喜峰口入关\""
+  ],
+  "confidence": "medium",
+  "year": 1629,
+  "endYear": 1630
+ },
+ {
+  "id": "ev-1630-yuanchonghuan-death",
+  "title": "袁崇焕被杀",
+  "date": "1630-09-22",
+  "datePrecision": "day",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京西市",
+  "modernLocation": "北京市",
+  "regime": "ming",
+  "sides": [
+   "ming"
+  ],
+  "category": "political",
+  "type": "death",
+  "importance": 2,
+  "summary": "崇祯以通敌之罪磔袁崇焕于市,“自崇焕死,边事益无人,明亡征决矣”。",
+  "people": [
+   "袁崇焕",
+   "崇祯帝"
+  ],
+  "sources": [
+   "《明史·袁崇焕传》",
+   "《洪业》第二章:\"袁崇焕被磔于市,家人也遭受到了株连,或被杀,或没为奴婢,或充军流放\""
+  ],
+  "confidence": "medium",
+  "year": 1630,
+  "endYear": 1630
+ },
+ {
+  "id": "ev-1631-wuqiao-mutiny",
+  "title": "吴桥兵变,登州失陷",
+  "date": "1631-08",
+  "datePrecision": "month",
+  "endDate": "1633-05",
+  "lon": 120.76,
+  "lat": 37.81,
+  "location": "吴桥—登州",
+  "modernLocation": "河北吴桥县至山东蓬莱区",
+  "regime": "qing",
+  "sides": [
+   "ming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "mutiny",
+  "importance": 2,
+  "summary": "孔有德在吴桥举兵,翌年陷登州,据城岁余,终挟红夷大炮、战船与工匠渡海降金,后金自此有攻城重炮之资。",
+  "people": [
+   "孔有德"
+  ],
+  "sources": [
+   "《清太宗实录》",
+   "《明史》"
+  ],
+  "confidence": "medium",
+  "year": 1631,
+  "endYear": 1633
+ },
+ {
+  "id": "ev-1635-manchu-name",
+  "title": "定族名“满洲”",
+  "date": "1635",
+  "datePrecision": "year",
+  "lon": 123.43,
+  "lat": 41.8,
+  "location": "沈阳",
+  "modernLocation": "辽宁沈阳市",
+  "regime": "qing",
+  "sides": [
+   "qing"
+  ],
+  "category": "political",
+  "type": "policy",
+  "importance": 1,
+  "summary": "皇太极申禁“珠申”旧称,正式定族名为满洲,并获元朝“传国玉玺”,称帝舆论渐成。",
+  "people": [
+   "皇太极"
+  ],
+  "sources": [
+   "《清太宗实录》"
+  ],
+  "confidence": "high",
+  "year": 1635,
+  "endYear": 1635
+ },
+ {
+  "id": "ev-1636-qing-founded",
+  "title": "皇太极称帝,改国号大清",
+  "date": "1636-05-15",
+  "datePrecision": "day",
+  "lon": 123.43,
+  "lat": 41.8,
+  "location": "沈阳",
+  "modernLocation": "辽宁沈阳市",
+  "regime": "qing",
+  "sides": [
+   "qing"
+  ],
+  "category": "political",
+  "type": "regime-founded",
+  "importance": 3,
+  "summary": "皇太极受“宽温仁圣皇帝”尊号,改元崇德,国号大清,旋封孔有德、耿仲明、尚可喜三顺王。",
+  "people": [
+   "皇太极"
+  ],
+  "sources": [
+   "《清太宗实录》",
+   "《洪业》第三章:\"他将女真改称'满洲'之后,又于1636年5月14日改国号为'清'\""
+  ],
+  "confidence": "medium",
+  "year": 1636,
+  "endYear": 1636
+ },
+ {
+  "id": "ev-1636-bingzi-korea",
+  "title": "丙子之役,朝鲜降清",
+  "date": "1636-12",
+  "datePrecision": "month",
+  "endDate": "1637-01",
+  "lon": 127.17,
+  "lat": 37.37,
+  "location": "南汉山城",
+  "modernLocation": "韩国京畿道广州市",
+  "regime": "qing",
+  "sides": [
+   "qing"
+  ],
+  "category": "foreign",
+  "type": "campaign",
+  "importance": 2,
+  "summary": "皇太极亲征朝鲜,围国王于南汉山城,破江华岛,朝鲜断绝与明宗藩关系,改行永历、崇德并纪年。",
+  "people": [
+   "皇太极"
+  ],
+  "sources": [
+   "《清太宗实录》",
+   "朝鲜《仁祖实录》",
+   "《洪业》第三章:\"出兵朝鲜,不到两个月便征服了朝鲜国王\""
+  ],
+  "confidence": "high",
+  "year": 1636,
+  "endYear": 1637
+ },
+ {
+  "id": "ev-1638-wuyin-invasion",
+  "title": "戊寅入塞,卢象升殉国",
+  "date": "1638-09",
+  "datePrecision": "month",
+  "endDate": "1639-01-12",
+  "lon": 115.04,
+  "lat": 37.22,
+  "location": "巨鹿贾庄",
+  "modernLocation": "河北邢台巨鹿县",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "ming"
+  ],
+  "category": "military",
+  "type": "invasion",
+  "importance": 2,
+  "summary": "清军两翼入塞,蹂躏畿辅、山东七十余城;总督卢象升名为督师而兵不及万,孤军血战殁于巨鹿贾庄。",
+  "people": [
+   "卢象升"
+  ],
+  "sources": [
+   "《明史·卢象升传》"
+  ],
+  "confidence": "medium",
+  "year": 1638,
+  "endYear": 1639
+ },
+ {
+  "id": "ev-1639-gucheng-revolt",
+  "title": "张献忠谷城复叛",
+  "date": "1639-05",
+  "datePrecision": "month",
+  "lon": 111.65,
+  "lat": 32.26,
+  "location": "谷城",
+  "modernLocation": "湖北襄阳谷城县",
+  "regime": "daxi",
+  "sides": [
+   "ming"
+  ],
+  "category": "military",
+  "type": "rebellion",
+  "importance": 2,
+  "summary": "受抚一年余的张献忠在谷城再举反旗,焚官舍、毁印信,罗汝才等十三家闻风继起,中原烽火复燃。",
+  "people": [
+   "张献忠"
+  ],
+  "sources": [
+   "顾诚《明末农民战争史》"
+  ],
+  "confidence": "medium",
+  "year": 1639,
+  "endYear": 1639
+ },
+ {
+  "id": "ev-1641-luoyang",
+  "title": "洛阳之陷,福王被杀",
+  "date": "1641-01",
+  "datePrecision": "month",
+  "lon": 112.45,
+  "lat": 34.62,
+  "location": "洛阳",
+  "modernLocation": "河南洛阳市",
+  "regime": "dashun",
+  "sides": [
+   "ming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 3,
+  "summary": "李自成轻兵袭破洛阳,杀福王朱常洵,发王府金银赈饥,“迎闯王,不纳粮”之谣自此大盛。",
+  "people": [
+   "李自成"
+  ],
+  "sources": [
+   "顾诚《明末农民战争史》",
+   "《明史》"
+  ],
+  "confidence": "medium",
+  "year": 1641,
+  "endYear": 1641
+ },
+ {
+  "id": "ev-1641-xiangyang",
+  "title": "襄阳之陷",
+  "date": "1641-02",
+  "datePrecision": "month",
+  "lon": 112.12,
+  "lat": 32.01,
+  "location": "襄阳",
+  "modernLocation": "湖北襄阳市",
+  "regime": "daxi",
+  "sides": [
+   "ming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 2,
+  "summary": "张献忠以声东击西奇袭襄阳,杀襄王;督师杨嗣昌忧惧而死,明剿抚之局尽坏。",
+  "people": [
+   "张献忠",
+   "杨嗣昌"
+  ],
+  "sources": [
+   "顾诚《明末农民战争史》",
+   "《洪业》第四章:\"到1641年3月,张献忠在襄阳、李自成在洛阳大败杨嗣昌所率明军,从而恢复了义军的力量\""
+  ],
+  "confidence": "medium",
+  "year": 1641,
+  "endYear": 1641
+ },
+ {
+  "id": "ev-1640-1642-songjin",
+  "title": "松锦之战",
+  "date": "1641-08",
+  "datePrecision": "month",
+  "endDate": "1642-04",
+  "lon": 121.14,
+  "lat": 41.1,
+  "location": "锦州、松山",
+  "modernLocation": "辽宁锦州市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "ming"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 3,
+  "summary": "明清战略决战:洪承畴率十三万大军援锦,粮道被断,松山城破被俘,锦州祖大寿出降,洪承畴降清,关外仅余宁远孤城。",
+  "result": "明九边精锐尽丧,入关门户洞开",
+  "people": [
+   "洪承畴",
+   "皇太极"
+  ],
+  "sources": [
+   "《清太宗实录》",
+   "《明史》"
+  ],
+  "confidence": "medium",
+  "year": 1641,
+  "endYear": 1642
+ },
+ {
+  "id": "ev-1642-kaifeng",
+  "title": "开封之陷",
+  "date": "1642-09",
+  "datePrecision": "month",
+  "lon": 114.3,
+  "lat": 34.8,
+  "location": "开封",
+  "modernLocation": "河南开封市",
+  "regime": "dashun",
+  "sides": [
+   "ming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 2,
+  "summary": "李自成三攻开封,围城半载,双方决黄河堤互灌,全城尽没于水,数十万生灵涂炭,中原腹心残破。",
+  "people": [
+   "李自成"
+  ],
+  "sources": [
+   "顾诚《明末农民战争史》"
+  ],
+  "confidence": "medium",
+  "year": 1642,
+  "endYear": 1642
+ },
+ {
+  "id": "ev-1643-wuchang-fall",
+  "title": "张献忠破武昌",
+  "date": "1643-06",
+  "datePrecision": "month",
+  "lon": 114.31,
+  "lat": 30.55,
+  "location": "武昌",
+  "modernLocation": "湖北武汉市武昌区",
+  "regime": "daxi",
+  "sides": [
+   "ming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 2,
+  "summary": "张献忠陷武昌,沉楚王于江,自称“大西王”,建号天授,旋弃武昌下湖湘。",
+  "people": [
+   "张献忠"
+  ],
+  "sources": [
+   "顾诚《明末农民战争史》"
+  ],
+  "confidence": "medium",
+  "year": 1643,
+  "endYear": 1643
+ },
+ {
+  "id": "ev-1643-ruzhou-tongguan",
+  "title": "汝州之败,潼关失陷",
+  "date": "1643-09",
+  "datePrecision": "month",
+  "endDate": "1643-10",
+  "lon": 110.25,
+  "lat": 34.55,
+  "location": "潼关",
+  "modernLocation": "陕西渭南潼关县",
+  "regime": "dashun",
+  "sides": [
+   "dashun",
+   "ming"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 3,
+  "summary": "孙传庭出关中伏,汝州大溃,退保潼关复破,传庭战殁,“传庭死而明亡矣”,关中门户洞开。",
+  "people": [
+   "孙传庭",
+   "李自成"
+  ],
+  "sources": [
+   "《明史·孙传庭传》",
+   "顾诚《明末农民战争史》"
+  ],
+  "confidence": "medium",
+  "year": 1643,
+  "endYear": 1643
+ },
+ {
+  "id": "ev-1643-xian-fall",
+  "title": "西安失陷",
+  "date": "1643-11",
+  "datePrecision": "month",
+  "lon": 108.94,
+  "lat": 34.34,
+  "location": "西安",
+  "modernLocation": "陕西西安市",
+  "regime": "dashun",
+  "sides": [
+   "dashun",
+   "ming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 2,
+  "summary": "大顺军不战而下西安,据关中形胜,设官立制,东征北京只待一纸檄文。",
+  "people": [
+   "李自成"
+  ],
+  "sources": [
+   "顾诚《明末农民战争史》"
+  ],
+  "confidence": "medium",
+  "year": 1643,
+  "endYear": 1643
+ },
+ {
+  "id": "ev-1644-daxi-founded",
+  "title": "大西建国成都",
+  "date": "1644",
+  "datePrecision": "year",
+  "lon": 104.07,
+  "lat": 30.67,
+  "location": "成都",
+  "modernLocation": "四川成都市",
+  "regime": "daxi",
+  "sides": [
+   "daxi",
+   "ming"
+  ],
+  "category": "political",
+  "type": "regime-founded",
+  "importance": 3,
+  "summary": "张献忠秋克成都,岁末称帝,建国大西,改元大顺,据全蜀与清、大顺、南明四方并立。",
+  "people": [
+   "张献忠"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《明季南略》"
+  ],
+  "confidence": "high",
+  "year": 1644,
+  "endYear": 1644
+ },
+ {
+  "id": "ev-1644-dashun-founded",
+  "title": "大顺建国西安",
+  "date": "1644-02-08",
+  "datePrecision": "day",
+  "lon": 108.94,
+  "lat": 34.34,
+  "location": "西安",
+  "modernLocation": "陕西西安市",
+  "regime": "dashun",
+  "sides": [
+   "dashun",
+   "ming"
+  ],
+  "category": "political",
+  "type": "regime-founded",
+  "importance": 3,
+  "summary": "李自成以西安为西京,建国大顺,改元永昌,旋誓师东征,“嗟尔明朝,气数已尽”。",
+  "people": [
+   "李自成"
+  ],
+  "sources": [
+   "顾诚《明末农民战争史》",
+   "《明季北略》",
+   "《洪业》第四章:\"1644年春节(阳历二月八日),为预祝胜利,李自成确定国号为大顺,年号永昌\""
+  ],
+  "confidence": "high",
+  "year": 1644,
+  "endYear": 1644
+ },
+ {
+  "id": "ev-1644-beijing-fall",
+  "title": "北京陷落,崇祯殉国",
+  "date": "1644-04-25",
+  "datePrecision": "day",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京",
+  "modernLocation": "北京市",
+  "regime": "dashun",
+  "sides": [
+   "dashun",
+   "ming"
+  ],
+  "category": "political",
+  "type": "city-fall",
+  "importance": 3,
+  "summary": "三月十九日凌晨内城破,崇祯帝自缢于煤山寿皇亭,明亡;大顺军入城,京师易主。",
+  "people": [
+   "崇祯帝",
+   "李自成"
+  ],
+  "sources": [
+   "《明季北略》",
+   "顾诚《明末农民战争史》",
+   "《南明史》第一章第一节:\"甲申三月十九日,大顺军攻克北京,明朝崇祯皇帝朱由检自缢身死,当天大顺皇帝李自成进入北京,标志着明朝的覆亡。\"",
+   "《洪业》第四章:\"明朝封李自成为王,赐银100万两,承认陕西和山西为其封国;李自成则负责平定国内其他起义军,并为明朝抗击满清\"",
+   "《南明史》第一章第四节:\"李自成断然决定二十九日在北京举行即位典礼后,立即率部西撤。……同时下令放火焚毁明代宫殿和各门城楼\"",
+   "《洪业》第四章:\"6月3日,在大顺军已准备放弃京师之时,李自成举行了正式但又仓促的登基大典\"",
+   "《南明史》第一章第四节:\"他自己率领部分兵力于五月初二日由朝阳门进入北京\"",
+   "《洪业》第四章:\"在原明朝禁卫军的护卫下,多尔衮缓缓地登上了余烟未熄的武英殿,并打算在此小住\"",
+   "《洪业》第四章:\"4月21日,杜勋和唐通让义军通过了居庸关。眼下,大顺军已占领了紫禁城西北65公里处的昌平\"",
+   "《洪业》第四章:\"上怆惧还宫,易袍履与承恩走万寿山,至巾帽局,自缢。大明大行皇帝于崇祯十七年甲申三月十九日夜子时,龙驭上宾\"",
+   "《洪业》第四章:\"劝进先后共有七次:第一次是在4月29日,即李自成进京后的第四天,最后一次是在5月16日\"",
+   "《洪业》第四章:\"大将军刘宗敏得到'罪者杀之,贪鄙复赃者刑之'的命令后,便开始了恐怖行为,1000多名士大夫遭拷打后被杀死\""
+  ],
+  "confidence": "high",
+  "year": 1644,
+  "endYear": 1644
+ },
+ {
+  "id": "ev-1644-shanhai-pass",
+  "title": "山海关之战",
+  "date": "1644-05-27",
+  "datePrecision": "day",
+  "lon": 119.75,
+  "lat": 40,
+  "location": "山海关、一片石",
+  "modernLocation": "河北秦皇岛山海关区",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "dashun",
+   "ming"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 3,
+  "summary": "吴三桂降清开关,多尔衮率八旗猝发参战,李自成大败西还,清军自此入关,天下大势逆转。",
+  "result": "大顺军退出北京,清廷定鼎中原之路打开",
+  "people": [
+   "吴三桂",
+   "多尔衮",
+   "李自成"
+  ],
+  "sources": [
+   "《清史稿·世祖本纪》",
+   "顾诚《南明史》",
+   "《南明史》第一章第三节:\"四月二十一日上午辰时,山海关战役开始。……二十二日晨进至离关城仅二里的威远台观战……清军呼啸出击,万马奔腾,飞矢如蝗。大\""
+  ],
+  "confidence": "high",
+  "year": 1644,
+  "endYear": 1644
+ },
+ {
+  "id": "ev-1644-dashun-withdraw",
+  "title": "大顺军弃守北京",
+  "date": "1644-06-04",
+  "datePrecision": "day",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京",
+  "modernLocation": "北京市",
+  "regime": "dashun",
+  "sides": [
+   "dashun"
+  ],
+  "category": "military",
+  "type": "retreat",
+  "importance": 2,
+  "summary": "山海关败后,大顺军在北京仅驻四十一日,焚宫殿辎重西撤,清军随后入据。",
+  "people": [
+   "李自成"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第一章第四节:\"多尔衮不得不暂时收敛,五月二十四日谕兵部道:……自兹以后,天下臣民照旧束发,悉从其便\"",
+   "《洪业》第六章:\"自兹以后,天下臣民,照旧束发,悉从甚便\"",
+   "《洪业》第六章:\"多尔衮无疑在努力保护这位曾在家乡率兵自卫的河北重要乡绅的职务\""
+  ],
+  "confidence": "medium",
+  "year": 1644,
+  "endYear": 1644
+ },
+ {
+  "id": "ev-1644-qing-enters-beijing",
+  "title": "清军入据北京",
+  "date": "1644-06-06",
+  "datePrecision": "day",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京",
+  "modernLocation": "北京市",
+  "regime": "qing",
+  "sides": [
+   "qing"
+  ],
+  "category": "political",
+  "type": "occupation",
+  "importance": 3,
+  "summary": "多尔衮率军入朝阳门,居武英殿理政,为顺治帝定鼎燕京,发丧崇祯、免三饷以收拾人心。",
+  "people": [
+   "多尔衮"
+  ],
+  "sources": [
+   "《清史稿·多尔衮传》"
+  ],
+  "confidence": "medium",
+  "year": 1644,
+  "endYear": 1644
+ },
+ {
+  "id": "ev-1644-hongguang-founded",
+  "title": "弘光政权立于南京",
+  "date": "1644-06-19",
+  "datePrecision": "day",
+  "lon": 118.8,
+  "lat": 32.06,
+  "location": "南京",
+  "modernLocation": "江苏南京市",
+  "regime": "nanming",
+  "sides": [
+   "nanming"
+  ],
+  "category": "political",
+  "type": "regime-founded",
+  "importance": 3,
+  "summary": "五月初三福王朱由崧监国,十五日即皇帝位,改明年为弘光元年;以淮扬江北四镇设防,朝政旋为马士英、四镇所持。",
+  "people": [
+   "朱由崧",
+   "史可法",
+   "马士英"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《明季南略》",
+   "《南明史》第二章第三节:\"高杰恼羞成怒,于六月初七日下令攻城。扬州进士郑元勋从中调停……不料扬州百姓群情激愤,当场击杀郑元勋\"",
+   "《南明史》第二章第一节:\"四月初一日,以南京兵部尚书史可法领衔发布了号召天下臣民起义勤王捐赀急事的南都公檄\"",
+   "《南明史》第二章第一节:\"谁知第二天就传来了朱由检在三月十九日自尽于煤山的消息,这消息在四月十七日被从北京逃出来的原大学士魏炤乘证实\"",
+   "《南明史》第二章第二节:\"四月二十九日,福王朱由崧在史可法陪同下,乘舟抵达南京城外燕子矶,南京官绅均往朝见\"",
+   "《南明史》第二章第二节:\"初三日,朱由崧在南京就任监国,用黄金铸造监国宝,颁谕天下\"",
+   "《南明史》第二章第二节:\"史可法明知自己指斥福王的把柄落在马士英手里……因此,他自请督师淮扬。五月十二日朱由崧批准史可法出任督师\"",
+   "《南明史》第二章第二节:\"五月十五日,朱由崧正式即位为皇帝,改明年为弘光元年。第二天,马士英入阁主持政务兼任兵部尚书\"",
+   "《南明史》第二章第三节:\"五月十七日,黄得功进封为靖南侯、高杰为兴平伯、刘泽清为东平伯、刘良佐为广昌伯;世守武昌的左良玉……也进封为宁南侯\"",
+   "《南明史》第三章第一节:\"可以说联虏平寇(或称借虏平寇)是弘光朝廷的基本国策\"",
+   "《洪业》第五章:\"史可法虽一度遭到软禁,但最终还是设法说服了高杰\"",
+   "《洪业》第五章:\"两天后,福王在就任监国仅10天,并不顾原太子的下落尚未弄清,便登上了皇帝的龙椅,并宣布次年改元为弘光\"",
+   "《洪业》第五章:\"兵马钱粮皆听(四镇)自行征调。四藩即用得功、杰、泽清、良佐为我藩屏,固守江北,则江南之人情自安\"",
+   "《洪业》第五章:\"6月23日,他回绝了弘光帝请他出任左都御史的任命,返回了绍兴老家\"",
+   "《洪业》第五章:\"1644年7月13日,马士英上疏要求处死周钟\""
+  ],
+  "confidence": "high",
+  "year": 1644,
+  "endYear": 1644
+ },
+ {
+  "id": "ev-1645-suizhou-plot",
+  "title": "睢州之变,高杰遇害",
+  "date": "1645-01-07",
+  "datePrecision": "day",
+  "lon": 114.91,
+  "lat": 34.45,
+  "location": "睢州",
+  "modernLocation": "河南商丘睢县",
+  "regime": "nanming",
+  "sides": [
+   "nanming"
+  ],
+  "category": "military",
+  "type": "mutiny",
+  "importance": 2,
+  "summary": "兴平伯高杰北进河南,为睢州总兵许定国设宴诱杀,江北防线失去柱石,史可法河防之图自坏。",
+  "people": [
+   "高杰",
+   "史可法"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第五章第二节:\"1645年(弘光元年)正月初十日,高杰同河南巡抚越其杰、巡按陈潜夫带领军队来到睢州\"",
+   "《南明史》第五章第二节:\"半夜,伏兵猝发,把高杰和随行兵卒全部杀害……第二天,高杰部众得知主将遇害,愤恨不已,立即攻入睢州对军民大肆屠杀\"",
+   "《洪业》第七章:\"此时,这位明朝的将军已经投奔满军了\"",
+   "《洪业》第七章:\"当他们坐到宴会桌旁时,他和他的卫队突然遭到了许定国士兵的袭击,并被杀得一个不剩\""
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-zuo-campaign",
+  "title": "左良玉称兵东下",
+  "date": "1645-04",
+  "datePrecision": "month",
+  "lon": 114.31,
+  "lat": 30.55,
+  "location": "武昌",
+  "modernLocation": "湖北武汉市",
+  "regime": "nanming",
+  "sides": [
+   "nanming"
+  ],
+  "category": "military",
+  "type": "mutiny",
+  "importance": 2,
+  "summary": "左良玉假“太子密诏”举兵“清君侧”,顺江东下,弘光朝尽撤江北兵御之,江防空虚,清军乘之而南;良玉旋病死九江。",
+  "people": [
+   "左良玉"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第四章第三节:\"大顺军却从沔阳州的沙湖一带渡过长江,在荆河口击败左良玉部将马进忠、王允成部,一时武、岳大震\"",
+   "《洪业》第七章:\"促使左良玉在1645年4月19日开始率军沿江而下,直扑江南的那些富庶的城市\""
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-li-zicheng-death",
+  "title": "李自成遇害九宫山",
+  "date": "1645-05",
+  "datePrecision": "month",
+  "lon": 114.62,
+  "lat": 29.36,
+  "location": "九宫山",
+  "modernLocation": "湖北咸宁通山县",
+  "regime": "dashun",
+  "sides": [
+   "dashun"
+  ],
+  "category": "military",
+  "type": "death",
+  "importance": 3,
+  "summary": "大顺军自武昌东撤转南,李自成率轻骑探路,在通山九宫山下为乡勇所袭杀(死地死期旧说纷纭,此从顾诚考订);余部转入联明抗清。",
+  "people": [
+   "李自成",
+   "李过",
+   "郝摇旗"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《明末农民战争史》",
+   "《南明史》第四章第三节:\"在距江西九江四十里处被清军攻入老营,大顺军久历战阵、位居文官武将之首的汝侯刘宗敏被俘\"",
+   "《南明史》第四章第三节:\"李自成和随从侍卫被击杀,张鼐和一名姓刘的伴当逃出,向后续部队报告了这一噩耗\""
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-yangzhou-massacre",
+  "title": "扬州失陷,屠城十日",
+  "date": "1645-05-20",
+  "datePrecision": "day",
+  "lon": 119.42,
+  "lat": 32.39,
+  "location": "扬州",
+  "modernLocation": "江苏扬州市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 3,
+  "summary": "多铎部围扬州,史可法拒降血战,城破巷战被俘,不屈而死;清军屠城十日,是为“扬州十日”。",
+  "result": "江北门户洞开,弘光朝旬月而亡",
+  "people": [
+   "史可法",
+   "多铎"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "王秀楚《扬州十日记》",
+   "《南明史》第五章第四节:\"直到五月初二日才安官置吏,查焚尸簿载其数,前后约计八十万余\"",
+   "《南明史》第七章第二节:\"应元在城头痛斥良佐的背叛明朝,说:有降将军,无降典史!刘良佐无言可对\"",
+   "《南明史》第七章第二节:\"闰六月初一日,生员许用等人在孔庙明伦堂集会,一致决定:头可断,发决不可剃也\"",
+   "《洪业》第七章:\"在她精神失常之后,她被带回扔进地牢,三天以后就死在那里了\"",
+   "《洪业》第七章:\"百官皆知伪,然民间犹啧啧真也\"",
+   "《洪业》第八章:\"只有他这样的大臣情愿不顾名节之累而与敌人合作,其他中国人才能得以保全\"",
+   "《洪业》第八章:\"他在南京的再次出现,引起了公众百姓的巨大震动\""
+  ],
+  "confidence": "high",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-nanjing-fall",
+  "title": "南京陷落,弘光被俘",
+  "date": "1645-06-08",
+  "datePrecision": "day",
+  "lon": 118.8,
+  "lat": 32.06,
+  "location": "南京",
+  "modernLocation": "江苏南京市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "political",
+  "type": "city-fall",
+  "importance": 3,
+  "summary": "马士英奉太后出奔浙江,忻城伯开城纳降,多铎兵不血刃入南京;弘光帝出逃芜湖途中被俘,翌年遇害。",
+  "people": [
+   "朱由崧",
+   "马士英"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《洪业》第七章:\"张天禄突然施放冷箭,正中黄得功喉部,这位忠君的指挥官一会儿就死了\""
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-hangzhou-fall",
+  "title": "杭州失守,潞王出降",
+  "date": "1645-07-06",
+  "datePrecision": "day",
+  "lon": 120.16,
+  "lat": 30.29,
+  "location": "杭州",
+  "modernLocation": "浙江杭州市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 1,
+  "summary": "监国七日的潞王朱常淓举城降清,浙西门户洞开,钱塘江以南遂为抗清前线。",
+  "people": [],
+  "sources": [
+   "顾诚《南明史》"
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-queue-order",
+  "title": "重颁剃发令",
+  "date": "1645-07-08",
+  "datePrecision": "day",
+  "lon": 116.4,
+  "lat": 39.9,
+  "location": "北京(颁行天下)",
+  "modernLocation": "北京市",
+  "regime": "qing",
+  "sides": [
+   "qing"
+  ],
+  "category": "political",
+  "type": "policy",
+  "importance": 3,
+  "summary": "多尔衮重颁剃发令,“留头不留发,留发不留头”,衣冠之变激起江南乃至天下反抗,南明抗清由君国之争转为文明的抵抗。",
+  "people": [
+   "多尔衮"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《清史稿·世祖本纪》",
+   "《洪业》第八章:\"遵依者为我国之民,迟疑者同逆命之寇,必置重罪\""
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-jiangyin-uprising",
+  "title": "江阴起义",
+  "date": "1645-07-23",
+  "datePrecision": "day",
+  "lon": 120.28,
+  "lat": 31.91,
+  "location": "江阴",
+  "modernLocation": "江苏无锡江阴市",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "uprising",
+  "importance": 3,
+  "summary": "清委知县方亨严令剃发,江阴父老杀之聚众起事,迎典史阎应元、陈明遇主守,婴城抗清。",
+  "people": [
+   "阎应元"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "韩菼《江阴城守纪》",
+   "《南明史》第七章第二节:\"这些健儿即扮成水手为之操舟,行至湖中,纷纷跳入水中,取出工具把船只凿沉,清军淹死近千名\"",
+   "《南明史》第七章第二节:\"坚持到八月二十一日,清军集中大炮轰击城东北角,城墙崩塌,清军蜂拥而上,江阴失守。陈明遇巷战而死,阎应元负伤后投湖……不屈\"",
+   "《南明史》第七章第二节:\"七月初六日,清军破城,朱天麟等逃出,王佐才被俘杀。清军屠城,士民死难者数万人\"",
+   "《南明史》第七章第二节:\"吴日生知道清军不习水战,事先派部下操舟好手混于民间……纷纷跳入水中,取出工具把船只凿沉,清军淹死近千名,汪懋功也被击毙\"",
+   "《洪业》第八章:\"这支武装因为以白巾缠头而渐以'白头军'闻名\""
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-jiading-massacre",
+  "title": "嘉定三屠",
+  "date": "1645-08",
+  "datePrecision": "month",
+  "lon": 121.26,
+  "lat": 31.38,
+  "location": "嘉定",
+  "modernLocation": "上海市嘉定区",
+  "regime": "qing",
+  "sides": [
+   "qing"
+  ],
+  "category": "military",
+  "type": "massacre",
+  "importance": 3,
+  "summary": "侯峒曾、黄淳耀率嘉定父老拒剃发守城,城破后李成栋部月内三度屠城,闾里为墟。",
+  "people": [
+   "李成栋"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《嘉定屠城纪略》",
+   "《南明史》第七章第二节:\"七月初三日,清军大举攻城;次日城破,侯峒曾奋身投入池中,被清兵拖出斩首……李成栋下令屠城\"",
+   "《南明史》第七章第二节:\"八月初六日,清军用小船截断泖湖出口,乘风纵火……黄蜚、吴志葵都被活捉,九月初四日在南京遇害\"",
+   "《南明史》第七章第二节:\"夏允彝见兵败无成,于九月十七日在淞塘投水自尽\"",
+   "《洪业》第八章:\"大屠杀持续了一天,直到尸体堵塞了河流。大约有2万多人遇害\""
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-lu-regency",
+  "title": "鲁监国立于绍兴",
+  "date": "1645-08",
+  "datePrecision": "month",
+  "lon": 120.58,
+  "lat": 30.03,
+  "location": "绍兴",
+  "modernLocation": "浙江绍兴市",
+  "regime": "nanming",
+  "sides": [
+   "nanming"
+  ],
+  "category": "political",
+  "type": "regime-founded",
+  "importance": 2,
+  "summary": "张国维等拥鲁王朱以海监国,与隆武朝称兵抗清而又互争正统,浙东义师划江而守。",
+  "people": [
+   "朱以海"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第八章第二节:\"朱以海到达绍兴后,于七月十八日就任监国。以分守台绍道公署为行在,立妃张氏为元妃,改明年为监国元年\"",
+   "《南明史》第八章第二节:\"王之仁从靴子里取出谢三宾的密信,当众朗读。三宾大惊……哀号跪阶下,请输万金以充饷\""
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-longwu-founded",
+  "title": "隆武政权立于福州",
+  "date": "1645-08-18",
+  "datePrecision": "day",
+  "lon": 119.3,
+  "lat": 26.08,
+  "location": "福州",
+  "modernLocation": "福建福州市",
+  "regime": "nanming",
+  "sides": [
+   "nanming"
+  ],
+  "category": "political",
+  "type": "regime-founded",
+  "importance": 3,
+  "summary": "郑芝龙、黄道周拥唐王朱聿键即位,改元隆武;帝锐意恢复,而兵饷尽制于郑氏,事终不举。",
+  "people": [
+   "朱聿键",
+   "郑芝龙",
+   "黄道周"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《思文大纪》",
+   "《南明史》第八章第一节:\"闰六月初六日,由南安伯郑芝龙等迎接入福州。次日,正式就任监国\"",
+   "《南明史》第八章第一节:\"二十天以后,又在臣僚的拥戴下于闰六月二十七日即皇帝位,纪元从本年七月初一日起改称隆武元年\"",
+   "《南明史》第九章第二节:\"朕今诛清使、旌忠臣外,誓择于八月十八日午时,朕亲统御御营中军平彝侯郑芝龙……统率六师,御驾亲征。这次亲征由于郑芝龙兄弟的\"",
+   "《南明史》第九章第三节:\"郑芝龙仍不肯罢休,派部将杨耿在半路上割掉何楷的一只耳朵,借以向朝廷示威\"",
+   "《洪业》第十章:\"唐王的隆武政权在福州海军将领郑芝龙的庇护下,于1645年8月在福州建立\"",
+   "《南明史》第九章第四节:\"1645年七月二十二日,黄道周勉强拼凑了三千多名士卒踏上了征途……郑芝龙内心窃喜,唯恐其不去,既不拨给精兵,粮饷也只支给\""
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-jiangyin-fall",
+  "title": "江阴城破",
+  "date": "1645-10",
+  "datePrecision": "month",
+  "lon": 120.28,
+  "lat": 31.91,
+  "location": "江阴",
+  "modernLocation": "江苏无锡江阴市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 3,
+  "summary": "孤城独守八十一日,杀伤清军甚众;八月二十一日城破,巷战竟日,阎应元殉国,阖城死伤无算。",
+  "people": [
+   "阎应元"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "韩菼《江阴城守纪》",
+   "《南明史》第七章第二节:\"清军屠城至二十三日午后才出榜安民,城内百姓仅剩大小五十三人而已\"",
+   "《南明史》第七章第二节:\"这些健儿即扮成水手为之操舟,行至湖中,纷纷跳入水中,取出工具把船只凿沉,清军淹死近千名\"",
+   "《洪业》第八章:\"这支武装因为以白巾缠头而渐以'白头军'闻名\""
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-hetengjiao-alliance",
+  "title": "何腾蛟抚湘,联“忠贞营”",
+  "date": "1645-11",
+  "datePrecision": "month",
+  "lon": 112.94,
+  "lat": 28.23,
+  "location": "长沙",
+  "modernLocation": "湖南长沙市",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "dashun"
+  ],
+  "category": "political",
+  "type": "alliance",
+  "importance": 2,
+  "summary": "湖广总督何腾蛟收纳李过、高一功、郝摇旗等大顺余部,号忠贞营,“联寇抗清”格局初成。",
+  "people": [
+   "何腾蛟",
+   "李过",
+   "郝摇旗"
+  ],
+  "sources": [
+   "顾诚《南明史》"
+  ],
+  "confidence": "approx",
+  "year": 1645,
+  "endYear": 1645
+ },
+ {
+  "id": "ev-1645-huang-daozhou-campaign",
+  "title": "黄道周北伐兵败被俘",
+  "date": "1645-12",
+  "datePrecision": "month",
+  "endDate": "1646-03",
+  "lon": 117.86,
+  "lat": 29.25,
+  "location": "婺源",
+  "modernLocation": "江西上饶婺源县",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "campaign",
+  "importance": 2,
+  "summary": "黄道周以书生督师出广信,寡援兵败婺源被俘,械送南京,翌年三月就义,绝命语“蹈仁不死,履险若夷”。",
+  "people": [
+   "黄道周"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《明史·黄道周传》"
+  ],
+  "confidence": "medium",
+  "year": 1645,
+  "endYear": 1646
+ },
+ {
+  "id": "ev-1646-qiantang-collapse",
+  "title": "钱塘江防线崩溃,鲁监国浮海",
+  "date": "1646-07",
+  "datePrecision": "month",
+  "lon": 120.58,
+  "lat": 30.03,
+  "location": "钱塘江—绍兴",
+  "modernLocation": "浙江杭州市—绍兴市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "collapse",
+  "importance": 2,
+  "summary": "博洛部乘旱涉江而南,方国安部倒戈,浙东诸营瓦解,鲁王浮海走舟山,张名振、张煌言扈从出海。",
+  "people": [
+   "朱以海",
+   "张名振",
+   "张煌言"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第七章第二节:\"1646年六月,吴日生在嘉善赴宴,被清政府探知,派兵擒获\"",
+   "《南明史》第七章第二节:\"1646年六月,吴日生在嘉善赴宴,被清政府探知,派兵擒获\"",
+   "《南明史》第九章第五节:\"五月二十五日分兵两路……涉水过江大举进攻……方国安等部署的钱塘江防线顿时瓦解\"",
+   "《南明史》第九章第五节:\"五月二十九日晚上,鲁监国在张名振等护卫下离开绍兴,经台州乘船逃往海上\"",
+   "《南明史》第九章第五节:\"伪大学士马士英潜遁新昌县山内,都统汉岱追至台州……即至寺拘获,并总兵赵体元,令斩之\"",
+   "《洪业》第十章:\"知府即刻于1646年7月15日在草桥门外处死了这个复明分子\""
+  ],
+  "confidence": "medium",
+  "year": 1646,
+  "endYear": 1646
+ },
+ {
+  "id": "ev-1646-ganzhou-fall",
+  "title": "赣州失陷",
+  "date": "1646-10",
+  "datePrecision": "month",
+  "lon": 114.94,
+  "lat": 25.85,
+  "location": "赣州",
+  "modernLocation": "江西赣州市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 2,
+  "summary": "万元吉督师失援,杨廷麟、万元吉死之,赣州陷落,闽赣楚援绝,福建门户洞开。",
+  "people": [],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第九章第六节:\"杨廷麟投清水塘自尽,万元吉也投水而死,郭维经入嵯峨寺自焚死,同时遇难者有翰林院兼兵科给事中万发祥……等官绅三十余人\""
+  ],
+  "confidence": "medium",
+  "year": 1646,
+  "endYear": 1646
+ },
+ {
+  "id": "ev-1646-longwu-fall",
+  "title": "隆武帝殉国汀州",
+  "date": "1646-10-06",
+  "datePrecision": "day",
+  "lon": 116.36,
+  "lat": 25.83,
+  "location": "汀州",
+  "modernLocation": "福建龙岩长汀县",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "political",
+  "type": "death",
+  "importance": 3,
+  "summary": "清军疾趋仙霞岭,郑芝龙撤防不战;隆武帝奔汀州被执,旋遇害,锐意中兴之君赍志以殁。",
+  "people": [
+   "朱聿键"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第九章第七节:\"傅冠坚决拒绝剃发,厉声曰:汝知千古有文文山乎,我乡先进也。吾乡无叩头宰相,但有断头宰相耳\"",
+   "《南明史》第九章第七节:\"八月二十一日,隆武帝从延平行在起程前往江西赣州……二十八日,清军追到汀州,隆武帝、曾皇后、沈嫔、陈嫔被俘于赵家塘,周之藩\""
+  ],
+  "confidence": "medium",
+  "year": 1646,
+  "endYear": 1646
+ },
+ {
+  "id": "ev-1646-zheng-zhilong-defects",
+  "title": "郑芝龙降清",
+  "date": "1646-11",
+  "datePrecision": "month",
+  "lon": 118.46,
+  "lat": 24.71,
+  "location": "安平",
+  "modernLocation": "福建泉州晋江市安海镇",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "political",
+  "type": "defection",
+  "importance": 2,
+  "summary": "郑芝龙不听郑成功苦谏,尽撤闽中防御,挟部曲降清,旋被挟持北去,郑氏海上势力为其子继承重整。",
+  "people": [
+   "郑芝龙",
+   "郑成功"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第十二章第三节:\"郑彩不愿降清,他担心鲁监国的安全,就把朱以海藏起来,另找一个相貌类似的人充当替身\""
+  ],
+  "confidence": "medium",
+  "year": 1646,
+  "endYear": 1646
+ },
+ {
+  "id": "ev-1646-yongli-founded",
+  "title": "永历政权立于肇庆",
+  "date": "1646-11-18",
+  "datePrecision": "day",
+  "lon": 112.47,
+  "lat": 23.05,
+  "location": "肇庆",
+  "modernLocation": "广东肇庆市",
+  "regime": "nanming",
+  "sides": [
+   "nanming"
+  ],
+  "category": "political",
+  "type": "regime-founded",
+  "importance": 3,
+  "summary": "桂王朱由榔监国旋即皇帝位,以明年为永历元年,依托两广、云贵、大西军与海上郑氏,为南明诸政权中历时最久者。",
+  "people": [
+   "朱由榔"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第十三章第一节:\"在十一月十二日东返肇庆,十八日宣布即皇帝位,祭告天地、社稷、祖宗,改明年为永历元年\"",
+   "《南明史》第十三章第一节:\"十一月初二日,苏观生同广东布政使顾元镜、侍郎王应华等奉请朱聿𨮁监国,并且抢在朱由榔之前,在同月初五日正式称帝,改明年为\"",
+   "《南明史》第十三章第一节:\"林佳鼎部所乘内河小船无法同四姓海上大船作战,被迫登陆迎敌。又因地理不熟,陷入了三尺多深的泥淖,结果一败涂地,林佳鼎和夏四\"",
+   "《南明史》第十三章第二节:\"李成栋派人送饮食,朱聿𨮁说:吾若饮汝一勺水,何以见先帝于地下。自缢而死,总算有点骨气\"",
+   "《洪业》第十章:\"不久,永明王于12月24日在上游的肇庆被拥立为永历皇帝\"",
+   "《南明史》第十三章第一节:\"1646年十月初十日,朱由榔经过照例的三疏劝进,就任监国\""
+  ],
+  "confidence": "medium",
+  "year": 1646,
+  "endYear": 1646
+ },
+ {
+  "id": "ev-1646-zheng-uprising",
+  "title": "郑成功焚服起兵",
+  "date": "1646-12",
+  "datePrecision": "month",
+  "lon": 118.24,
+  "lat": 24.42,
+  "location": "烈屿",
+  "modernLocation": "福建金门县烈屿乡",
+  "regime": "zheng",
+  "sides": [
+   "zheng",
+   "qing"
+  ],
+  "category": "military",
+  "type": "uprising",
+  "importance": 2,
+  "summary": "闻隆武凶问,郑成功率所部九十人于烈屿誓师,焚儒服以示必死,“背父救国”,此后以金厦为抗清根本。",
+  "people": [
+   "郑成功"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第十二章第二节:\"成功携所着衣巾,焚于南安文庙,仰天唏嘘,曰:昔为孺子,今为孤臣,谨谢儒服,惟先师昭鉴\""
+  ],
+  "confidence": "approx",
+  "year": 1646,
+  "endYear": 1646
+ },
+ {
+  "id": "ev-1646-shaowu-founded",
+  "title": "绍武政权立于广州",
+  "date": "1646-12-11",
+  "datePrecision": "day",
+  "lon": 113.26,
+  "lat": 23.13,
+  "location": "广州",
+  "modernLocation": "广东广州市",
+  "regime": "nanming",
+  "sides": [
+   "nanming"
+  ],
+  "category": "political",
+  "type": "regime-founded",
+  "importance": 2,
+  "summary": "苏观生拥隆武帝之弟朱聿𨮁即位,与永历朝同室操戈,兵火相攻于三水,立朝仅四十日。",
+  "people": [],
+  "sources": [
+   "顾诚《南明史》",
+   "《洪业》第十章:\"一支由不到1000清兵组成的先头部队被误认为绍武政权的友军,得以开进广州城\""
+  ],
+  "confidence": "medium",
+  "year": 1646,
+  "endYear": 1646
+ },
+ {
+  "id": "ev-1647-zhang-xianzhong-death",
+  "title": "西充凤凰山之战,张献忠战死",
+  "date": "1647-01-02",
+  "datePrecision": "day",
+  "lon": 105.9,
+  "lat": 30.99,
+  "location": "西充凤凰山",
+  "modernLocation": "四川南充西充县",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "daxi"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 3,
+  "summary": "清肃亲王豪格部疾进西充,张献忠中矢殁于凤凰山;孙可望、李定国等整余部南走滇黔,大西转出新生。",
+  "people": [
+   "张献忠",
+   "孙可望",
+   "李定国",
+   "刘文秀"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《清史稿·豪格传》"
+  ],
+  "confidence": "high",
+  "year": 1647,
+  "endYear": 1647
+ },
+ {
+  "id": "ev-1647-guangzhou-fall",
+  "title": "广州陷落,绍武自缢",
+  "date": "1647-01-20",
+  "datePrecision": "day",
+  "lon": 113.26,
+  "lat": 23.13,
+  "location": "广州",
+  "modernLocation": "广东广州市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 3,
+  "summary": "李成栋以轻骑远袭,虚张旗帜破广州,绍武帝自缢;南明两帝并立之争旬月而终。",
+  "people": [
+   "李成栋"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第十三章第三节:\"广东素称忠义之乡……其中最负盛名的是南明三忠:陈邦彦、张家玉、陈子壮\""
+  ],
+  "confidence": "medium",
+  "year": 1647,
+  "endYear": 1647
+ },
+ {
+  "id": "ev-1647-guilin-defense",
+  "title": "桂林保卫战",
+  "date": "1647-03",
+  "datePrecision": "month",
+  "lon": 110.29,
+  "lat": 25.27,
+  "location": "桂林",
+  "modernLocation": "广西桂林市",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 2,
+  "summary": "瞿式耜与焦琏部内外夹击,力战却敌,桂林首度解围,全州、桂林一线成为湘桂屏障。",
+  "people": [
+   "瞿式耜"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第十三章第二节:\"瞿式耜坚决反对,他指出朝廷不组织抵抗,只是一味避敌先逃,今移跸者再四,每移一次,则人心涣散一次\""
+  ],
+  "confidence": "approx",
+  "year": 1647,
+  "endYear": 1647
+ },
+ {
+  "id": "ev-1647-daxi-into-yunnan",
+  "title": "大西军入滇",
+  "date": "1647-04",
+  "datePrecision": "month",
+  "lon": 102.83,
+  "lat": 24.88,
+  "location": "昆明",
+  "modernLocation": "云南昆明市",
+  "regime": "daxi",
+  "sides": [
+   "daxi"
+  ],
+  "category": "political",
+  "type": "occupation",
+  "importance": 2,
+  "summary": "孙可望、李定国率残部入云南,联土司、营田铸币、整军经武,滇黔自此经营为抗清根本之地。",
+  "people": [
+   "孙可望",
+   "李定国"
+  ],
+  "sources": [
+   "顾诚《南明史》"
+  ],
+  "confidence": "approx",
+  "year": 1647,
+  "endYear": 1647
+ },
+ {
+  "id": "ev-1647-quanzhou-victory",
+  "title": "全州大捷",
+  "date": "1647-11",
+  "datePrecision": "month",
+  "lon": 111.07,
+  "lat": 25.93,
+  "location": "全州",
+  "modernLocation": "广西桂林全州县",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 1,
+  "summary": "郝摇旗部在全州大败清军,湘桂战场稍振,忠贞营声威复起。",
+  "people": [
+   "郝摇旗"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第十三章第五节:\"本爵身先士卒,率标镇马骑直冲虏营。虏交锋大败,奔溃北走。我兵直赶三十里,杀虏千余级\""
+  ],
+  "confidence": "approx",
+  "year": 1647,
+  "endYear": 1647
+ },
+ {
+  "id": "ev-1648-jin-shenghuan-defects",
+  "title": "金声桓、王得仁南昌反正",
+  "date": "1648-02-20",
+  "datePrecision": "day",
+  "lon": 115.89,
+  "lat": 28.68,
+  "location": "南昌",
+  "modernLocation": "江西南昌市",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "defection",
+  "importance": 3,
+  "summary": "清江西提督金声桓、副将王得仁举兵归明,全赣响应,天下震动,降将反正自此接踵。",
+  "people": [
+   "金声桓"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第十六章第一节:\"1648年正月二十七日,金声桓、王得仁先发制人,擒杀巡按董学成、布政使迟变龙、湖东道成大业,宣布反清复明\"",
+   "《洪业》第十章:\"金声桓于1648年2月22日反叛,杀死清朝大臣,宣布自己效忠永历皇帝\""
+  ],
+  "confidence": "medium",
+  "year": 1648,
+  "endYear": 1648,
+  "notes": [
+   "日期校核: 正月廿七农历直写修正(1648-01-27→1648-02-20)"
+  ]
+ },
+ {
+  "id": "ev-1648-li-chengdong-defects",
+  "title": "李成栋以广东全省反正",
+  "date": "1648-04",
+  "datePrecision": "month",
+  "lon": 113.26,
+  "lat": 23.13,
+  "location": "广州",
+  "modernLocation": "广东广州市",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "defection",
+  "importance": 3,
+  "summary": "曾屠嘉定、灭绍武的李成栋奉永历正朔,以粤省归明,南明失地旬月复半,永历朝廷回驻肇庆。",
+  "people": [
+   "李成栋"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第十六章第二节:\"四月十五日,他在广州发动兵变,剪辫改装,用永历年号发布告示,宣布反清归明\"",
+   "《洪业》第十章:\"1648年5月,当佟养甲命李成栋率军北进为赣州解围时,李成栋遂举兵造反\""
+  ],
+  "confidence": "medium",
+  "year": 1648,
+  "endYear": 1648
+ },
+ {
+  "id": "ev-1649-jiangxiang-revolt",
+  "title": "大同姜瓖反正",
+  "date": "1649-01",
+  "datePrecision": "month",
+  "lon": 113.3,
+  "lat": 40.08,
+  "location": "大同",
+  "modernLocation": "山西大同市",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "defection",
+  "importance": 2,
+  "summary": "清大同总兵姜瓖据城反正,山西州县纷起响应,多尔衮亲征方得压服,北方最后一波大规模反清运动。",
+  "people": [],
+  "sources": [
+   "顾诚《南明史》",
+   "《清史稿·世祖本纪》",
+   "《南明史》第十七章第二节:\"姜瓖在十二月初三日乘宣大总督耿焞等人出城验粮草的机会,突然关闭城门,下令易冠服,自称大将军,公开揭起了反清的旗帜\"",
+   "《洪业》第十一章:\"1649年1月15日,当大同总督、司道、库官、知府各官出城验骑兵马草的时候,姜瓖关闭了大同笨重的城门,宣布起义\""
+  ],
+  "confidence": "medium",
+  "year": 1649,
+  "endYear": 1649
+ },
+ {
+  "id": "ev-1649-xiangtan-fall",
+  "title": "湘潭失陷,何腾蛟殉国",
+  "date": "1649-02",
+  "datePrecision": "month",
+  "lon": 112.95,
+  "lat": 27.83,
+  "location": "湘潭",
+  "modernLocation": "湖南湘潭市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 2,
+  "summary": "清军乘虚袭破湘潭,督师何腾蛟被执,不屈死之;湖广经营五年之局一朝倾覆。",
+  "people": [
+   "何腾蛟"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《明史·何腾蛟传》",
+   "《南明史》第十八章第三节:\"何腾蛟被俘后,清方劝他投降,他坚决拒绝,正月二十七日被杀害于湘潭流水桥旁一个小坡下。据记载,何腾蛟就义前惟举手拍地,呼:\""
+  ],
+  "confidence": "medium",
+  "year": 1649,
+  "endYear": 1649
+ },
+ {
+  "id": "ev-1649-nanchang-fall",
+  "title": "南昌陷落,金声桓败亡",
+  "date": "1649-03",
+  "datePrecision": "month",
+  "lon": 115.89,
+  "lat": 28.68,
+  "location": "南昌",
+  "modernLocation": "江西南昌市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 3,
+  "summary": "谭泰部久围南昌,城中粮尽,城破,金声桓投水死,王得仁巷战被杀,江西反正失败。",
+  "people": [
+   "金声桓"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第十六章第一节:\"王得仁突围至德胜门,兵塞不能前,三出三入,击杀数百人,被执,支解。刑前,谭泰派人审问王得仁为何叛清,得仁回答道:一念之差\"",
+   "《洪业》第十章:\"1649年3月1日,南昌陷落。金声桓身负重伤,自溺而死\""
+  ],
+  "confidence": "medium",
+  "year": 1649,
+  "endYear": 1649,
+  "notes": [
+   "日期校核: 正月直写修正(正月十九=1649-03-02)(1649-01→1649-03)"
+  ]
+ },
+ {
+  "id": "ev-1649-xinfeng",
+  "title": "信丰之败,李成栋战死",
+  "date": "1649-03",
+  "datePrecision": "month",
+  "lon": 114.93,
+  "lat": 25.39,
+  "location": "信丰",
+  "modernLocation": "江西赣州信丰县",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 2,
+  "summary": "李成栋提粤军千里援江西,兵溃信丰,坠马溺水死之,广东门户旋失,反正诸局次第瓦解。",
+  "people": [
+   "李成栋"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第十六章第三节:\"李军大乱,将领纷纷南窜,成栋在渡河时坠马淹死\"",
+   "《洪业》第十章:\"不断损兵折将的李成栋在徒步涉过新丰附近的一条河时意外淹死\""
+  ],
+  "confidence": "medium",
+  "year": 1649,
+  "endYear": 1649
+ },
+ {
+  "id": "ev-1650-zheng-takes-xiamen",
+  "title": "郑成功袭取厦门",
+  "date": "1650-09",
+  "datePrecision": "month",
+  "lon": 118.07,
+  "lat": 24.45,
+  "location": "厦门",
+  "modernLocation": "福建厦门市",
+  "regime": "zheng",
+  "sides": [
+   "zheng"
+  ],
+  "category": "military",
+  "type": "occupation",
+  "importance": 2,
+  "summary": "郑成功计杀郑联并其军,兼并厦门,金厦自此成为郑氏抗清基地与东西洋贸易中枢。",
+  "people": [
+   "郑成功"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第十四章第三节:\"八月十五日,郑成功军全部到达厦门,突然将郑联部士卒缴械,随即捕杀郑联\""
+  ],
+  "confidence": "approx",
+  "year": 1650,
+  "endYear": 1650
+ },
+ {
+  "id": "ev-1650-guangzhou-massacre",
+  "title": "广州庚寅之劫",
+  "date": "1650-11-24",
+  "datePrecision": "day",
+  "lon": 113.26,
+  "lat": 23.13,
+  "location": "广州",
+  "modernLocation": "广东广州市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 3,
+  "summary": "尚可喜、耿继茂围城十月而破之,纵兵屠戮,是为庚寅之劫;永历朝廷已西奔南宁。",
+  "people": [
+   "尚可喜"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《广州城坊志》",
+   "《南明史》第二十章第三节:\"顺治七年尚可喜、耿继茂再破广州,屠戮甚惨,居民几无噍类\"",
+   "《洪业》第十章:\"1650年11月24日,经过10个月残酷的围攻,包括筑垒相逼,以楼车攻城,及动用荷兰炮手,尚可喜占领了广州\""
+  ],
+  "confidence": "medium",
+  "year": 1650,
+  "endYear": 1650
+ },
+ {
+  "id": "ev-1650-guilin-fall",
+  "title": "桂林陷落,瞿式耜殉国",
+  "date": "1650-11-28",
+  "datePrecision": "day",
+  "lon": 110.29,
+  "lat": 25.27,
+  "location": "桂林",
+  "modernLocation": "广西桂林市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 3,
+  "summary": "孔有德部破桂林,留守瞿式耜、张同敞端坐府中被执,翌年正月从容就义;永历朝廷再西迁。",
+  "people": [
+   "瞿式耜",
+   "孔有德"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第二十章第二节:\"二人于灯下正襟危坐,夜雨淙淙,遥望城外火光烛天,城内寂无声响\""
+  ],
+  "confidence": "medium",
+  "year": 1650,
+  "endYear": 1650
+ },
+ {
+  "id": "ev-1651-zhoushan-fall",
+  "title": "舟山失陷",
+  "date": "1651-10",
+  "datePrecision": "month",
+  "lon": 122.11,
+  "lat": 30.03,
+  "location": "舟山",
+  "modernLocation": "浙江舟山市定海区",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "city-fall",
+  "importance": 2,
+  "summary": "清军三路攻舟山,鲁监国行在失守,张名振扈鲁王南航依郑成功,张煌言同行,海上抗清重心移于金厦。",
+  "people": [
+   "张名振",
+   "张煌言",
+   "朱以海"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第二十二章第一节:\"八月二十一日晨大雾弥漫,清军乘潮蜂拥渡海……阮进被火烧伤,弃船跳入海中,被清军擒获,第二天,因伤重而死\"",
+   "《洪业》第十章:\"有几个黄斌卿旧部叛变,陈锦兵马遂占领了舟山岛的主要防御工事\""
+  ],
+  "confidence": "medium",
+  "year": 1651,
+  "endYear": 1651
+ },
+ {
+  "id": "ev-1652-baoning",
+  "title": "保宁之败",
+  "date": "1652",
+  "datePrecision": "year",
+  "lon": 105.97,
+  "lat": 31.56,
+  "location": "保宁",
+  "modernLocation": "四川南充阆中市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "daxi"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 1,
+  "summary": "刘文秀率军大举攻川,围保宁不克,为吴三桂、李国翰所败,蜀中得而复失,大西东进之势受挫。",
+  "people": [
+   "刘文秀"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第二十三章第四节:\"吴三桂于险胜之余,叹息道:生平未尝见如此劲敌,特欠一着耳\""
+  ],
+  "confidence": "approx",
+  "year": 1652,
+  "endYear": 1652
+ },
+ {
+  "id": "ev-1652-yongli-anlong",
+  "title": "永历移跸安龙",
+  "date": "1652-02",
+  "datePrecision": "month",
+  "lon": 105.47,
+  "lat": 25.09,
+  "location": "安龙",
+  "modernLocation": "贵州黔西南安龙县",
+  "regime": "nanming",
+  "sides": [
+   "nanming"
+  ],
+  "category": "political",
+  "type": "court",
+  "importance": 2,
+  "summary": "孙可望遣兵迎驾自广西移跸安龙所,改安龙府;天子寄于藩臣篱下,可望专擅日甚,明廷名存实悬。",
+  "people": [
+   "朱由榔",
+   "孙可望"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第二十一章第五节:\"《残明纪事》中说:王自入黔,无尺土一民。其实,更正确的说法应当是:帝无尺土一民,方始入黔\"",
+   "《南明史》第二十七章第一节:\"时可望假天子名号令中外,调兵催饷,皆不上闻。生杀与夺,任意恣肆。帝在安龙,一不与闻\""
+  ],
+  "confidence": "medium",
+  "year": 1652,
+  "endYear": 1652
+ },
+ {
+  "id": "ev-1652-guilin-kongyoude",
+  "title": "桂林之战,孔有德自焚",
+  "date": "1652-08-07",
+  "datePrecision": "day",
+  "lon": 110.29,
+  "lat": 25.27,
+  "location": "桂林",
+  "modernLocation": "广西桂林市",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 3,
+  "summary": "李定国出师八桂,连复宝庆、全州,攻破桂林,清定南王孔有德举室自焚——出滇以来第一声惊雷。",
+  "people": [
+   "李定国",
+   "孔有德"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第二十三章第二节:\"初四日中午,明军攻破武胜门,一拥而进,清军抵敌不住,孔有德怅然失色,悲叹道:已矣!在王府内自杀,死前命随从将其所居后殿以\"",
+   "《洪业》第十三章:\"去年夏天他在桂林作战时,被李定国切断了回湖南的退路,遂于8月7日自杀\""
+  ],
+  "confidence": "medium",
+  "year": 1652,
+  "endYear": 1652
+ },
+ {
+  "id": "ev-1652-hengyang-nikan",
+  "title": "衡阳之战,阵斩尼堪",
+  "date": "1652-11-23",
+  "datePrecision": "day",
+  "lon": 112.57,
+  "lat": 26.89,
+  "location": "衡阳",
+  "modernLocation": "湖南衡阳市",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 3,
+  "summary": "李定国设伏诱敌,清敬谨亲王尼堪轻进战殁于阵,七旬之内“两蹶名王,天下震动”,抗清声势臻于极盛。",
+  "people": [
+   "李定国",
+   "尼堪"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《清史稿·尼堪传》",
+   "《南明史》第二十三章第三节:\"定国一声令下,全军出击,杀声震天,势如潮涌;清军仓皇失措,迅速被明军击败,主帅尼堪也在混战中当场毙命\""
+  ],
+  "confidence": "medium",
+  "year": 1652,
+  "endYear": 1652
+ },
+ {
+  "id": "ev-1654-zhang-mingzhen-yangtze",
+  "title": "张名振三入长江",
+  "date": "1654-01",
+  "datePrecision": "month",
+  "lon": 118.85,
+  "lat": 32.16,
+  "location": "燕子矶",
+  "modernLocation": "江苏南京市栖霞区",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "raid",
+  "importance": 2,
+  "summary": "张名振、张煌言率楼船三入长江,泊金山、抵燕子矶,遥祭明孝陵,江南震动,海上之师直抵腹心。",
+  "people": [
+   "张名振",
+   "张煌言"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第二十五章第一节:\"张名振、刘孔昭、张煌言等带领五百名军士登金山寺,朝东南方向遥祭明孝陵,题诗寄慨,泣下沾襟\"",
+   "《洪业》第十四章:\"张名振的军队又一次进攻了江南沿海,击败清朝在崇明岛的驻军,沿黄浦江一直打到上海的静安寺\""
+  ],
+  "confidence": "approx",
+  "year": 1654,
+  "endYear": 1654
+ },
+ {
+  "id": "ev-1654-xinhui-siege",
+  "title": "新会之战",
+  "date": "1654-06",
+  "datePrecision": "month",
+  "endDate": "1654-12",
+  "lon": 113.03,
+  "lat": 22.52,
+  "location": "新会",
+  "modernLocation": "广东江门新会区",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "siege",
+  "importance": 3,
+  "summary": "李定国自桂攻粤,围新会半年,约郑成功会师西上;郑军逗留失期,清援至而定国大溃,两广恢复之机遂失。",
+  "result": "南明最后一幕战略反攻流产,孙李嫌隙亦自此加深",
+  "people": [
+   "李定国",
+   "郑成功"
+  ],
+  "sources": [
+   "顾诚《南明史》"
+  ],
+  "confidence": "medium",
+  "year": 1654,
+  "endYear": 1654
+ },
+ {
+  "id": "ev-1657-jiaoshui",
+  "title": "交水之变,孙可望降清",
+  "date": "1657-09",
+  "datePrecision": "month",
+  "lon": 103.82,
+  "lat": 25.61,
+  "location": "交水",
+  "modernLocation": "云南曲靖市沾益区",
+  "regime": "nanming",
+  "sides": [
+   "nanming"
+  ],
+  "category": "military",
+  "type": "mutiny",
+  "importance": 3,
+  "summary": "孙可望称兵十四万攻李定国,白文选等阵前倒戈,大败奔湖南降清,尽献西南虚实兵要,大局自此难支。",
+  "people": [
+   "孙可望",
+   "李定国"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第二十七章第五节:\"白文选知道形势危急,亲率五千铁骑冲入马惟兴营中,二军联合抄出可望阵后,连破数营\""
+  ],
+  "confidence": "medium",
+  "year": 1657,
+  "endYear": 1657
+ },
+ {
+  "id": "ev-1658-guiyang-converge",
+  "title": "清军三路会师贵阳",
+  "date": "1658-12",
+  "datePrecision": "month",
+  "lon": 106.63,
+  "lat": 26.65,
+  "location": "贵阳",
+  "modernLocation": "贵州贵阳市",
+  "regime": "qing",
+  "sides": [
+   "qing"
+  ],
+  "category": "military",
+  "type": "campaign",
+  "importance": 3,
+  "summary": "吴三桂、卓布泰、洛托三路大举入黔会师,孙可望旧部望风归附,西南门户洞开,会师昆明只在旦夕。",
+  "people": [
+   "吴三桂"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《清史稿·吴三桂传》",
+   "《南明史》第二十八章第一节:\"十月初五日,在平越州东南的杨老堡召开会议,洪承畴由贵阳,吴三桂由遵义,赵布泰由都匀赶来参加\""
+  ],
+  "confidence": "medium",
+  "year": 1658,
+  "endYear": 1658
+ },
+ {
+  "id": "ev-1659-kunming-fall",
+  "title": "昆明失守,永历西奔",
+  "date": "1659-01",
+  "datePrecision": "month",
+  "lon": 102.83,
+  "lat": 24.88,
+  "location": "昆明",
+  "modernLocation": "云南昆明市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "political",
+  "type": "city-fall",
+  "importance": 3,
+  "summary": "三路清军入滇,永历朝廷弃昆明西狩永昌,李定国断后,清军蹑踪穷追至怒江之滨。",
+  "people": [
+   "朱由榔",
+   "吴三桂",
+   "李定国"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第二十八章第一节:\"十二月十五日,永历帝率领文武百官离开昆明,同日到达安宁\"",
+   "《南明史》第二十八章第一节:\"顺治十六年正月初三日,清军未遇抵抗即占领昆明\""
+  ],
+  "confidence": "medium",
+  "year": 1659,
+  "endYear": 1659
+ },
+ {
+  "id": "ev-1659-mopanshan",
+  "title": "磨盘山血战",
+  "date": "1659-02",
+  "datePrecision": "month",
+  "lon": 98.69,
+  "lat": 24.59,
+  "location": "磨盘山",
+  "modernLocation": "云南保山龙陵县、腾冲市之间",
+  "regime": "nanming",
+  "sides": [
+   "nanming",
+   "qing"
+  ],
+  "category": "military",
+  "type": "ambush",
+  "importance": 3,
+  "summary": "李定国据险设三伏,谋歼吴三桂追军;以事泄转为血战,清固山额真以下死者甚众,而明军精锐亦尽,永历遂入缅。",
+  "coordNote": "古战场位于高黎贡山南段,坐标为约位",
+  "people": [
+   "李定国",
+   "吴三桂"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第二十八章第三节:\"清将固山额真沙里布等被击毙,明将窦名望等也战死\""
+  ],
+  "confidence": "medium",
+  "year": 1659,
+  "endYear": 1659
+ },
+ {
+  "id": "ev-1659-zheng-yangtze",
+  "title": "郑成功入江,克瓜洲、镇江",
+  "date": "1659-07",
+  "datePrecision": "month",
+  "lon": 119.42,
+  "lat": 32.2,
+  "location": "瓜洲、镇江",
+  "modernLocation": "江苏扬州、镇江市",
+  "regime": "zheng",
+  "sides": [
+   "zheng",
+   "qing"
+  ],
+  "category": "military",
+  "type": "campaign",
+  "importance": 3,
+  "summary": "郑成功率水陆十七万大举入江,焚断滚江龙锁链,连克瓜洲、镇江,扼江南咽喉;张煌言先驱收复芜湖诸府县。",
+  "people": [
+   "郑成功",
+   "张煌言"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《海上见闻录》",
+   "《南明史》第二十九章第二节:\"十六日进攻瓜洲,阵斩清游击左云龙,破敌满汉兵马数千,截断清方用铁链、船只连接而成的锁江防线'滚江龙'\"",
+   "《南明史》第二十九章第二节:\"二十二日在镇江银山大破清江宁巡抚蒋国柱、提督管效忠派来的援兵,清镇江守将高谦、知府戴可进献城投降\"",
+   "《南明史》第二十九章第二节:\"从七月十二日部署'围城'安营扎寨,到二十四日全军败退,竟然没有组织过攻城\"",
+   "《南明史》第二十九章第三节:\"一举包围了驻守山谷内的中提督甘辉、五军张英部,二将领兵死战不得脱,甘辉被俘,张英阵亡\""
+  ],
+  "confidence": "medium",
+  "year": 1659,
+  "endYear": 1659
+ },
+ {
+  "id": "ev-1659-nanjing-siege-fail",
+  "title": "南京城下之败",
+  "date": "1659-09",
+  "datePrecision": "month",
+  "lon": 118.8,
+  "lat": 32.06,
+  "location": "南京",
+  "modernLocation": "江苏南京市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "zheng"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 3,
+  "summary": "郑军顿兵坚城之下,中清军缓兵之计,梁化凤出击大破之,甘辉等死之;北伐功败垂成,退出长江,张煌言间道亡归。",
+  "result": "郑成功转向台湾,长江恢复之机遂绝",
+  "people": [
+   "郑成功",
+   "张煌言"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《洪业》第十四章:\"清兵马步军从南京西北面的两个城门出发,发起总攻,冲散了郑成功盾牌手组成的方阵和长刀队\"",
+   "《南明史》第二十九章第二节:\"从七月十二日部署'围城'安营扎寨,到二十四日全军败退,竟然没有组织过攻城\"",
+   "《南明史》第二十九章第三节:\"一举包围了驻守山谷内的中提督甘辉、五军张英部,二将领兵死战不得脱,甘辉被俘,张英阵亡\"",
+   "《南明史》第二十九章第四节:\"或招降,或克复,凡得府四、州三,县则二十四焉\""
+  ],
+  "confidence": "medium",
+  "year": 1659,
+  "endYear": 1659
+ },
+ {
+  "id": "ev-1660-xiamen-naval-victory",
+  "title": "清军攻厦门之败",
+  "date": "1660-05",
+  "datePrecision": "month",
+  "lon": 118.07,
+  "lat": 24.45,
+  "location": "厦门海面",
+  "modernLocation": "福建厦门市",
+  "regime": "zheng",
+  "sides": [
+   "zheng",
+   "qing"
+  ],
+  "category": "military",
+  "type": "battle",
+  "importance": 2,
+  "summary": "清将达素会闽粤水师大举攻金厦,郑成功纵兵大破之于海上,清军覆没,金厦转危为安,郑氏乃决意东取台湾。",
+  "people": [
+   "郑成功"
+  ],
+  "sources": [
+   "顾诚《南明史》"
+  ],
+  "confidence": "approx",
+  "year": 1660,
+  "endYear": 1660
+ },
+ {
+  "id": "ev-1661-taiwan-campaign",
+  "title": "郑成功收复台湾",
+  "date": "1661-04-30",
+  "datePrecision": "day",
+  "endDate": "1662-02-01",
+  "lon": 120.16,
+  "lat": 23,
+  "location": "鹿耳门—热兰遮城",
+  "modernLocation": "台湾台南市",
+  "regime": "zheng",
+  "sides": [
+   "zheng"
+  ],
+  "category": "military",
+  "type": "campaign",
+  "importance": 3,
+  "summary": "郑成功率军渡海,四月初一于鹿耳门乘潮登陆,围荷兰人热兰遮城九月,总督揆一出降;郑氏自此经营台湾,设承天府。",
+  "people": [
+   "郑成功"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《巴达维亚城日记》",
+   "《南明史》第三十一章第二节:\"成功命何斌坐于斗头引导船队绕过荷兰炮台,强行登陆\"",
+   "《南明史》第三十一章第二节:\"郑军乘势全线出击,'直到上尉及其部下一百十八人全部战死'\"",
+   "《南明史》第三十一章第二节:\"司令官献出了普罗文查要塞以及一切军用物资,他本人及所有士兵都成了战俘\"",
+   "《南明史》第三十一章第二节:\"该岛一向是属于中国的。在中国人不需要时,可以允许荷兰人暂时借居;现在中国人需要这块土地,来自远方的荷兰客人,自应把它归还\"",
+   "《南明史》第三十一章第二节:\"把赤嵌改名为承天府,任命杨朝栋为府尹,府下设天兴、万年二县\""
+  ],
+  "confidence": "high",
+  "year": 1661,
+  "endYear": 1662
+ },
+ {
+  "id": "ev-1661-zhoushui-massacre",
+  "title": "咒水之难",
+  "date": "1661-08-13",
+  "datePrecision": "day",
+  "lon": 96.08,
+  "lat": 21.98,
+  "location": "者梗",
+  "modernLocation": "缅甸曼德勒近郊",
+  "regime": "nanming",
+  "sides": [
+   "nanming"
+  ],
+  "category": "political",
+  "type": "massacre",
+  "importance": 2,
+  "summary": "缅甸新王莽白以咒水盟誓为名,尽杀沐天波等扈从重臣四十二人,永历朝廷自是孤悬异邦。",
+  "coordNote": "永历驻跸地“者梗”约为今曼德勒近郊",
+  "people": [
+   "朱由榔"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第三十章第六节:\"沐天波知道变生肘腋,夺取卫士的刀奋起反抗,杀缅兵九人\"",
+   "《南明史》第三十章第六节:\"缅甸国王的弟弟莽白在廷臣支持下发动宫廷政变,处死老国王,自立为王\""
+  ],
+  "confidence": "medium",
+  "year": 1661,
+  "endYear": 1661,
+  "notes": [
+   "日期校核: 七月十九农历直写修正(1661-07-19→1661-08-13)"
+  ]
+ },
+ {
+  "id": "ev-1662-yongli-captured",
+  "title": "吴三桂入缅,永历被执",
+  "date": "1662-01-22",
+  "datePrecision": "day",
+  "lon": 95.97,
+  "lat": 21.87,
+  "location": "旧晚坡",
+  "modernLocation": "缅甸阿瓦(Ava)附近",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "political",
+  "type": "capture",
+  "importance": 2,
+  "summary": "吴三桂提兵直入缅境,缅王莽白执永历帝献于军前,李定国出师截救不及。",
+  "coordNote": "坐标为缅甸旧都阿瓦约位",
+  "people": [
+   "朱由榔",
+   "吴三桂"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第三十章第七节:\"王切责曰:'汝非汉人乎?汝非大明臣子乎?何甘为汉奸叛国负君若此?'\""
+  ],
+  "confidence": "medium",
+  "year": 1662,
+  "endYear": 1662
+ },
+ {
+  "id": "ev-1662-yongli-execution",
+  "title": "永历帝殉国昆明",
+  "date": "1662-06-11",
+  "datePrecision": "day",
+  "lon": 102.7,
+  "lat": 25.04,
+  "location": "昆明篦子坡",
+  "modernLocation": "云南昆明市",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "political",
+  "type": "death",
+  "importance": 3,
+  "summary": "吴三桂缢杀永历帝于昆明篦子坡,南明皇统终结;后昆明人改篦子坡为“逼死坡”。",
+  "people": [
+   "朱由榔",
+   "吴三桂"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《南明史》第三十章第七节:\"把朱由榔父子和王维恭子抬到门首小庙内,用弓弦勒死\"",
+   "《洪业》第十四章:\"将之带回云南府,并在1662年6月11日用丝帛将他绞死\""
+  ],
+  "confidence": "high",
+  "year": 1662,
+  "endYear": 1662,
+  "notes": [
+   "日期校核: 顾诚四月廿五+洪业6-11双源一致(1662-06-01→1662-06-11)"
+  ],
+  "dateFormat": "multi",
+  "dateClaims": [
+   {
+    "date": "1662-06-11",
+    "basis": "顾诚考订:庭闻录/求野录/狩缅纪事等五种均记四月二十五日;洪业同记6月11日",
+    "source": "顾诚《南明史》+《洪业》"
+   },
+   {
     "date": "1662-06-01",
-    "datePrecision": "day",
-    "lon": 102.7,
-    "lat": 25.04,
-    "location": "昆明篦子坡",
-    "modernLocation": "云南昆明市",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "political",
-    "type": "death",
-    "importance": 3,
-    "summary": "吴三桂缢杀永历帝于昆明篦子坡,南明皇统终结;后昆明人改篦子坡为“逼死坡”。",
-    "people": ["朱由榔", "吴三桂"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1662-zheng-death",
-    "title": "郑成功病逝台湾",
-    "date": "1662-06-23",
-    "datePrecision": "day",
-    "lon": 120.16,
-    "lat": 23.0,
-    "location": "台南",
-    "modernLocation": "台湾台南市",
-    "regime": "zheng",
-    "sides": ["zheng"],
-    "category": "political",
-    "type": "death",
-    "importance": 3,
-    "summary": "复台甫五月,永历凶问与家难交至,郑成功忧愤而卒,年三十九;子郑经嗣延平王位,奉永历正朔如故。",
-    "people": ["郑成功"],
-    "sources": ["顾诚《南明史》", "《海上见闻录》"],
-    "confidence": "high"
-  },
-  {
-    "id": "ev-1662-li-dingguo-death",
-    "title": "李定国病逝边地",
-    "date": "1662-08-10",
-    "datePrecision": "day",
-    "lon": 101.5,
-    "lat": 21.48,
-    "location": "勐腊一带",
-    "modernLocation": "云南西双版纳勐腊县",
-    "regime": "nanming",
-    "sides": ["nanming"],
-    "category": "political",
-    "type": "death",
-    "importance": 3,
-    "summary": "闻永历凶问,李定国披发徒跣,号哭抢地,忧愤成疾,殁于中老边境,遗命“宁死荒外,勿降也”。",
-    "coordNote": "卒地为中老边境一带,坐标为约位",
-    "people": ["李定国"],
-    "sources": ["顾诚《南明史》"],
-    "confidence": "medium"
-  },
-  {
-    "id": "ev-1664-maolushan",
-    "title": "茅麓山之战,夔东十三家覆灭",
-    "date": "1664",
-    "datePrecision": "year",
-    "lon": 110.75,
-    "lat": 31.34,
-    "location": "茅麓山",
-    "modernLocation": "湖北宜昌兴山县",
-    "regime": "qing",
-    "sides": ["qing", "nanming"],
-    "category": "military",
-    "type": "campaign",
-    "importance": 3,
-    "summary": "康熙三年,清军十万会剿郧阳山区,围李来亨于茅麓山,粮尽援绝,来亨举家自焚,大陆抗清武装至此终结。",
-    "coordNote": "茅麓山位于兴山县西北山区,坐标为约位",
-    "people": ["李来亨"],
-    "sources": ["顾诚《南明史》", "《清史稿·圣祖本纪》"],
-    "confidence": "medium"
-  }
+    "basis": "通行说:四月十五望日(维基百科/百度百科)"
+   }
+  ]
+ },
+ {
+  "id": "ev-1662-zheng-death",
+  "title": "郑成功病逝台湾",
+  "date": "1662-06-23",
+  "datePrecision": "day",
+  "lon": 120.16,
+  "lat": 23,
+  "location": "台南",
+  "modernLocation": "台湾台南市",
+  "regime": "zheng",
+  "sides": [
+   "zheng"
+  ],
+  "category": "political",
+  "type": "death",
+  "importance": 3,
+  "summary": "复台甫五月,永历凶问与家难交至,郑成功忧愤而卒,年三十九;子郑经嗣延平王位,奉永历正朔如故。",
+  "people": [
+   "郑成功"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《海上见闻录》",
+   "《南明史》第三十一章第三节:\"五月初一日,他已感不适,仍每天登将台手持望远镜眺望澎湖方向有没有船来。直到初八日,完全绝望,气噎而死,享年三十八岁\""
+  ],
+  "confidence": "high",
+  "year": 1662,
+  "endYear": 1662
+ },
+ {
+  "id": "ev-1662-li-dingguo-death",
+  "title": "李定国病逝边地",
+  "date": "1662-08-10",
+  "datePrecision": "day",
+  "lon": 101.5,
+  "lat": 21.48,
+  "location": "勐腊一带",
+  "modernLocation": "云南西双版纳勐腊县",
+  "regime": "nanming",
+  "sides": [
+   "nanming"
+  ],
+  "category": "political",
+  "type": "death",
+  "importance": 3,
+  "summary": "闻永历凶问,李定国披发徒跣,号哭抢地,忧愤成疾,殁于中老边境,遗命“宁死荒外,勿降也”。",
+  "coordNote": "卒地为中老边境一带,坐标为约位",
+  "people": [
+   "李定国"
+  ],
+  "sources": [
+   "顾诚《南明史》"
+  ],
+  "confidence": "medium",
+  "year": 1662,
+  "endYear": 1662
+ },
+ {
+  "id": "ev-1664-maolushan",
+  "title": "茅麓山之战,夔东十三家覆灭",
+  "date": "1664",
+  "datePrecision": "year",
+  "lon": 110.75,
+  "lat": 31.34,
+  "location": "茅麓山",
+  "modernLocation": "湖北宜昌兴山县",
+  "regime": "qing",
+  "sides": [
+   "qing",
+   "nanming"
+  ],
+  "category": "military",
+  "type": "campaign",
+  "importance": 3,
+  "summary": "康熙三年,清军十万会剿郧阳山区,围李来亨于茅麓山,粮尽援绝,来亨举家自焚,大陆抗清武装至此终结。",
+  "coordNote": "茅麓山位于兴山县西北山区,坐标为约位",
+  "people": [
+   "李来亨"
+  ],
+  "sources": [
+   "顾诚《南明史》",
+   "《清史稿·圣祖本纪》",
+   "《南明史》第三十二章第一节:\"另调京师八旗禁旅一万名,以都统穆里玛为靖西将军、都统图海为定西将军率领前往湖广\"",
+   "《南明史》第三十二章第一节:\"刘体纯'骁勇有方略,御众严明','颇知爱民'。他壮烈牺牲的消息传开后,当地百姓都为之伤心落泪\""
+  ],
+  "confidence": "medium",
+  "year": 1664,
+  "endYear": 1664
+ }
 ]

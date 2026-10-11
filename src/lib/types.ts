@@ -1,4 +1,4 @@
-export type RegimeId = 'ming' | 'qing' | 'dashun' | 'daxi' | 'nanming' | 'zheng';
+export type RegimeId = 'ming' | 'qing' | 'dashun' | 'daxi' | 'nanming' | 'zheng' | 'other';
 export type Category = 'military' | 'political' | 'economy' | 'culture' | 'foreign';
 
 /** 疆界面的政体 = 事件阵营 ∪ 周边政权(蒙古/朝鲜/日本/欧洲势力) */
@@ -11,6 +11,10 @@ export interface AtlasEvent {
   date: string;
   datePrecision: 'year' | 'month' | 'day';
   endDate?: string;
+  /** 日期不确定度:exact=单一日(缺省) / range=date~endDate为不确定窗口 / multi=多说并存(dateClaims) */
+  dateFormat?: 'exact' | 'range' | 'multi';
+  /** multi 用:各源互斥说法全录,不做取舍;date 字段为主采(有文献依据)或最早候选 */
+  dateClaims?: { date: string; basis: string; source?: string }[];
   /** 构建脚本补充:起止年份(数值) */
   year: number;
   endYear: number;
@@ -49,6 +53,7 @@ export const REGIMES: Record<RegimeId, { label: string; color: string }> = {
   daxi: { label: '大西', color: '#a78bce' },
   nanming: { label: '南明', color: '#f2c94c' },
   zheng: { label: '郑氏', color: '#52b788' },
+  other: { label: '其他', color: '#94a3b8' },
 };
 
 /** 疆界快照用政体配色(含周边政权;事件层只用到 RegimeId 子集) */

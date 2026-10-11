@@ -1,12 +1,21 @@
 // 转正:把 stg 中 status='accepted' 的候选写入 pub.*,并写 citations(溯源脊柱)
-// 用法:node scripts/kb/promote.mjs
+// 用法:node scripts/kb/promote.mjs [--dry-run] [--crossbook]
 // 规则:人物按 name 幂等;事件按 (title,date_start) 幂等;关系按 (from,to,rel_type) 幂等;失败整体回滚。
+// --crossbook:跨书合并模式——候选事件若命中既有事件(标题等值,或时间窗内 ≤50km 同阵营),
+//   不新增,改为追加引文+摘要补第二来源视角;关系冲突时也追加引文而不是丢弃。
 import { query, close } from './db.mjs';
+
+const DRY = process.argv.includes('--dry-run');
+const CROSSBOOK = process.argv.includes('--crossbook');
 
 // 阵营 code 映射(与前端 data:build 口径一致)
 const FACTIONS = {
   ming: ['明', '明朝'], qing: ['清', '清朝', '后金'], daxi: ['大西'], dashun: ['大顺'],
   nanming: ['南明'], zheng: ['郑氏', '明郑'], other: ['其他'],
+};
+const WORK_LABEL = {
+  'gucheng-nanmingshi': '南明史',
+  'wakeman-hongye': '洪业',
 };
 
 // 部分日期规范化:YYYY-MM → YYYY-MM-01,YYYY → YYYY-01-01(精度由 date_precision 表达)
@@ -16,6 +25,16 @@ function normDate(d) {
   if (/^\d{4}$/.test(d)) return `${d}-01-01`;
   return d;
 }
+
+const normTitle = (t) => (t || '').replace(/[《》\s,，。.·;；:："'“”()（）\[\]【】——-]/g, '');
+const dayMs = 86400000;
+const hav = (a, b) => {
+  const R = 6371, rad = (d) => (d * Math.PI) / 180;
+  const dLat = rad(b.lat - a.lat), dLon = rad(b.lon - a.lon);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+};
+const WIN_DAYS = { day: 3, month: 50, year: 400 };
 
 async function factionId(code) {
   const conf = FACTIONS[code] ? [code] : ['other'];
@@ -65,44 +84,110 @@ async function promotePeople() {
         [pid, c.work_slug, c.kb_doc_id ?? null, c.kb_chunk_id ?? null, c.locator ?? null, c.quote ?? null, c.note ?? null],
       );
     }
-    await query(`UPDATE stg.cand_people SET status='merged' WHERE id=$1`, [row.id]);
+    if (!DRY) await query(`UPDATE stg.cand_people SET status='merged' WHERE id=$1`, [row.id]);
     n++;
   }
   return n;
 }
 
-async function promoteEvents() {
+// 载入既有事件(供跨书匹配在内存中判定)
+async function loadExistingEvents() {
+  const { rows } = await query(
+    `SELECT e.id, e.title, e.summary, e.date_start::text ds, e.date_precision, f.code faction,
+            ST_X(e.geom) lon, ST_Y(e.geom) lat
+     FROM pub.events e LEFT JOIN pub.factions f ON f.id = e.faction_id`);
+  const works = {};
+  for (const r of (await query(`SELECT DISTINCT entity_id, work_slug FROM pub.citations WHERE entity_type='event'`)).rows) {
+    (works[r.entity_id] ??= new Set()).add(r.work_slug);
+  }
+  for (const e of rows) e.works = works[e.id] ?? new Set();
+  return rows;
+}
+
+function crossMatch(e, candWork, existing) {
+  const win = WIN_DAYS[e.date_precision] ?? 0;
+  if (!win || !e.date_start) return null;
+  const t = new Date(`${normDate(e.date_start)}T00:00:00Z`).getTime();
+  const nt = normTitle(e.title);
+  let best = null;
+  for (const ex of existing) {
+    if (ex.works.has(candWork)) continue; // 同书重复,交给标题幂等
+    const dt = new Date(`${ex.ds}T00:00:00Z`).getTime() - t;
+    if (Math.abs(dt) > win * dayMs) continue;
+    if (ex.faction && e.faction && ex.faction !== e.faction) continue;
+    const spatial = Number.isFinite(ex.lon) && Number.isFinite(e.geom?.coordinates?.[0])
+      ? hav({ lat: ex.lat, lon: ex.lon }, { lat: e.geom.coordinates[1], lon: e.geom.coordinates[0] }) : null;
+    const titleEq = nt && normTitle(ex.title) === nt;
+    // 年精度事件(宽泛政策类)只按标题并合,防止同年同城误并
+    if (titleEq || (win <= 50 && e.category === 'military' && spatial !== null && spatial <= 15)) {
+      const reason = titleEq ? '标题等值' : `${Math.round(spatial)}km`;
+      if (!best || Math.abs(dt) < Math.abs(best.dt)) best = { ex, dt, reason };
+    }
+  }
+  return best;
+}
+
+async function promoteEvents(existing) {
   const { rows } = await query(`SELECT id, payload FROM stg.cand_events WHERE status='accepted'`);
-  let n = 0;
+  let n = 0, merged = 0;
   for (const row of rows) {
     const e = row.payload;
     const fid = e.faction ? await factionId(e.faction) : null;
+    const candWork = e.citations?.[0]?.work_slug ?? null;
+    let eid, mergeInfo = null;
     const ex = await query(`SELECT id FROM pub.events WHERE title=$1 AND date_start=$2`, [e.title, normDate(e.date_start)]);
-    let eid;
     if (ex.rows.length) {
       eid = ex.rows[0].id;
-    } else if (e.geom) {
-      const r = await query(
-        `INSERT INTO pub.events (title, category, date_start, date_precision, date_end, faction_id, geom, coord_precision, coord_note, summary, confidence)
-         VALUES ($1,$2,$3,$4,$5,$6, ST_SetSRID(ST_GeomFromGeoJSON($7),4326), $8,$9,$10,$11) RETURNING id`,
-        [e.title, e.category ?? 'political', normDate(e.date_start), e.date_precision, normDate(e.date_end), fid,
-         JSON.stringify(e.geom), e.coord_precision ?? 'approx', e.coord_note ?? null, e.summary ?? null, e.confidence ?? 'medium'],
+    } else if (CROSSBOOK) {
+      const m = crossMatch(e, candWork, existing ?? []);
+      if (m) {
+        eid = m.ex.id;
+        mergeInfo = m;
+      }
+    }
+    if (eid === undefined) {
+      if (DRY) { console.log(`NEW  [${e.title}] ${e.date_start}`); n++; continue; }
+      if (e.geom) {
+        const r = await query(
+          `INSERT INTO pub.events (title, category, date_start, date_precision, date_end, faction_id, geom, coord_precision, coord_note, summary, confidence)
+           VALUES ($1,$2,$3,$4,$5,$6, ST_SetSRID(ST_GeomFromGeoJSON($7),4326), $8,$9,$10,$11) RETURNING id`,
+          [e.title, e.category ?? 'political', normDate(e.date_start), e.date_precision, normDate(e.date_end), fid,
+           JSON.stringify(e.geom), e.coord_precision ?? 'approx', e.coord_note ?? null, e.summary ?? null, e.confidence ?? 'medium'],
+        );
+        eid = r.rows[0].id;
+      } else {
+        const r = await query(
+          `INSERT INTO pub.events (title, category, date_start, date_precision, date_end, faction_id, coord_precision, coord_note, summary, confidence)
+           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10) RETURNING id`,
+          [e.title, e.category ?? 'political', normDate(e.date_start), e.date_precision, normDate(e.date_end), fid,
+           null, e.coord_note ?? null, e.summary ?? null, e.confidence ?? 'medium'],
+        );
+        eid = r.rows[0].id;
+      }
+    } else if (mergeInfo && !DRY) {
+      // 跨书合并:摘要补第二来源视角(幂等),引文照常追加
+      const label = WORK_LABEL[candWork] ?? candWork;
+      const marker = `〔${label}视角】`;
+      await query(
+        `UPDATE pub.events SET summary = CASE
+            WHEN summary IS NULL THEN $2
+            WHEN summary LIKE '%' || $3 || '%' THEN summary
+            ELSE summary || chr(10) || $2 END
+         WHERE id=$1`,
+        [eid, `${marker}${e.summary ?? ''}`, marker],
       );
-      eid = r.rows[0].id;
-    } else {
-      const r = await query(
-        `INSERT INTO pub.events (title, category, date_start, date_precision, date_end, faction_id, coord_precision, coord_note, summary, confidence)
-         VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10) RETURNING id`,
-        [e.title, e.category ?? 'political', normDate(e.date_start), e.date_precision, normDate(e.date_end), fid,
-         null, e.coord_note ?? null, e.summary ?? null, e.confidence ?? 'medium'],
-      );
-      eid = r.rows[0].id;
+    }
+    if (DRY) {
+      if (mergeInfo) console.log(`MERGE [${e.title}] ${e.date_start} -> pub.events#${mergeInfo.ex.id}《${mergeInfo.ex.title}》(${mergeInfo.reason})`);
+      n++; if (mergeInfo) merged++;
+      continue;
     }
     for (const c of e.citations ?? []) {
+      const note = mergeInfo ? `${c.note ? c.note + '；' : ''}另源:${e.title}` : (c.note ?? null);
       await query(
         `INSERT INTO pub.citations (entity_type, entity_id, work_slug, kb_doc_id, kb_chunk_id, locator, quote, note)
          VALUES ('event',$1,$2,$3,$4,$5,$6,$7)`,
-        [eid, c.work_slug, c.kb_doc_id ?? null, c.kb_chunk_id ?? null, c.locator ?? null, c.quote ?? null, c.note ?? null],
+        [eid, c.work_slug, c.kb_doc_id ?? null, c.kb_chunk_id ?? null, c.locator ?? null, c.quote ?? null, note],
       );
     }
     for (const pname of e.people ?? []) {
@@ -111,10 +196,12 @@ async function promoteEvents() {
         await query(`INSERT INTO pub.event_people (event_id, person_id) VALUES ($1,$2) ON CONFLICT DO NOTHING`, [eid, pr.rows[0].id]);
       }
     }
-    await query(`UPDATE stg.cand_events SET status='merged' WHERE id=$1`, [row.id]);
+    await query(`UPDATE stg.cand_events SET status='merged', review_note=$2 WHERE id=$1`,
+      [row.id, mergeInfo ? `crossbook:pub.events#${mergeInfo.ex.id}` : null]);
     n++;
+    if (mergeInfo) merged++;
   }
-  return n;
+  return { n, merged };
 }
 
 async function promoteRelations() {
@@ -125,15 +212,18 @@ async function promoteRelations() {
     const a = await query(`SELECT id FROM pub.people WHERE name=$1`, [rel.from_name]);
     const b = await query(`SELECT id FROM pub.people WHERE name=$1`, [rel.to_name]);
     if (!a.rows.length || !b.rows.length) {
-      await query(`UPDATE stg.cand_relations SET status='rejected', review_note='人物不存在' WHERE id=$1`, [row.id]);
+      if (!DRY) await query(`UPDATE stg.cand_relations SET status='rejected', review_note='人物不存在' WHERE id=$1`, [row.id]);
       continue;
     }
     const r = await query(
       `INSERT INTO pub.relations (from_id, to_id, rel_type, start_year, end_year, note, confidence)
        VALUES ($1,$2,$3,$4,$5,$6,$7)
-       ON CONFLICT DO NOTHING RETURNING id`,
+       ON CONFLICT (from_id, to_id, rel_type)
+       DO UPDATE SET note = pub.relations.note
+       RETURNING id`,
       [a.rows[0].id, b.rows[0].id, rel.rel_type, rel.start_year ?? null, rel.end_year ?? null, rel.note ?? null, rel.confidence ?? 'medium'],
     );
+    if (DRY) { n++; continue; }
     if (r.rows[0]) {
       for (const c of rel.citations ?? []) {
         await query(
@@ -150,12 +240,14 @@ async function promoteRelations() {
 }
 
 try {
-  await query('BEGIN');
+  await query('BEGIN'); // 干跑也在事务里执行,结束时统一 ROLLBACK,不落任何写入
+  const existing = CROSSBOOK ? await loadExistingEvents() : [];
   const people = await promotePeople();
-  const events = await promoteEvents();
+  const { n: evCount, merged } = await promoteEvents(existing);
   const relations = await promoteRelations();
-  await query('COMMIT');
-  console.log(`转正完成: 人物 ${people} / 事件 ${events} / 关系 ${relations}`);
+  const line = `人物 ${people} / 事件 ${evCount}(跨书合并 ${merged})/ 关系 ${relations}`;
+  if (DRY) { await query('ROLLBACK'); console.log(`干跑报告(未写入): ${line}`); }
+  else { await query('COMMIT'); console.log(`转正完成: ${line}`); }
 } catch (e) {
   await query('ROLLBACK');
   console.error('转正失败,已回滚:', e.message);
