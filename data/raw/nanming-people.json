@@ -1,0 +1,378 @@
+[
+  {
+    "id": "p-wanli",
+    "name": "万历帝",
+    "life": "1563–1620",
+    "faction": "ming",
+    "summary": "明神宗朱翊钧。在位四十八年,前三十年有张居正改革与三大征,后怠政三十年,纲纪废弛。"
+  },
+  {
+    "id": "p-tianqi",
+    "name": "天启帝",
+    "life": "1605–1627",
+    "faction": "ming",
+    "summary": "明熹宗朱由校。好木工而委政阉党,魏忠贤之祸炽于其朝。"
+  },
+  {
+    "id": "p-chongzhen",
+    "name": "崇祯帝",
+    "life": "1611–1644",
+    "faction": "ming",
+    "summary": "明思宗朱由检。宵衣旰食而多疑苛察,十七年易相五十人,煤山自缢,明亡。"
+  },
+  {
+    "id": "p-zhangjuzheng",
+    "name": "张居正",
+    "life": "1525–1582",
+    "faction": "ming",
+    "summary": "万历首辅。考成法、一条鞭、清丈田亩,中兴之相;身后被清算。"
+  },
+  {
+    "id": "p-ricci",
+    "name": "利玛窦",
+    "life": "1552–1610",
+    "faction": "ming",
+    "summary": "意大利耶稣会士。入京通儒籍,《坤舆万国全图》与西学东渐之始。"
+  },
+  {
+    "id": "p-xuguangqi",
+    "name": "徐光启",
+    "life": "1562–1633",
+    "faction": "ming",
+    "summary": "文渊阁大学士。从利玛窦学,译《几何原本》,重兵事历法,晚明开明士大夫之冠。"
+  },
+  {
+    "id": "p-guxiancheng",
+    "name": "顾宪成",
+    "life": "1550–1612",
+    "faction": "ming",
+    "summary": "东林书院重建者,讲学议政,晚明党争之源。"
+  },
+  {
+    "id": "p-weizhongxian",
+    "name": "魏忠贤",
+    "life": "1568–1627",
+    "faction": "ming",
+    "summary": "天启司礼太监。专权三年,阉党炽盛;崇祯立,自缢。"
+  },
+  {
+    "id": "p-xiongtingbi",
+    "name": "熊廷弼",
+    "life": "1569–1625",
+    "faction": "ming",
+    "summary": "辽东经略。守辽有方而触怒言路,广宁失后弃市传首九边。"
+  },
+  {
+    "id": "p-sunchengzong",
+    "name": "孙承宗",
+    "life": "1563–1638",
+    "faction": "ming",
+    "summary": "督师大学士。营关宁锦防线,卫辽东者四十年;高阳陷落阖门殉国。"
+  },
+  {
+    "id": "p-yuanchonghuan",
+    "name": "袁崇焕",
+    "life": "1584–1630",
+    "faction": "ming",
+    "summary": "兵部尚书,督师蓟辽。宁远、宁锦两捷,己巳之变入援被逮,磔死。"
+  },
+  {
+    "id": "p-maowenlong",
+    "name": "毛文龙",
+    "life": "1576–1629",
+    "faction": "ming",
+    "summary": "东江镇总兵。皮岛牵制后金后路,为袁崇焕矫诏所斩。"
+  },
+  {
+    "id": "p-hongchengchou",
+    "name": "洪承畴",
+    "life": "1593–1665",
+    "faction": "qing",
+    "summary": "蓟辽总督。松锦被俘降清,后经略江南、五省,南明诸役多出其谋。"
+  },
+  {
+    "id": "p-wusangui",
+    "name": "吴三桂",
+    "life": "1612–1678",
+    "faction": "qing",
+    "summary": "宁远总兵。开关延清,追擒永历;后有康熙朝三藩之乱,衡州称帝而败亡。"
+  },
+  {
+    "id": "p-sunchuanting",
+    "name": "孙传庭",
+    "life": "1593–1643",
+    "faction": "ming",
+    "summary": "陕西总督。黑水峪擒高迎祥;诏狱三年复出,汝州中伏战殁潼关。"
+  },
+  {
+    "id": "p-luxiangsheng",
+    "name": "卢象升",
+    "life": "1600–1639",
+    "faction": "ming",
+    "summary": "总督天下勤王兵。戊寅入塞孤军拒清,战殁巨鹿贾庄。"
+  },
+  {
+    "id": "p-yangsichang",
+    "name": "杨嗣昌",
+    "life": "1588–1641",
+    "faction": "ming",
+    "summary": "兵部尚书、督师。主“攘外必先安内”,襄阳失后忧惧而死。"
+  },
+  {
+    "id": "p-zuoliangyu",
+    "name": "左良玉",
+    "life": "1599–1645",
+    "faction": "ming",
+    "summary": "平贼将军,拥兵八十万。弘光朝称兵“清君侧”,病死九江,部众降清。"
+  },
+  {
+    "id": "p-gaojie",
+    "name": "高杰",
+    "life": "?–1645",
+    "faction": "nanming",
+    "summary": "兴平伯,江北四镇之一。出身大顺,睢州为许定国诱杀。"
+  },
+  {
+    "id": "p-likaisong",
+    "name": "李如松",
+    "life": "1549–1598",
+    "faction": "ming",
+    "summary": "东征提督。平壤大捷破日军;后战殁辽东。"
+  },
+  {
+    "id": "p-nurhaci",
+    "name": "努尔哈赤",
+    "life": "1559–1626",
+    "faction": "qing",
+    "summary": "后金大汗。十三甲起兵,七大恨誓师,萨尔浒破明四路军,宁远受挫而卒。"
+  },
+  {
+    "id": "p-huangtaiji",
+    "name": "皇太极",
+    "life": "1592–1643",
+    "faction": "qing",
+    "summary": "清太宗。改族名满洲、国号大清,五次入塞,间计除袁崇焕,奠定入关之局。"
+  },
+  {
+    "id": "p-duoergun",
+    "name": "多尔衮",
+    "life": "1612–1650",
+    "faction": "qing",
+    "summary": "摄政王。决策入关,定鼎燕京,颁剃发令,清初政局之实际操盘者。"
+  },
+  {
+    "id": "p-duoduo",
+    "name": "多铎",
+    "life": "1614–1649",
+    "faction": "qing",
+    "summary": "豫亲王。下江南、破扬州、入南京,扬州十日之主将。"
+  },
+  {
+    "id": "p-kongyoudae",
+    "name": "孔有德",
+    "life": "约1602–1652",
+    "faction": "qing",
+    "summary": "吴桥兵变降金,携火炮工匠投后金;封定南王,桂林陷于李定国,举室自焚。"
+  },
+  {
+    "id": "p-shangkexi",
+    "name": "尚可喜",
+    "life": "1604–1676",
+    "faction": "qing",
+    "summary": "智顺王,后封平南王。庚寅年破广州,屠戮甚众,后镇广东。"
+  },
+  {
+    "id": "p-nikan",
+    "name": "尼堪",
+    "life": "1610–1652",
+    "faction": "qing",
+    "summary": "敬谨亲王,努尔哈赤之孙。率八旗精锐南征,衡阳之役阵亡——李定国“两蹶名王”之二。"
+  },
+  {
+    "id": "p-lizicheng",
+    "name": "李自成",
+    "life": "1606–1645",
+    "faction": "dashun",
+    "summary": "大顺永昌帝。驿卒出身,破洛阳下西安,三月而取北京;山海关败,九宫山殒。"
+  },
+  {
+    "id": "p-liguo",
+    "name": "李过",
+    "life": "?–约1649",
+    "faction": "dashun",
+    "summary": "李自成之侄(一说义子)。号一只虎,大顺败后率忠贞营联明抗清。"
+  },
+  {
+    "id": "p-haoyaoqi",
+    "name": "郝摇旗",
+    "life": "?–约1663",
+    "faction": "nanming",
+    "summary": "郝永忠。大顺骁将,联明后转战湘桂川鄂,终殉于夔东十三家。"
+  },
+  {
+    "id": "p-zhangxianzhong",
+    "name": "张献忠",
+    "life": "1606–1647",
+    "faction": "daxi",
+    "summary": "大西皇帝。延安人,谷城复叛、破襄阳武昌,建大西于成都;西充凤凰山中矢而殁。"
+  },
+  {
+    "id": "p-sunkewang",
+    "name": "孙可望",
+    "life": "?–1660",
+    "faction": "nanming",
+    "summary": "大西军张献忠义子长,国主。经营云贵为抗清根本,擅挟永历,交水败后降清,终被清射杀。"
+  },
+  {
+    "id": "p-lidingguo",
+    "name": "李定国",
+    "life": "1621–1662",
+    "faction": "nanming",
+    "summary": "大西军张献忠义子二,晋王。桂林、衡阳两蹶名王,天下震动;永历殁后忧愤死于边地,遗命勿降。"
+  },
+  {
+    "id": "p-liuwenxiu",
+    "name": "刘文秀",
+    "life": "?–1658",
+    "faction": "daxi",
+    "summary": "大西军张献忠义子三,蜀王。复四川,保宁受挫;调和孙李之争,病逝昆明。"
+  },
+  {
+    "id": "p-zhuyousong",
+    "name": "朱由崧",
+    "life": "1607–1646",
+    "faction": "nanming",
+    "summary": "福王世子,南明首帝。南京陷落被俘,翌年遇害于北京。",
+    "title": "弘光帝"
+  },
+  {
+    "id": "p-zhulujian",
+    "name": "朱聿键",
+    "life": "1602–1646",
+    "faction": "nanming",
+    "summary": "唐王,南明第二帝。锐意中兴而兵饷制于郑氏,汀州殉国。",
+    "title": "隆武帝"
+  },
+  {
+    "id": "p-zhuluyu",
+    "name": "朱聿𨮁",
+    "life": "?–1647",
+    "faction": "nanming",
+    "summary": "隆武帝之弟,广州自立,与永历相攻四十日,城破自缢。",
+    "title": "绍武帝"
+  },
+  {
+    "id": "p-zhuyoulang",
+    "name": "朱由榔",
+    "life": "1623–1662",
+    "faction": "nanming",
+    "summary": "桂王,南明末帝。在位十六年,奔走两广云贵缅甸,终被吴三桂缢杀于昆明。",
+    "title": "永历帝"
+  },
+  {
+    "id": "p-zhuyihai",
+    "name": "朱以海",
+    "life": "1618–1662",
+    "faction": "nanming",
+    "summary": "鲁王。绍兴监国、舟山行在,浮海十八年,病逝金门,与延平府共奉唐王正朔之争久悬。",
+    "title": "鲁监国"
+  },
+  {
+    "id": "p-shikefa",
+    "name": "史可法",
+    "life": "1601–1645",
+    "faction": "nanming",
+    "summary": "东阁大学士,督师扬州。四镇之乱调和无术,扬州城破殉国。"
+  },
+  {
+    "id": "p-mashiying",
+    "name": "马士英",
+    "life": "约1591–1646",
+    "faction": "nanming",
+    "summary": "东阁大学士。拥立弘光、排史可法,专权误国;南京陷后转战浙东,被俘死。"
+  },
+  {
+    "id": "p-huangdaozhou",
+    "name": "黄道周",
+    "life": "1585–1646",
+    "faction": "nanming",
+    "summary": "武英殿大学士。以书生督师北伐,婺源兵败被俘,南京就义。"
+  },
+  {
+    "id": "p-qushisi",
+    "name": "瞿式耜",
+    "life": "1590–1651",
+    "faction": "nanming",
+    "summary": "文渊阁大学士,留守桂林。三守孤城,城破被执,与张同敞从容就义。"
+  },
+  {
+    "id": "p-hetengjiao",
+    "name": "何腾蛟",
+    "life": "1592–1649",
+    "faction": "nanming",
+    "summary": "湖广总督、武英殿大学士。联“忠贞营”而不善驭,诸军解体,湘潭被执殉国。"
+  },
+  {
+    "id": "p-yanyingyuan",
+    "name": "阎应元",
+    "life": "?–1645",
+    "faction": "nanming",
+    "summary": "江阴典史。率父老守孤城八十一日,杀伤清军甚众,城破殉国。"
+  },
+  {
+    "id": "p-jinshenghuan",
+    "name": "金声桓",
+    "life": "?–1649",
+    "faction": "nanming",
+    "summary": "清江西提督。1648年以全省反正归明,围南昌城破投水死。"
+  },
+  {
+    "id": "p-lichengdong",
+    "name": "李成栋",
+    "life": "?–1649",
+    "faction": "nanming",
+    "summary": "清两广提督。屠嘉定、灭绍武,旋以广东反正归明,信丰败殁——南明史上最吊诡的将星。"
+  },
+  {
+    "id": "p-zhengzhilong",
+    "name": "郑芝龙",
+    "life": "1604–1661",
+    "faction": "zheng",
+    "summary": "平虏侯,郑氏海上集团之主。受抚明廷,降清被挟北去,福建防务尽撤;其子郑成功承其部曲而抗清。"
+  },
+  {
+    "id": "p-zhangmingzhen",
+    "name": "张名振",
+    "life": "?–约1654",
+    "faction": "nanming",
+    "summary": "定西侯。鲁监国柱石,三入长江遥祭孝陵,赍志以殁,遗言以部曲付张煌言。"
+  },
+  {
+    "id": "p-zhanghuangyan",
+    "name": "张煌言",
+    "life": "1620–1664",
+    "faction": "nanming",
+    "summary": "兵部侍郎,苍水先生。纵横海上十九年,北伐先驱入芜湖;郑氏既降,散军被执,杭州就义。"
+  },
+  {
+    "id": "p-zhengchenggong",
+    "name": "郑成功",
+    "life": "1624–1662",
+    "faction": "zheng",
+    "summary": "延平王,国姓爷。焚服起兵,金厦抗清,北伐长江功败垂成;东取台湾,复台五月而卒。"
+  },
+  {
+    "id": "p-lilaiheng",
+    "name": "李来亨",
+    "life": "?–1664",
+    "faction": "nanming",
+    "summary": "李锦养子。夔东十三家盟主,抗清至最后一人,茅麓山举家自焚。"
+  },
+  {
+    "id": "p-xiawanchun",
+    "name": "夏完淳",
+    "life": "1631–1647",
+    "faction": "nanming",
+    "summary": "云间少年。十四岁从军,兵败被执,痛骂洪承畴,就义金陵,年仅十六。"
+  }
+]

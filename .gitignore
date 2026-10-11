@@ -6,6 +6,9 @@
 # 调研工作区(含 CHGIS 等学术许可数据的本地样本,禁止再分发)
 .research_tmp/
 
+# 外部数据源本地克隆(如 MIT 许可的 ming-history-timeline,仅参考/抽取)
+.sources/
+
 # 依赖与构建产物
 node_modules/
 .next/
@@ -21,6 +24,39 @@ build/
 *.prj
 *.gpkg
 
+# CHGIS 本地转换产物与其源数据(运行时加载,禁止再分发)
+/data/chgis/
+/public/chgis.local.json
+
+# 版权书籍与资料(顾诚《南明史》等,仅本地抽取事实用,严禁入库)
+/南明材料/
+
+# 数据层本地配置(数据库口令等)
+scripts/kb/.env.local
+
 # 系统文件
 .DS_Store
 Thumbs.db
+
+# Cesium 静态资源(构建时拷贝,不入库)
+/public/cesium/
+
+# 无人值守续跑器运行态(日志/断点/信箱等,只留在本机)
+/longtask/supervisor.log
+/longtask/last-round.log
+/longtask/primary-history.json
+/longtask/session.txt
+/longtask/detached.log
+/longtask/watchdog.log
+/longtask/status.html
+/longtask/STOP
+/longtask/PAUSED
+/longtask/HALT
+/longtask/BREAKER
+/longtask/WAITING
+/longtask/oneshot-nudge.txt
+/longtask/nudge.txt
+/longtask/preview-url
+/longtask/.lock/
+/longtask/.provider_config.filtered.json
+/.mimosa/

@@ -1,0 +1,602 @@
+:root {
+  --bg: #0a0e13;
+  --panel: rgba(13, 18, 26, 0.88);
+  --line: rgba(255, 255, 255, 0.1);
+  --ink: #e8e6df;
+  --muted: #97a1ab;
+  --accent: #f2c94c;
+  --serif: 'Songti SC', 'STSong', 'Noto Serif SC', serif;
+  --sans: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.shell {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+}
+
+.map-root {
+  position: absolute;
+  inset: 0;
+}
+
+.map-loading {
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: 13px;
+  letter-spacing: 0.2em;
+}
+
+/* ── 标题 ─────────────────────────── */
+.hdr {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  z-index: 20;
+  pointer-events: none;
+  user-select: none;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.9);
+}
+
+.hdr h1 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+}
+
+.hdr-sub {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+}
+
+.hdr-hint {
+  margin: 4px 0 0;
+  font-size: 11px;
+  color: rgba(151, 161, 171, 0.75);
+}
+
+/* ── 筛选条 ───────────────────────── */
+.chips {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: flex-end;
+}
+
+.chip-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: rgba(232, 230, 223, 0.55);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.chip i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  opacity: 0.35;
+}
+
+.chip.on {
+  color: var(--ink);
+}
+
+.chip.on i {
+  opacity: 1;
+}
+
+.chip em {
+  font-style: normal;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+/* ── 疆界快照条 ───────────────────── */
+.bbar {
+  position: absolute;
+  left: 20px;
+  bottom: 196px;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: min(640px, 55vw);
+}
+
+.bbar-row {
+  justify-content: flex-start;
+}
+
+.bbar .chip {
+  padding: 3px 9px;
+}
+
+.bbar-toggle {
+  color: rgba(232, 230, 223, 0.85);
+  border-color: rgba(242, 201, 76, 0.35);
+}
+
+.bbar-legend {
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.blegend {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: rgba(232, 230, 223, 0.72);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.blegend i {
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  opacity: 0.85;
+}
+
+.bbar-cite {
+  margin: 0;
+  font-size: 10px;
+  color: rgba(151, 161, 171, 0.65);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+/* ── 行军路线条(叠在疆界条上方) ──── */
+.rbar {
+  bottom: 262px;
+}
+
+/* ── 人物图谱 ─────────────────────── */
+.person-link {
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.person-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.graph {
+  top: 96px;
+  width: 492px;
+  max-height: calc(100% - 300px);
+  display: flex;
+  flex-direction: column;
+}
+
+.graph-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.graph-head h2 {
+  margin: 0;
+}
+
+.graph-sub {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.graph-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-bottom: 8px;
+}
+
+.graph-svg {
+  width: 100%;
+  flex: 1;
+  min-height: 300px;
+  background: rgba(7, 10, 15, 0.55);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  touch-action: none;
+  cursor: grab;
+}
+
+.graph-node {
+  cursor: pointer;
+}
+
+.graph-node text {
+  fill: var(--ink);
+  font-size: 11px;
+  paint-order: stroke;
+  stroke: rgba(7, 10, 15, 0.9);
+  stroke-width: 3px;
+}
+
+.graph-info {
+  margin-top: 10px;
+}
+
+.graph-name {
+  margin: 0 0 6px;
+  font-family: var(--serif);
+  font-size: 16px;
+}
+
+.graph-name small {
+  color: var(--muted);
+  font-size: 11px;
+  margin-left: 6px;
+}
+
+.graph-bio {
+  margin: 0 0 8px;
+  font-size: 12.5px;
+  line-height: 1.7;
+  color: rgba(232, 230, 223, 0.85);
+}
+
+.graph-rels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 0 0 8px;
+}
+
+.graph-rel {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  padding: 2px 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+
+.graph-rel i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.graph-rel em {
+  font-style: normal;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.graph-ev {
+  border: 0;
+  font-family: inherit;
+}
+
+/* ── 时间轴 ───────────────────────── */
+.tl {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 25;
+  padding: 14px 20px 8px;
+  background: linear-gradient(transparent, rgba(7, 10, 15, 0.94) 30%);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.tl-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 6px;
+}
+
+.tl-year {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 170px;
+}
+
+.tl-year strong {
+  font-family: var(--serif);
+  font-size: 26px;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.tl-year span {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.tl-play {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.tl-play:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.tl-right {
+  margin-left: auto;
+  display: flex;
+  gap: 12px;
+}
+
+.tl-right label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.tl-right select {
+  background: var(--panel);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 12px;
+  padding: 3px 6px;
+}
+
+.tl-svg {
+  display: block;
+  width: 100%;
+  height: 128px;
+  touch-action: none;
+  cursor: crosshair;
+}
+
+/* ── 事件卡 ───────────────────────── */
+.card {
+  position: absolute;
+  top: 96px;
+  right: 20px;
+  z-index: 30;
+  width: 348px;
+  max-height: calc(100% - 300px);
+  overflow-y: auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px 18px 12px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.card-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.card-close:hover {
+  color: var(--ink);
+}
+
+.card-badges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.badge {
+  font-size: 11px;
+  padding: 2px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+}
+
+.badge.muted {
+  color: var(--muted);
+}
+
+.card h2 {
+  margin: 0 24px 8px 0;
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.card-when {
+  margin: 0 0 10px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.card-summary {
+  margin: 0 0 10px;
+  font-size: 13.5px;
+  line-height: 1.75;
+}
+
+.card-result {
+  margin: 0 0 10px;
+  font-size: 12.5px;
+  line-height: 1.7;
+  color: var(--accent);
+  border-left: 2px solid var(--accent);
+  padding-left: 9px;
+}
+
+.card-people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.person {
+  font-size: 12px;
+  padding: 3px 9px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: default;
+}
+
+.person small {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.card-note {
+  margin: 0 0 8px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.card-src {
+  margin: 0 0 12px;
+  font-size: 11px;
+  color: rgba(151, 161, 171, 0.7);
+}
+
+.card-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.card-nav button {
+  max-width: 49%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font-size: 11.5px;
+  cursor: pointer;
+  padding: 2px 0;
+}
+
+.card-nav button:hover {
+  color: var(--accent);
+}
+
+/* ── 弹泡 ─────────────────────────── */
+.nm-popup .maplibregl-popup-content {
+  background: var(--panel);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 7px 11px;
+  font-size: 12px;
+}
+
+.nm-popup .maplibregl-popup-content span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.nm-popup .maplibregl-popup-tip {
+  border-top-color: var(--panel) !important;
+  border-bottom-color: var(--panel) !important;
+}
+
+/* maplibre 控件融入深色主题 */
+.maplibregl-ctrl-group {
+  background: var(--panel) !important;
+  filter: invert(0);
+}
+
+.maplibregl-ctrl-attrib {
+  background: rgba(7, 10, 15, 0.7) !important;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.maplibregl-ctrl-attrib a {
+  color: var(--muted);
+}
+
+/* ── 三维地球视图(M5) ─────────────── */
+.globe-root {
+  cursor: grab;
+}
+
+.globe-root:active {
+  cursor: grabbing;
+}
+
+.globe-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+.globe-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 208px;
+  transform: translateX(-50%);
+  z-index: 15;
+  font-size: 11px;
+  color: rgba(151, 161, 171, 0.7);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+  pointer-events: none;
+  white-space: nowrap;
+}
